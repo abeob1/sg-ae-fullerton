@@ -1,0 +1,6 @@
+Entity Code,Invoice Date,Visit Date,Invoice No,Customer Code,Customer Name,Item No,Item Description,GST,Total Amount (Orig Amount),Revised Amount,Patient Name,Doctor Name,Provider Number,Branch Code (Site ID)
+Use for SAP document creation,06/07/15,06/07/15,1,CHEAH,,PREEM,Surgery,10,110,110,ABC,Dr. Rohit Goel,,MB-AIA
+Comapany code where to create the AR Invoice document,06/07/15,06/07/15,1,CHEAH,,PREEE,Cosmetics,0,50,50,ABC,Dr. Rohit Goel,,MB-AIA
+,06/07/15,06/07/15,2,CHEAH,,ULTSH,Surgery,10,110,110,DEF,Dr. Rohit Goel,,MB-AIA
+,06/07/15,06/07/15,3,CHEAH,,ULTSB,Bulk - Billings,5,55,55,XYZ,Dr. Rohit Goel,,MB-AIA
+,06/07/15,06/07/15,10,CHEAH,,ULTS,Cosmetics,50,550,550,ABC,Dr. Rohit Goel,,MB-AIA

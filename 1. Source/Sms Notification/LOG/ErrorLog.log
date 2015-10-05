@@ -1,0 +1,59 @@
+[07/27/2015 18:21:25][           Header_Validation()] Batch Number Should not be Blank!
+[07/27/2015 18:21:25][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/27/2015 18:43:51][                  ProcessSMS()] Batch NO :: rrr provided Does Not Exist in SAP.
+[07/27/2015 18:43:51][                  ProcessSMS()] Batch NO :: rrr provided Does Not Exist in SAP.
+[07/27/2015 18:43:51][            btnSendSMS_Click()] Batch NO :: rrr provided Does Not Exist in SAP.
+[07/27/2015 19:06:30][           Header_Validation()] Batch Number Should not be Blank!
+[07/27/2015 19:06:30][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/27/2015 19:29:11][                     SendSMS()] Argument 'Start' must be greater than zero.
+[07/27/2015 19:29:11][            btnSendSMS_Click()] Argument 'Start' must be greater than zero.
+[07/27/2015 23:31:30][           Header_Validation()] Batch Number Should not be Blank!
+[07/27/2015 23:31:30][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/27/2015 23:31:39][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/27/2015 23:31:39][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/27/2015 23:31:39][            btnSendSMS_Click()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/27/2015 23:51:58][           Header_Validation()] Batch Number Should not be Blank!
+[07/27/2015 23:51:58][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/27/2015 23:52:06][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/27/2015 23:52:06][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/27/2015 23:52:07][            btnSendSMS_Click()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/28/2015 00:03:08][           Header_Validation()] Batch Number Should not be Blank!
+[07/28/2015 00:03:08][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/28/2015 00:04:50][                     SendSMS()] Unable to connect to the remote server
+[07/28/2015 00:04:50][            btnSendSMS_Click()] Unable to connect to the remote server
+[07/28/2015 00:17:50][           Header_Validation()] Batch Number Should not be Blank!
+[07/28/2015 00:17:50][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/28/2015 00:23:45][           Header_Validation()] Batch Number Should not be Blank!
+[07/28/2015 00:23:45][            btnSendSMS_Click()] Batch Number Should not be Blank!
+[07/28/2015 00:23:51][            btnSendSMS_Click()] There are no Records found in SAP
+[07/28/2015 00:24:26][            btnSendSMS_Click()] There are no Records found in SAP
+[07/28/2015 13:40:49][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/28/2015 13:40:49][                  ProcessSMS()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/28/2015 13:40:50][            btnSendSMS_Click()] Batch NO :: TEST provided Does Not Exist in SAP.
+[07/28/2015 13:57:44][                  ProcessSMS()] Batch NO :: TEST provided does not exist in SAP.
+[07/28/2015 13:57:44][                  ProcessSMS()] Batch NO :: TEST provided does not exist in SAP.
+[07/28/2015 13:57:44][            btnSendSMS_Click()] Batch NO :: TEST provided does not exist in SAP.
+[07/28/2015 13:57:51][                  ProcessSMS()] Batch NO :: TEST provided does not exist in SAP.
+[07/28/2015 13:57:51][                  ProcessSMS()] Batch NO :: TEST provided does not exist in SAP.
+[07/28/2015 13:57:51][            btnSendSMS_Click()] Batch NO :: TEST provided does not exist in SAP.
+[07/29/2015 10:30:14][            btnSendSMS_Click()] There are no Records found in SAP
+[07/29/2015 10:30:21][            btnSendSMS_Click()] There are no Records found in SAP
+[07/29/2015 12:44:18][                     SendSMS()] Unable to connect to the remote server
+[07/29/2015 12:44:18][            btnSendSMS_Click()] Unable to connect to the remote server
+[07/29/2015 17:18:26][                  ProcessSMS()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:18:26][                  ProcessSMS()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:18:27][            btnSendSMS_Click()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:18:43][                  ProcessSMS()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:18:43][                  ProcessSMS()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:18:43][            btnSendSMS_Click()] Batch NO :: 2452 provided does not exist in SAP.
+[07/29/2015 17:26:43][            btnSendSMS_Click()] There are no Records found in SAP
+[07/29/2015 17:27:04][            btnSendSMS_Click()] There are no Records found in SAP
+[07/29/2015 17:42:04][            btnSendSMS_Click()] No records found in SAP
+[07/29/2015 18:20:40][                  ProcessSMS()] Batch NO :: 2458 provided does not exist in SAP.
+[07/29/2015 18:20:40][                  ProcessSMS()] Batch NO :: 2458 provided does not exist in SAP.
+[07/29/2015 18:20:40][            btnSendSMS_Click()] Batch NO :: 2458 provided does not exist in SAP.
+[07/29/2015 21:42:52][                  ProcessSMS()] ERROR [IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+[07/29/2015 21:42:52][            btnSendSMS_Click()] ERROR [IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+[07/30/2015 18:41:38][       Validate_PhoneNumbers()] Please Check Document Number : 15026631. Mobile Number is Blank!
+[07/31/2015 14:10:45][       Validate_PhoneNumbers()] Please Check Document Number : 15026628. Mobile Number is Blank!
+[07/31/2015 14:18:13][       Validate_PhoneNumbers()] Please Check Document Number : 15026628. Mobile Number is Blank!

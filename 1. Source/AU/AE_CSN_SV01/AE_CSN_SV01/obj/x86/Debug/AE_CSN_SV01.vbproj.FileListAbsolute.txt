@@ -1,0 +1,2 @@
+C:\Abeo\AU\AE_CSN_SV01\AE_CSN_SV01\obj\x86\Debug\AE_CSN_SV01.Resources.resources
+C:\Abeo\AU\AE_CSN_SV01\AE_CSN_SV01\obj\x86\Debug\AE_CSN_SV01.vbproj.GenerateResource.Cache
