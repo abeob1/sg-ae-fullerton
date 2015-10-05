@@ -1,0 +1,13 @@
+Column No.,Anaplan TB,SAP,Field Name,Remarks,
+1,TransDate,Month,Reporting Period,parameters selection base on Months(From/To Months),
+2,Reporting unit,@AI_TB01_COMPANYDATA.ANAPLANCODE,Anaplan Entity Code,"If generating the report from FHG entity, display Anaplancode instead of Dbname",
+3,ICPARTNERCODE,OCRD.U_ANAPLANICCODE,Anaplan IC Code,"if generating the report and customer/vendor  is Interco (customer/vendor code starts with ""Z"") then display this code else display Null for other customers/vendors)",
+4,Local Account,OACT.GLCODE,GL Code,1st line = display accumulated balances for GL account based on months parameters(usually starts of the financial year),
+5,Movement,M00,,2nd line = display beginning balance  relevant GL account based on months parameters(usually starts of the financial year),
+,,M05,,2nd line = display  accumulated total increase of relevant GL account based on months parameters(usually starts of the financial year to reporting date),
+,,M06,,3rd  line = display accumulated total decrease  of relevant GL account based on months parameters(usually starts of the financial year to reporting date),
+,,M12,,,
+,Amount,1st line,,Balances as of reporting date,Balance
+,,2nd line,M00,balances as of start of reporting date,OB
+,,3rd line,M05,accumulated  debit amount from start up to end of reporting date,Sum(Debit)
+,,4th line,M06,accumulated credit amount from start up to end of reporting date,Sum(Credit)

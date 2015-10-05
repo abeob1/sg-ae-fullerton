@@ -1,0 +1,47 @@
+1. Decarease Batch no. , Type width - DONE
+2. change font name to Verdana / size 10 - DONE
+3. Remove starting messages from status screen -DONE
+4. Change batch no. width to 20 -DONE
+5. Create mobile no (12), sent SMS (Yes|No) UDFs- DONE
+6. write query to retreive check payments means op documents - DONE
+7. Based on mobile no.. send sms  -DONE
+8. Include payment type drop down. default is Check - DONE
+9. Type - default value is Non-Panel -DONE
+10. Afer succesful SMS , update the flag(U_AI_SentSMS)  to Y  -DONE
+
+Validations
+===========
+1. check batch no. exists in system or not.. if not throw messages -DONE
+2. if mobile no. is missing.. throw message -DONE
+
+
+OK: test_2987_2405<br>
+OK: test_2988_2406<br>
+
+ test_2993_2411
+
+1. Remove starting function/completed in the status textbox
+2. after sending SMS call status API by passing message ID
+
+3. If mobile no. missing throw message in a text file
+
+
+===========================
+
+1. SMS URL include in app.config file
+2. ============= COMPLETED ================
+3. 
+
+MBMS Interface Program
+================
+1. write send SMS function in common module
+2. call this function inside Uploadfiles() function
+
+3. Loop datatable
+	- send sms by passing mobile no.
+
+Later
+	- send email incase if any failure to send SMS
+	- 
+
+
