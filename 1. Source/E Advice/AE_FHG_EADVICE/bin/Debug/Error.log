@@ -1,0 +1,151 @@
+
+[07/22/2014 13:02:52][                 ExportToPDF()] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {D66A5DB4-8997-4AF8-9B87-211F94395D2E}.rpt:
+Failed to open a rowset.
+[07/22/2014 13:02:52][                 ExportReports] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {D66A5DB4-8997-4AF8-9B87-211F94395D2E}.rpt:
+Failed to open a rowset.
+[07/22/2014 13:40:29][                 ExportToPDF()] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {EFF9192E-A336-4EF1-8EA4-25568BE37E3D}.rpt:
+Failed to open a rowset.
+[07/22/2014 13:40:30][                 ExportReports] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {EFF9192E-A336-4EF1-8EA4-25568BE37E3D}.rpt:
+Failed to open a rowset.
+[07/22/2014 13:51:06][                 ExportToPDF()] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {F69029F2-1831-4281-A607-CC0C7DE69437}.rpt:
+Failed to open a rowset.
+[07/22/2014 13:52:39][                 ExportReports] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {F69029F2-1831-4281-A607-CC0C7DE69437}.rpt:
+Failed to open a rowset.
+[07/22/2014 19:21:11][       SendEmailNotification()] The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+[07/22/2014 21:40:52][                 ExportToPDF()] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA_SUB: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {4468A479-2A28-4DDE-BEFF-73F93E9E55F5}.rpt:
+Failed to open a rowset.
+[07/22/2014 21:40:54][                 ExportReports] Failed to open a rowset.
+Details: S1000:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA_SUB: line 1 col 7 (at pos 6)Failed to open a rowset.Failed to export the report.
+Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {4468A479-2A28-4DDE-BEFF-73F93E9E55F5}.rpt:
+Failed to open a rowset.
+[07/22/2014 22:02:36][                 ExportToPDF()] Index was outside the bounds of the array.
+[07/24/2014 20:07:57][                 ExportToPDF()] The table 'FHG_DEVDB_NEW.AE_SP002_SOA' could not be found.Error in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {761C3AEA-3F51-48AC-9CAA-6DDED3316FF1}.rpt:
+The table could not be found.
+[07/24/2014 22:37:00][                 ExportToPDF()] Logon failed.
+Details: IM002:[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specifiedError in File C:\Users\sri\AppData\Local\Temp\9\AI_RPT_SOA {0D989BD4-CEDB-4BE4-81F3-A865BCCDBA37}.rpt:
+Unable to connect: incorrect log on parameters.
+[07/29/2014 11:53:49][                 ExportToPDF()] Invalid report file path.
+[07/29/2014 11:53:52][                 ExportReports] Invalid report file path.
+[10/14/2014 15:39:24][                 ExportToPDF()] The table 'TEST_THD_14102014.AE_SP002_SOA' could not be found.Error in File C:\Users\sri\AppData\Local\Temp\24\AI_RPT_SOA {834C81FD-ABB1-4B26-803D-7596B38B3357}.rpt:
+The table could not be found.
+[11/14/2014 11:48:39][       SendEmailNotification()] The specified string is not in the form required for an e-mail address.
+[11/14/2014 11:48:39][                 ExportReports] 
+[11/14/2014 11:50:13][       SendEmailNotification()] The specified string is not in the form required for an e-mail address.
+[11/14/2014 11:50:13][                 ExportReports] 
+[12/18/2014 11:38:47][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAILSOA: line 1 col 107 (at pos 106)
+[12/18/2014 11:39:51][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAILSOA: line 1 col 107 (at pos 106)
+[01/02/2015 08:24:41][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 6 (at pos 5)
+[01/29/2015 19:37:10][       SendEmailNotification()] An invalid character was found in the mail header: '@'.
+[01/29/2015 19:43:31][       SendEmailNotification()] An invalid character was found in the mail header: '@'.
+[01/29/2015 19:43:31][                 ExportReports] 
+[01/29/2015 19:44:33][       SendEmailNotification()] An invalid character was found in the mail header: '@'.
+[01/29/2015 19:44:33][                 ExportReports] Please check the email Address.Fail to send email : emerging@singnet.com.sg/maureen@emerging-pharma.com:: An invalid character was found in the mail header: '@'.
+[01/29/2015 19:45:13][       SendEmailNotification()] An invalid character was found in the mail header: '@'.
+[01/29/2015 19:45:17][                 ExportReports] Please check the email Address.Fail to send email : emerging@singnet.com.sg/maureen@emerging-pharma.com:: An invalid character was found in the mail header: '@'.
+[01/29/2015 19:46:55][       SendEmailNotification()] An invalid character was found in the mail header: '@'.
+[01/29/2015 19:46:55][                 ExportReports] Please check the email Address.Fail to send email : emerging@singnet.com.sg/maureen@emerging-pharma.com:: An invalid character was found in the mail header: '@'.
+[03/30/2015 17:43:00][             Get_CompanyList()] Unable to access SBO-Common database
+[03/30/2015 17:43:42][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "@": line 1 col 26 (at pos 26)
+[03/30/2015 17:48:35][                 ExportToPDF()] Load report failed.
+[03/30/2015 17:54:09][                 ExportToPDF()] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] SysteError in File C:\Users\sri\AppData\Local\Temp\2\AI_RPT_SOA {70E9284F-EFCE-4A30-A14C-D41D4E3AFE00}.rpt:
+Unable to connect: incorrect log on parameters.
+[03/30/2015 17:54:09][                 ExportReports] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] SysteError in File C:\Users\sri\AppData\Local\Temp\2\AI_RPT_SOA {70E9284F-EFCE-4A30-A14C-D41D4E3AFE00}.rpt:
+Unable to connect: incorrect log on parameters.
+[03/30/2015 18:00:33][                 ExportToPDF()] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] SysteError in File C:\Users\sri\AppData\Local\Temp\2\AI_RPT_SOA {A37F988D-0B91-427E-AE64-8DA0979003DE}.rpt:
+Unable to connect: incorrect log on parameters.
+[03/30/2015 18:00:33][                 ExportReports] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] SysteError in File C:\Users\sri\AppData\Local\Temp\2\AI_RPT_SOA {A37F988D-0B91-427E-AE64-8DA0979003DE}.rpt:
+Unable to connect: incorrect log on parameters.
+[04/02/2015 10:37:02][                 ExportToPDF()] Could not find a part of the path 'C:\SAP\E-Advice_LIVE\Reports\PDF\SOA_C3M ISPL_02042015.pdf'.
+[07/13/2015 16:48:36][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 17:11:16][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 17:13:18][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 17:13:29][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 17:13:31][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 17:14:36][             Get_CompanyList()] An item with the same key has already been added.
+[07/13/2015 19:31:01][             Get_CompanyList()] Unable to access SBO-Common database
+[07/13/2015 19:31:02][             Get_CompanyList()] Unable to access SBO-Common database
+[07/14/2015 12:29:08][             Get_CompanyList()] An item with the same key has already been added.
+[07/14/2015 22:07:55][             Get_CompanyList()] An item with the same key has already been added.
+[07/14/2015 22:22:28][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 07:21:33][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:18:55][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 12:41:17][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:20][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:21][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:21][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:22][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:22][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 12:41:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: ''
+[07/15/2015 14:12:50][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAILSOA: line 1 col 53 (at pos 52)
+[07/15/2015 14:13:09][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAILSOA: line 1 col 53 (at pos 52)
+[07/15/2015 14:13:10][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAILSOA: line 1 col 53 (at pos 52)
+[07/15/2015 14:13:15][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 14:13:25][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 14:23:31][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 14:29:08][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 15:23:03][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 15:40:32][                              ] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @SOAEMAILLOG in schema SYSTEM: line 1 col 41 (at pos 40)
+[07/15/2015 15:43:01][       SendEmailNotification()] Could not find file 'C:\SAP\E-Advice_LIVE\PDF\SOA_CTANJONGP_15072015.pdf'.
+[07/15/2015 16:28:39][             Get_CompanyList()] An item with the same key has already been added.
+[07/15/2015 20:07:42][                              ] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "ZANDER": line 1 col 76 (at pos 76)
+[07/15/2015 20:07:42][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "ZANDER": line 1 col 76 (at pos 76)
+[07/15/2015 20:15:22][                              ] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "R": line 1 col 67 (at pos 67)
+[07/15/2015 20:17:11][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "R": line 1 col 67 (at pos 67)
+[07/15/2015 20:17:45][                              ] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "R": line 1 col 67 (at pos 67)
+[07/15/2015 20:17:45][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "R": line 1 col 67 (at pos 67)
+[08/24/2015 18:00:21][                 ExportToPDF()] Missing parameter values.
+[09/14/2015 12:20:45][          cmbSenderEmail_Click] You are not connected to a company
+[09/14/2015 12:20:49][          cmbSenderEmail_Click] You are not connected to a company
+[09/14/2015 12:21:30][          cmbSenderEmail_Click] You are not connected to a company
+[09/14/2015 12:21:33][          cmbSenderEmail_Click] You are not connected to a company
+[09/14/2015 12:21:36][          cmbSenderEmail_Click] You are not connected to a company
+[09/15/2015 14:26:00][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:26:00][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:26:00][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:24][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SMA_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:24][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SMA_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:24][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SMA_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:48][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FHG_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:48][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FHG_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:48][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FHG_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:56][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SC_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:56][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SC_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:28:56][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema SC_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:23][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CSN_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:23][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CSN_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:23][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CSN_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:41][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FP_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:41][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FP_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:30:41][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema FP_LIVE: line 1 col 23 (at pos 22)
+[09/15/2015 14:31:23][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_FA: line 1 col 23 (at pos 22)
+[09/15/2015 14:31:23][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_FA: line 1 col 23 (at pos 22)
+[09/15/2015 14:31:23][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema GAM_FA: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:34][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_TEST: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:34][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_TEST: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:34][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_TEST: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:40][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_DEV: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:40][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_DEV: line 1 col 23 (at pos 22)
+[09/15/2015 14:39:40][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema CHS_DEV: line 1 col 23 (at pos 22)
