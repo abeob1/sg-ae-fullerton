@@ -1,0 +1,476 @@
+[05/20/2014 14:57:34][              AddARInvoice_FHG] Cost Center is blank in Customer Master :: CBUPAMYR
+[05/20/2014 14:57:34][              AddARInvoice_FHG] Function completed with ERROR:Cost Center is blank in Customer Master :: CBUPAMYR
+[05/20/2014 14:57:34][              UploadDocument()] Cost Center is blank in Customer Master :: CBUPAMYR
+[05/20/2014 14:59:47][              AddARInvoice_FHG] Cost Center is blank in Customer Master :: CBUPAMYR
+[05/20/2014 14:59:47][              AddARInvoice_FHG] Function completed with ERROR:Cost Center is blank in Customer Master :: CBUPAMYR
+[05/20/2014 14:59:48][              UploadDocument()] Cost Center is blank in Customer Master :: CBUPAMYR
+[07/11/2014 17:40:44][Invalid Excel file Format - ([No.] not found at Column 1] False
+[07/11/2014 17:41:04][Invalid Excel file Format - ([Amount (SGD)] not found at Column 21] False
+[07/11/2014 17:41:18][              UploadDocument()] Invalid Billl To Client Excel Worksheet C:\Users\sri\Desktop\Abeo\Non-FHN3_Upload\1 June Batch 5 (37 cases) SAP.xlsx
+[07/11/2014 17:41:21][         RollBackTransaction()] Object reference not set to an instance of an object.
+[07/11/2014 17:41:23][                  UploadFile()] Object reference not set to an instance of an object.
+[07/11/2014 17:48:03][Invalid Excel file Format - ([No.] not found at Column 1] False
+[07/11/2014 17:48:03][              UploadDocument()] Invalid Excel Worksheet C:\Users\sri\Desktop\Abeo\Non-FHN3_Upload\1 June Batch 5 (37 cases) SAP.xlsx
+[07/11/2014 17:49:27][              AddARInvoice_FHG] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:49:27][              AddARInvoice_FHG] Function completed with ERROR:CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:49:27][              UploadDocument()] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:50:30][              AddARInvoice_FHG] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:50:30][              AddARInvoice_FHG] Function completed with ERROR:CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:50:30][              UploadDocument()] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:53:46][              AddARInvoice_FHG] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:53:46][              AddARInvoice_FHG] Function completed with ERROR:CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:53:46][              UploadDocument()] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:54:30][              AddARInvoice_FHG] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:54:30][              AddARInvoice_FHG] Function completed with ERROR:CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:54:30][              UploadDocument()] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:56:57][              AddARInvoice_FHG] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:56:57][              AddARInvoice_FHG] Function completed with ERROR:CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/11/2014 17:56:57][              UploadDocument()] CServiceData::SetPropertyValueString failed; Value too long in property 'DocCurrency' of 'Document'
+[07/14/2014 12:04:15][              AddARInvoice_FHG] Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:04:15][              AddARInvoice_FHG] Function completed with ERROR:Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:04:15][              UploadDocument()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:08][              AddARInvoice_FHG] Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:08][              AddARInvoice_FHG] Function completed with ERROR:Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:08][              UploadDocument()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:50][              AddARInvoice_FHG] Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:50][              AddARInvoice_FHG] Function completed with ERROR:Conversion from type 'DBNull' to type 'Double' is not valid.
+[07/14/2014 12:07:50][              UploadDocument()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[08/19/2014 14:44:44][Invalid Excel file Format - ([No.] not found at Column 1] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Member Name] not found at Column 2] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Member ID] not found at Column 3] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Provider] not found at Column 4] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Provider Address] not found at Column 5] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Visit Date] not found at Column 6] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Bill Num] not found at Column 7] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Bill Received] not found at Column 8] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Surgeon Fee / Specialist Fee] not found at Column 9] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Anaesthetist] not found at Column 10] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Consultation Fee] not found at Column 11] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Drugs Cost] not found at Column 12] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Inpatient Services] not found at Column 13] False
+[08/19/2014 14:44:44][Invalid Excel file Format - ([Discount] not found at Column 14] False
+[08/19/2014 14:44:44][         RollBackTransaction()] Object reference not set to an instance of an object.
+[08/19/2014 14:44:44][                  UploadFile()] Object reference not set to an instance of an object.
+[08/19/2014 14:45:18][Invalid Excel file Format - ([No.] not found at Column 1] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Member Name] not found at Column 2] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Member ID] not found at Column 3] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Provider] not found at Column 4] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Provider Address] not found at Column 5] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Visit Date] not found at Column 6] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Bill Num] not found at Column 7] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Bill Received] not found at Column 8] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Surgeon Fee / Specialist Fee] not found at Column 9] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Anaesthetist] not found at Column 10] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Consultation Fee] not found at Column 11] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Drugs Cost] not found at Column 12] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Inpatient Services] not found at Column 13] False
+[08/19/2014 14:45:18][Invalid Excel file Format - ([Discount] not found at Column 14] False
+[08/19/2014 14:45:18][         RollBackTransaction()] Object reference not set to an instance of an object.
+[08/19/2014 14:45:18][                  UploadFile()] Object reference not set to an instance of an object.
+[08/19/2014 14:46:03][Invalid Excel file Format - [Vendor Code] not found at Column 1] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Vendor Name] not found at Column 2] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Posting Date] not found at Column 3] False
+[08/19/2014 14:46:03][Invalid Excel file Format - ([Due Date] not found at Column 4] False
+[08/19/2014 14:46:03][Invalid Excel file Format - ([Document Date] not found at Column 5] False
+[08/19/2014 14:46:03][Invalid Excel file Format - ([Vendor Ref No] not found at Column 6] False
+[08/19/2014 14:46:03][Invalid Excel file Format - ([LineNumber] not found at Column 7] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Description] not found at Column 8] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [GL] not found at Column 9] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Distibution Rule] not found at Column 10] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Tax Code] not found at Column 11] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [BP Currency] not found at Column 12] False
+[08/19/2014 14:46:03][Invalid Excel file Format - [Total (LC)] not found at Column 13] False
+[08/25/2014 13:20:00][                  AddAPInvoice] 10000415 - Linked value MB-BUPID does not exist
+[08/25/2014 13:20:00][                  AddAPInvoice] Function completed with ERROR:10000415 - Linked value MB-BUPID does not exist
+[08/25/2014 13:20:00][    UploadDocument_APInvoice()] 10000415 - Linked value MB-BUPID does not exist
+[08/26/2014 17:34:15][                  AddAPInvoice] 540000160 - You cannot continue; distribution rule HQ-BD is not related to dimension 1
+[08/26/2014 17:34:15][                  AddAPInvoice] Function completed with ERROR:540000160 - You cannot continue; distribution rule HQ-BD is not related to dimension 1
+[08/26/2014 17:34:15][    UploadDocument_APInvoice()] 540000160 - You cannot continue; distribution rule HQ-BD is not related to dimension 1
+[09/01/2014 11:11:30][                  AddAPInvoice] ERROR::Vendor Ref.No : R0004710520/13-6007334already exists in the system
+[09/01/2014 11:11:34][                  AddAPInvoice] ERROR::Vendor Ref.No : R0004710520/13-6007334already exists in the system
+[09/01/2014 11:11:35][                  AddAPInvoice] Function completed with ERROR:ERROR::Vendor Ref.No : R0004710520/13-6007334already exists in the system
+[09/01/2014 11:11:38][    UploadDocument_APInvoice()] ERROR::Vendor Ref.No : R0004710520/13-6007334already exists in the system
+[09/12/2014 16:36:51][                  AddAPInvoice] Index was outside the bounds of the array.
+[09/12/2014 16:36:51][                  AddAPInvoice] Function completed with ERROR:Index was outside the bounds of the array.
+[09/12/2014 16:36:51][    UploadDocument_APInvoice()] Index was outside the bounds of the array.
+[09/14/2014 10:26:42][                  AddAPInvoice] ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 10:26:42][                  AddAPInvoice] ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 10:26:42][                  AddAPInvoice] Function completed with ERROR:ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 11:20:35][                  AddAPInvoice] ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 11:20:35][                  AddAPInvoice] ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 11:20:35][                  AddAPInvoice] Function completed with ERROR:ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[09/14/2014 11:20:50][    UploadDocument_APInvoice()] ERROR::Vendor Ref.No : RJ1406100070already exists in the system
+[11/20/2014 11:27:01][Invalid Excel file Format - [Policy No] not found at Column 3] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Patient Name] not found at Column 4] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Member Id] not found at Column 5] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Provider Name] not found at Column 6] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Provider Address] not found at Column 7] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Diagnosis Description] not found at Column 8] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Drug Description (Cost)] not found at Column 9] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [In-house Service Description (Cost)] not found at Column 10] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [External Service Description (Cost)] not found at Column 11] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Currency] not found at Column 12] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Consult Cost] not found at Column 13] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Drug Cost] not found at Column 14] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Deductible / Co-insurance] not found at Column 15] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [External Service Cost] not found at Column 16] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Sub Total] not found at Column 17] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Tax] not found at Column 18] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Discount] not found at Column 19] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Grand Total] not found at Column 20] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Co-Payment] not found at Column 21] False
+[11/20/2014 11:27:01][Invalid Excel file Format - (Unclaim Amount] not found at Column 22] False
+[11/20/2014 11:27:01][Invalid Excel file Format - ([Cost Center-AP] not found at Column 23] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Rate] not found at Column 24] False
+[11/20/2014 11:27:01][Invalid Excel file Format - [Claim Amount (SGD)] not found at Column 25] False
+[11/20/2014 12:31:45][UploadDocument_ARInvoice_AETNA()] Object reference not set to an instance of an object.
+[11/20/2014 12:31:45][UploadDocument_APInvoice_AETNA()] Object reference not set to an instance of an object.
+[11/20/2014 12:31:45][        UploadDocument_AETNA()] The process cannot access the file because it is being used by another process.
+[11/20/2014 12:32:56][           CommitTransaction()] 
+[11/20/2014 14:27:11][             AddAPInvoice_BUPA] Enter valid currency code  [OPCH.DocCur] , 'MYR'
+[11/20/2014 14:27:11][             AddAPInvoice_BUPA] Function completed with ERROR:Enter valid currency code  [OPCH.DocCur] , 'MYR'
+[11/21/2014 14:59:13][UploadDocument_ARInvoice_AETNA()] Object reference not set to an instance of an object.
+[11/21/2014 15:00:41][UploadDocument_ARInvoice_AETNA()] Object reference not set to an instance of an object.
+[11/21/2014 15:00:43][        UploadDocument_AETNA()] 
+[11/21/2014 15:47:15][             AddAPInvoice_BUPA] ERROR::Vendor Ref.No : O000545353already exists in the system
+[11/21/2014 15:47:15][             AddAPInvoice_BUPA] ERROR::Vendor Ref.No : O000545353already exists in the system
+[11/21/2014 15:47:15][             AddAPInvoice_BUPA] Function completed with ERROR:ERROR::Vendor Ref.No : O000545353already exists in the system
+[11/21/2014 15:47:15][    UploadDocument_APInvoice()] ERROR::Vendor Ref.No : O000545353already exists in the system
+[11/21/2014 15:51:07][             AddAPInvoice_BUPA] Update the exchange rate  , 'MYR'
+[11/21/2014 15:51:07][             AddAPInvoice_BUPA] Function completed with ERROR:Update the exchange rate  , 'MYR'
+[11/21/2014 15:51:07][    UploadDocument_APInvoice()] Update the exchange rate  , 'MYR'
+[11/21/2014 15:51:22][         UploadDocument_BUPA()] Update the exchange rate  , 'MYR'
+[11/21/2014 15:52:48][             AddAPInvoice_BUPA] Invalid BP code  [OPCH.CardCode] , 'VCOLUMPUCHONG'
+[11/21/2014 15:52:48][             AddAPInvoice_BUPA] Function completed with ERROR:Invalid BP code  [OPCH.CardCode] , 'VCOLUMPUCHONG'
+[11/21/2014 15:52:48][    UploadDocument_APInvoice()] Invalid BP code  [OPCH.CardCode] , 'VCOLUMPUCHONG'
+[11/21/2014 15:53:14][         UploadDocument_BUPA()] Invalid BP code  [OPCH.CardCode] , 'VCOLUMPUCHONG'
+[11/21/2014 16:04:17][Invalid Excel file Format - ([No.] not found at Column 1] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Member Name] not found at Column 2] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Member ID] not found at Column 3] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Provider] not found at Column 4] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Provider Address] not found at Column 5] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Visit Date] not found at Column 6] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Bill Num] not found at Column 7] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Bill Received] not found at Column 8] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Surgeon Fee / Specialist Fee] not found at Column 9] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Anaesthetist] not found at Column 10] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Consultation Fee] not found at Column 11] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Drugs Cost] not found at Column 12] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Inpatient Services] not found at Column 13] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Discount] not found at Column 14] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Deductible / Co-insurance] not found at Column 15] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Non payable Amount] not found at Column 16] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Currency] not found at Column 17] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Total Fees Bills (MYR)] not found at Column 18] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Approved Fees] not found at Column 19] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Conversion Date] not found at Column 20] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Amount (SGD)] not found at Column 21] False
+[11/21/2014 16:04:17][Invalid Excel file Format - (Exchange Rate] not found at Column 21] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Cost Center-AP] not found at Column 22] False
+[11/21/2014 16:04:17][Invalid Excel file Format - ([Vendor Code] not found at Column 23] False
+[11/21/2014 16:04:17][         UploadDocument_BUPA()] Invalid Excel Worksheet C:\Users\sri\Desktop\Abeo\Non-FHN3\BUPA-AETNA UPLOAD\TestFiles_AETNA\UAT_Aetna_AR_AP Import.xlsx
+[11/21/2014 16:05:01][            AddARInvoice_AETNA] Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:05:01][            AddARInvoice_AETNA] Function completed with ERROR:Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:05:01][UploadDocument_ARInvoice_AETNA()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:08:20][            AddARInvoice_AETNA] Conversion from string "41946" to type 'Date' is not valid.
+[11/21/2014 16:08:20][            AddARInvoice_AETNA] Function completed with ERROR:Conversion from string "41946" to type 'Date' is not valid.
+[11/21/2014 16:22:08][            AddAPInvoice_AETNA] Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:22:08][            AddAPInvoice_AETNA] Function completed with ERROR:Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:22:08][UploadDocument_APInvoice_AETNA()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:22:08][        UploadDocument_AETNA()] Conversion from type 'DBNull' to type 'Double' is not valid.
+[11/21/2014 16:26:02][            AddAPInvoice_AETNA] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:26:02][            AddAPInvoice_AETNA] Function completed with ERROR:480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:26:02][UploadDocument_APInvoice_AETNA()] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:26:02][        UploadDocument_AETNA()] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:27:42][            AddAPInvoice_AETNA] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:27:42][            AddAPInvoice_AETNA] Function completed with ERROR:480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:27:42][UploadDocument_APInvoice_AETNA()] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[11/21/2014 16:27:42][        UploadDocument_AETNA()] 480000098 - Row in service document must contain description, G/L account, or total; enter a description, G/L account, or total
+[12/29/2014 10:18:21][  AddARInvoice_PROVIDERBILLING] There is no row at position 8.
+[12/29/2014 10:18:21][  AddARInvoice_PROVIDERBILLING] Function completed with ERROR:There is no row at position 8.
+[12/29/2014 10:18:21][UploadDocument_ARInvoice_PROVIDERBILLING()] There is no row at position 8.
+[12/29/2014 10:18:21][UploadDocument_PROVIDERBILLING()] There is no row at position 8.
+[12/29/2014 10:21:03][Invalid Excel file Format - [Customer Code] not found at Column 4] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Hospitalisation Admisison] not found at Column 5] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Provider] not found at Column 6] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Provider Address] not found at Column 7] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Admission Date] not found at Column 8] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Discharge Date] not found at Column 9] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Policy Number] not found at Column 10] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Procedure Name] not found at Column 11] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Doctor's Professional Fee] not found at Column 12] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Management Service Fee] not found at Column 13] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [GST] not found at Column 14] False
+[12/29/2014 10:21:03][Invalid Excel file Format - [Grand Total] not found at Column 15] False
+[12/29/2014 10:21:03][UploadDocument_PROVIDERBILLING()] Invalid Excel Worksheet C:\Users\sri\Desktop\Abeo\UploadTemplate\CustomerBilling.xlsx
+[02/05/2015 17:26:39][UploadDocument_CUSTOMERBILLING()] Duplicate Import..This file already imported. Please check. CustomerBilling
+[02/05/2015 17:34:34][UploadDocument_PROVIDERBILLING()] Duplicate Import..This file already imported. Please check. ProviderBilling
+[04/20/2015 17:13:50][Invalid Excel file Format - [Hospitalization (Sub-Total)] not found at Column 23] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [Total] not found at Column 24] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [GST] not found at Column 25] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [Grand Total] not found at Column 26] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [Co-insurance for Ward Upgrade] not found at Column 27] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [Co-insurance for Supplementary Major Medical (SMM)] not found at Column 28] False
+[04/20/2015 17:13:50][Invalid Excel file Format - [Balance Payable] not found at Column 29] False
+[04/20/2015 17:13:50][UploadDocument_CUSTOMERBILLING()] Invalid Excel Worksheet C:\Users\sri\Desktop\Desktop\Abeo\UploadTemplate\Test5_UAT_CustomerBilling_.xlsx
+[04/20/2015 17:18:44][UploadDocument_CUSTOMERBILLING()] Could not find a part of the path.
+[04/22/2015 14:02:33][Invalid Excel file Format - [Doctor's Inpatient Consultation] not found at Column 13] False
+[04/22/2015 14:02:33][Invalid Excel file Format - [Medications] not found at Column 14] False
+[04/22/2015 14:02:33][Invalid Excel file Format - [Other Services] not found at Column 15] False
+[04/22/2015 14:02:33][         RollBackTransaction()] Object reference not set to an instance of an object.
+[04/22/2015 14:02:33][                  UploadFile()] Object reference not set to an instance of an object.
+[04/22/2015 14:03:23][Invalid Excel file Format - [Doctor's Inpatient Consultation] not found at Column 13] False
+[04/22/2015 14:03:23][Invalid Excel file Format - [Medications] not found at Column 14] False
+[04/22/2015 14:03:23][Invalid Excel file Format - [Other Services] not found at Column 15] False
+[04/22/2015 14:03:24][         RollBackTransaction()] Object reference not set to an instance of an object.
+[04/22/2015 14:03:24][                  UploadFile()] Object reference not set to an instance of an object.
+[07/16/2015 17:05:41][  AddARInvoice_PROVIDERBILLING] Conversion from string "42121" to type 'Date' is not valid.
+[07/16/2015 17:05:41][  AddARInvoice_PROVIDERBILLING] Function completed with ERROR:Conversion from string "42121" to type 'Date' is not valid.
+[07/16/2015 17:05:41][UploadDocument_ARInvoice_PROVIDERBILLING()] Conversion from string "42121" to type 'Date' is not valid.
+[07/16/2015 17:05:41][UploadDocument_PROVIDERBILLING()] Conversion from string "42121" to type 'Date' is not valid.
+[10/29/2015 11:23:12][UploadDocument_ReceiptUpload()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.ANCELED: line 1 col 89 (at pos 88)
+[10/29/2015 11:28:17][          AR_IncomingPayment()]  is neither a DataColumn nor a DataRelation for table NonFHN3.
+[10/29/2015 11:28:17][       Process_ReceiptUpload()] 
+[10/29/2015 11:28:17][UploadDocument_ReceiptUpload()] 
+[10/29/2015 11:30:10][          AR_IncomingPayment()] Invalid document number  [RCT2.DocEntry][line: 1]
+[10/29/2015 11:30:10][       Process_ReceiptUpload()] Invalid document number  [RCT2.DocEntry][line: 1]
+[10/29/2015 11:30:10][UploadDocument_ReceiptUpload()] Invalid document number  [RCT2.DocEntry][line: 1]
+[10/29/2015 13:45:57][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Input\01.xlsx
+[10/29/2015 13:52:24][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 13:52:24][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 13:52:24][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 13:54:49][          AR_IncomingPayment()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 13:54:49][       Process_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 13:54:49][UploadDocument_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:03][          AR_IncomingPayment()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:03][       Process_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:03][UploadDocument_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:45][          AR_IncomingPayment()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:45][       Process_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:00:45][UploadDocument_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:09:00][          AR_IncomingPayment()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:09:00][       Process_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:09:00][UploadDocument_ReceiptUpload()] One of the check details is wrong: country or bank  [ORCT.Handwrtten]
+[10/29/2015 14:10:08][          AR_IncomingPayment()] Invalid document number  , '0'
+[10/29/2015 14:10:08][       Process_ReceiptUpload()] Invalid document number  , '0'
+[10/29/2015 14:10:08][UploadDocument_ReceiptUpload()] Invalid document number  , '0'
+[10/29/2015 14:12:19][          AR_IncomingPayment()] Invalid document number  , '0'
+[10/29/2015 14:12:19][       Process_ReceiptUpload()] Invalid document number  , '0'
+[10/29/2015 14:12:19][UploadDocument_ReceiptUpload()] Invalid document number  , '0'
+[10/29/2015 14:15:31][          AR_IncomingPayment()] In "Amount (FC)" "From" field, enter a number  [RCT1.CheckSum][line: 2]
+[10/29/2015 14:15:31][       Process_ReceiptUpload()] In "Amount (FC)" "From" field, enter a number  [RCT1.CheckSum][line: 2]
+[10/29/2015 14:15:31][UploadDocument_ReceiptUpload()] In "Amount (FC)" "From" field, enter a number  [RCT1.CheckSum][line: 2]
+[10/29/2015 15:12:13][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:12:13][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:12:13][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:14:25][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:14:25][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:14:25][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:20:19][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:20:19][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:20:19][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:22:00][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:22:00][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:22:00][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:23:40][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:23:40][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:23:41][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:24:53][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:24:53][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:24:53][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:35:35][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/29/2015 15:35:35][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/29/2015 15:35:35][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 09:46:54][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 09:46:54][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 09:46:54][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:15:00][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:15:00][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:15:00][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:18:11][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:18:11][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:18:11][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:21:32][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:21:32][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:21:32][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:24:19][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:24:19][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:24:19][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:28:50][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:28:50][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:28:50][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:34:42][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:34:42][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:34:42][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:36:21][          AR_IncomingPayment()] No matching records found (ODBC -2028)
+[10/30/2015 10:36:21][       Process_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 10:36:21][UploadDocument_ReceiptUpload()] No matching records found (ODBC -2028)
+[10/30/2015 13:36:18][       Process_ReceiptUpload()] Object reference not set to an instance of an object.
+[10/30/2015 13:36:18][UploadDocument_ReceiptUpload()] 
+[10/30/2015 13:36:47][       Process_ReceiptUpload()] Object reference not set to an instance of an object.
+[10/30/2015 13:36:47][UploadDocument_ReceiptUpload()] 
+[10/30/2015 13:40:49][       Process_ReceiptUpload()] Object reference not set to an instance of an object.
+[10/30/2015 13:40:49][UploadDocument_ReceiptUpload()] 
+[11/02/2015 11:11:36][          AR_IncomingPayment()] Base document card and target document card do not match. 
+[11/02/2015 11:11:36][       Process_ReceiptUpload()] Base document card and target document card do not match. 
+[11/02/2015 11:11:37][UploadDocument_ReceiptUpload()] Base document card and target document card do not match. 
+[11/02/2015 11:37:15][          AR_IncomingPayment()] Confirmation amount must be greater than zero 
+[11/02/2015 11:37:15][       Process_ReceiptUpload()] Confirmation amount must be greater than zero 
+[11/02/2015 11:37:15][UploadDocument_ReceiptUpload()] Confirmation amount must be greater than zero 
+[11/02/2015 15:19:32][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:20:47][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:21:26][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:24:04][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:29:04][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:32:06][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:33:29][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:36:45][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:36:58][UploadDocument_ReceiptUpload()] Madatory fields missing in the excel sheet.C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx
+[11/02/2015 15:37:13][              Write_TextFile()] Cannot find column 4.
+[11/02/2015 15:40:43][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:40:47][UploadDocument_ReceiptUpload()] Madatory fields missing in the excel sheet.C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx
+[11/02/2015 15:40:50][              Write_TextFile()] Cannot find column 4.
+[11/02/2015 15:41:28][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx
+[11/02/2015 15:43:27][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:43:31][UploadDocument_ReceiptUpload()] Madatory fields missing in the excel sheet.C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx
+[11/02/2015 15:45:03][                 readCSVFileIP] Check line no : 5 in C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx. Customer Code is Mandatory
+[11/02/2015 15:45:05][UploadDocument_ReceiptUpload()] Madatory fields missing in the excel sheet.C:\Abeo\UploadTemplate\Receipt_upload Templates\07.xlsx
+[11/02/2015 15:47:18][              Write_TextFile()] Non-negative number required.
+Parameter name: totalWidth
+[11/02/2015 15:51:42][          AR_IncomingPayment()] Cannot interpret token '"' at position 46.
+[11/02/2015 15:51:42][       Process_ReceiptUpload()] Cannot interpret token '"' at position 46.
+[11/02/2015 15:51:42][UploadDocument_ReceiptUpload()] Cannot interpret token '"' at position 46.
+[11/02/2015 15:52:32][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:52:32][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:52:32][       Process_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:52:32][UploadDocument_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:52:57][              Write_TextFile()] Non-negative number required.
+Parameter name: totalWidth
+[11/02/2015 15:54:05][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:54:09][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:54:12][       Process_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 15:54:16][UploadDocument_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:04:05][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:04:10][          AR_IncomingPayment()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:04:10][       Process_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:04:10][UploadDocument_ReceiptUpload()] Invoice Number ::'15011362' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:33:47][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:33:49][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:33:49][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:33:49][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:41:33][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:41:33][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:41:33][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:41:33][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:42:35][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:42:35][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:42:35][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:42:35][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:43:59][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:00][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:00][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:00][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:52][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:52][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:52][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:44:52][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:49:35][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:49:35][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:49:36][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:49:36][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:49:55][              Write_TextFile()] Conversion from string "Inv. Number" to type 'Double' is not valid.
+[11/02/2015 16:50:56][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:50:56][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:50:56][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:50:56][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:51:39][              Write_TextFile()] Conversion from string "Inv. Number" to type 'Double' is not valid.
+[11/02/2015 16:51:51][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:51:51][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:51:51][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:51:51][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:55:56][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:55:56][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:55:56][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 16:55:56][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:43:30][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:43:30][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:43:30][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:43:30][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:51:25][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:51:25][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:51:25][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:51:25][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:58:54][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:58:54][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:58:54][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 17:58:54][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:00:43][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:00:43][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:00:43][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:00:43][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:07:33][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:07:33][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:07:33][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:07:33][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:22:50][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:22:50][          AR_IncomingPayment()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:22:50][       Process_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:22:50][UploadDocument_ReceiptUpload()] Invoice Number ::'14005630' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:27:29][          AR_IncomingPayment()] Invoice Number ::'15011383' and Customer Code ::'CAAN' provided does not match in SAP.
+[11/02/2015 18:27:29][          AR_IncomingPayment()] Invoice Number ::'15011383' and Customer Code ::'CAAN' provided does not match in SAP.
+[11/02/2015 18:27:29][       Process_ReceiptUpload()] Invoice Number ::'15011383' and Customer Code ::'CAAN' provided does not match in SAP.
+[11/02/2015 18:27:30][UploadDocument_ReceiptUpload()] Invoice Number ::'15011383' and Customer Code ::'CAAN' provided does not match in SAP.
+[11/02/2015 18:37:41][          AR_IncomingPayment()] Invoice Number ::'15011383' provided does not exist in SAP.
+[11/02/2015 18:37:41][          AR_IncomingPayment()] Invoice Number ::'15011383' provided does not exist in SAP.
+[11/02/2015 18:37:41][       Process_ReceiptUpload()] Invoice Number ::'15011383' provided does not exist in SAP.
+[11/02/2015 18:37:41][UploadDocument_ReceiptUpload()] Invoice Number ::'15011383' provided does not exist in SAP.
+[11/02/2015 18:43:00][          AR_IncomingPayment()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:43:00][          AR_IncomingPayment()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:43:00][       Process_ReceiptUpload()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:43:00][UploadDocument_ReceiptUpload()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:44:32][          AR_IncomingPayment()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:44:32][          AR_IncomingPayment()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:44:32][       Process_ReceiptUpload()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:44:32][UploadDocument_ReceiptUpload()] Invoice Number ::'15011378' and Customer Code ::'C3M ISPL' provided does not match in SAP.
+[11/02/2015 18:45:19][          AR_IncomingPayment()] Amount ::'100' provided should not exceed Balance :: '93.6'.
+[11/02/2015 18:45:23][          AR_IncomingPayment()] Amount ::'100' provided should not exceed Balance :: '93.6'.
+[11/02/2015 18:45:23][       Process_ReceiptUpload()] Amount ::'100' provided should not exceed Balance :: '93.6'.
+[11/02/2015 18:45:23][UploadDocument_ReceiptUpload()] Amount ::'100' provided should not exceed Balance :: '93.6'.
+[11/02/2015 21:05:25][          AR_IncomingPayment()] CardCode ::'CAAND' provided does not exist in SAP.
+[11/02/2015 21:05:25][          AR_IncomingPayment()] CardCode ::'CAAND' provided does not exist in SAP.
+[11/02/2015 21:05:25][       Process_ReceiptUpload()] CardCode ::'CAAND' provided does not exist in SAP.
+[11/02/2015 21:05:25][UploadDocument_ReceiptUpload()] CardCode ::'CAAND' provided does not exist in SAP.
+[11/02/2015 21:25:25][          AR_IncomingPayment()] Invoice Number ::'13000232' and Customer Code ::'CABBLAB' provided does not match in SAP.
+[11/02/2015 21:25:25][          AR_IncomingPayment()] Invoice Number ::'13000232' and Customer Code ::'CABBLAB' provided does not match in SAP.
+[11/02/2015 21:25:25][       Process_ReceiptUpload()] Invoice Number ::'13000232' and Customer Code ::'CABBLAB' provided does not match in SAP.
+[11/02/2015 21:25:25][UploadDocument_ReceiptUpload()] Invoice Number ::'13000232' and Customer Code ::'CABBLAB' provided does not match in SAP.
+[11/03/2015 12:20:37][          AR_IncomingPayment()] Amount ::'520' provided should not exceed Balance :: '163.81'.
+[11/03/2015 12:21:04][          AR_IncomingPayment()] Amount ::'520' provided should not exceed Balance :: '163.81'.
+[11/03/2015 12:21:04][       Process_ReceiptUpload()] Amount ::'520' provided should not exceed Balance :: '163.81'.
+[11/03/2015 12:21:04][UploadDocument_ReceiptUpload()] Amount ::'520' provided should not exceed Balance :: '163.81'.
+[11/04/2015 10:27:09][          AR_IncomingPayment()] Amount ::'100' provided should not exceed Balance :: '91.88'.
+[11/04/2015 11:13:40][          AR_IncomingPayment()] Conversion from string "" to type 'Double' is not valid.
+[11/04/2015 11:13:40][       Process_ReceiptUpload()] Conversion from string "" to type 'Double' is not valid.
+[11/04/2015 11:13:41][UploadDocument_ReceiptUpload()] Conversion from string "" to type 'Double' is not valid.
+[11/04/2015 11:20:00][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Input\20.xlsx
+[11/04/2015 11:20:25][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Input\21.xlsx
+[11/04/2015 11:21:19][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Input\21.xlsx
+[11/05/2015 15:18:05][Invalid Excel file Format - ([Payment Method] not found at Column 11] False
+[11/05/2015 15:18:05][Invalid Excel file Format - ([Remarks] not found at Column 12] False
+[11/05/2015 15:18:05][UploadDocument_ReceiptUpload()] Invalid Excel Worksheet C:\Abeo\UploadTemplate\Input\23.xlsx
+[11/06/2015 11:27:16][                   Create_JE()] Invalid Account Code
+[11/06/2015 11:27:16][          AR_IncomingPayment()] Invalid Account Code
+[11/06/2015 11:27:16][       Process_ReceiptUpload()] Invalid Account Code
+[11/06/2015 11:27:16][UploadDocument_ReceiptUpload()] Invalid Account Code
+[11/06/2015 11:38:08][           CommitTransaction()] (-5001) Please select cost center.
+[11/06/2015 11:38:08][UploadDocument_ReceiptUpload()] (-5001) Please select cost center.
+[11/06/2015 11:42:26][           CommitTransaction()] (-5001) Please select cost center.
+[11/06/2015 11:42:40][UploadDocument_ReceiptUpload()] (-5001) Please select cost center.
+[11/06/2015 12:26:23][                   Create_JE()] Cannot perform transaction in controlling type account  [JDT1.Account][line: 2] , '6-50010-00'
+[11/06/2015 12:26:23][          AR_IncomingPayment()] Cannot perform transaction in controlling type account  [JDT1.Account][line: 2] , '6-50010-00'
+[11/06/2015 12:26:23][       Process_ReceiptUpload()] Cannot perform transaction in controlling type account  [JDT1.Account][line: 2] , '6-50010-00'
+[11/06/2015 12:26:23][UploadDocument_ReceiptUpload()] Cannot perform transaction in controlling type account  [JDT1.Account][line: 2] , '6-50010-00'
+[11/13/2015 00:19:45][          AR_IncomingPayment()] Invoice Number ::'14002819' provided does not exist in SAP.
+[11/13/2015 00:19:45][          AR_IncomingPayment()] Invoice Number ::'14002819' provided does not exist in SAP.
+[11/13/2015 00:19:45][       Process_ReceiptUpload()] Invoice Number ::'14002819' provided does not exist in SAP.
+[11/13/2015 00:19:45][UploadDocument_ReceiptUpload()] Invoice Number ::'14002819' provided does not exist in SAP.

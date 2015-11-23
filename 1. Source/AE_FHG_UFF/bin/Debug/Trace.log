@@ -1,0 +1,1037 @@
+[08/18/2015 11:41:31][      GetSystemIntializeInfo()] Starting Function
+[08/18/2015 11:41:32][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/18/2015 11:42:03][                UFF_Generation] Starting Function
+[08/18/2015 11:42:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/18/2015 11:42:04][                UFF_Generation] Calling Function GenerateUFF()
+[08/18/2015 11:42:04][                 GenerateUFF()] Starting Function 
+[08/18/2015 11:42:04][                 GenerateUFF()] Completed With SUCCESS 
+[08/18/2015 11:42:04][                UFF_Generation] Function Completed successfully.
+[08/18/2015 13:20:11][                UFF_Generation] Starting Function
+[08/18/2015 13:20:11][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/18/2015 13:20:11][                UFF_Generation] Calling Function GenerateUFF()
+[08/18/2015 13:20:11][                 GenerateUFF()] Starting Function 
+[08/18/2015 13:20:11][                 GenerateUFF()] Completed With SUCCESS 
+[08/18/2015 13:20:11][                UFF_Generation] Function Completed successfully.
+[08/18/2015 13:33:13][                UFF_Generation] Starting Function
+[08/18/2015 13:33:13][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/18/2015 13:33:13][                UFF_Generation] Calling Function GenerateUFF()
+[08/18/2015 13:33:13][                 GenerateUFF()] Starting Function 
+[08/18/2015 13:33:13][                 GenerateUFF()] Completed With SUCCESS 
+[08/18/2015 13:33:13][                UFF_Generation] Function Completed successfully.
+[08/18/2015 13:36:03][                UFF_Generation] Starting Function
+[08/18/2015 13:36:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/18/2015 13:36:03][                UFF_Generation] Calling Function GenerateUFF()
+[08/18/2015 13:36:03][                 GenerateUFF()] Starting Function 
+[08/18/2015 13:36:03][                 GenerateUFF()] Completed With SUCCESS 
+[08/18/2015 13:36:03][                UFF_Generation] Function Completed successfully.
+[08/18/2015 13:38:03][                UFF_Generation] Starting Function
+[08/18/2015 13:38:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/18/2015 13:38:03][                UFF_Generation] Calling Function GenerateUFF()
+[08/18/2015 13:38:03][                 GenerateUFF()] Starting Function 
+[08/18/2015 13:38:03][                 GenerateUFF()] Completed With SUCCESS 
+[08/18/2015 13:38:03][                UFF_Generation] Function Completed successfully.
+[08/19/2015 10:42:48][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 10:42:48][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 10:43:15][                UFF_Generation] Starting Function
+[08/19/2015 10:43:15][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/19/2015 10:43:16][                UFF_Generation] Calling Function GenerateUFF()
+[08/19/2015 10:43:16][                 GenerateUFF()] Starting Function 
+[08/19/2015 10:43:16][                 GenerateUFF()] Completed With SUCCESS 
+[08/19/2015 10:43:16][                UFF_Generation] Function Completed successfully.
+[08/19/2015 10:48:55][                UFF_Generation] Starting Function
+[08/19/2015 10:48:55][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/19/2015 10:48:56][                UFF_Generation] Calling Function GenerateUFF()
+[08/19/2015 10:48:56][                 GenerateUFF()] Starting Function 
+[08/19/2015 10:48:56][                 GenerateUFF()] Completed With SUCCESS 
+[08/19/2015 10:48:56][                UFF_Generation] Function Completed successfully.
+[08/19/2015 11:20:41][                UFF_Generation] Starting Function
+[08/19/2015 11:20:41][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/19/2015 11:20:42][                UFF_Generation] Calling Function GenerateUFF()
+[08/19/2015 11:20:42][                 GenerateUFF()] Starting Function 
+[08/19/2015 11:20:42][                 GenerateUFF()] Completed With SUCCESS 
+[08/19/2015 11:20:42][                UFF_Generation] Function Completed successfully.
+[08/19/2015 11:41:21][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 11:41:21][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 11:53:23][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 11:53:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 11:59:29][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 11:59:29][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 23:40:40][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 23:40:40][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 23:41:00][                UFF_Generation] Starting Function
+[08/19/2015 23:41:05][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation_1" ('2741')
+[08/19/2015 23:41:18][                UFF_Generation] Calling Function FormatUFF()
+[08/19/2015 23:41:33][         Formatting The File()] Starting Function 
+[08/19/2015 23:44:50][         Formatting The File()] Completed With SUCCESS 
+[08/19/2015 23:44:58][                UFF_Generation] Calling Function GenerateUFF()
+[08/19/2015 23:45:01][                 GenerateUFF()] Starting Function 
+[08/19/2015 23:45:27][                 GenerateUFF()] Completed With SUCCESS 
+[08/19/2015 23:45:29][                UFF_Generation] Function Completed successfully.
+[08/19/2015 23:52:37][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 23:52:37][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 23:53:14][      GetSystemIntializeInfo()] Starting Function
+[08/19/2015 23:53:14][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/19/2015 23:53:35][                UFF_Generation] Starting Function
+[08/19/2015 23:53:35][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741')
+[08/19/2015 23:53:35][                UFF_Generation] Calling Function FormatUFF()
+[08/19/2015 23:53:35][         Formatting The File()] Starting Function 
+[08/19/2015 23:53:35][         Formatting The File()] Completed With SUCCESS 
+[08/19/2015 23:53:35][                UFF_Generation] Calling Function GenerateUFF()
+[08/19/2015 23:53:35][                 GenerateUFF()] Starting Function 
+[08/19/2015 23:53:35][                 GenerateUFF()] Completed With SUCCESS 
+[08/19/2015 23:53:35][                UFF_Generation] Function Completed successfully.
+[08/20/2015 10:48:00][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 10:48:00][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 10:50:06][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 10:50:06][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 10:51:10][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 10:51:10][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 10:53:20][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 10:53:20][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 10:59:02][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 10:59:02][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 10:59:40][                UFF_Generation] Starting Function
+[08/20/2015 10:59:40][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2771')
+[08/20/2015 11:06:21][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:06:21][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:07:43][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:07:43][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:08:11][                UFF_Generation] Starting Function
+[08/20/2015 11:08:11][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2772')
+[08/20/2015 11:09:19][                UFF_Generation] Starting Function
+[08/20/2015 11:09:19][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/20/2015 11:09:19][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:09:19][         Formatting The File()] Starting Function 
+[08/20/2015 11:09:19][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:09:19][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:09:19][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:09:19][                 GenerateUFF()] Completed with ERROR
+[08/20/2015 11:09:36][                UFF_Generation] Completed function with ERROR
+[08/20/2015 11:10:42][                UFF_Generation] Starting Function
+[08/20/2015 11:10:42][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/20/2015 11:10:46][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:10:47][         Formatting The File()] Starting Function 
+[08/20/2015 11:10:47][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:11:01][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:11:10][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:13:32][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:13:32][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:14:23][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:14:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:14:53][                UFF_Generation] Starting Function
+[08/20/2015 11:14:53][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/20/2015 11:14:58][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:14:58][         Formatting The File()] Starting Function 
+[08/20/2015 11:14:58][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:14:59][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:14:59][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:14:59][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:14:59][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:39:08][                UFF_Generation] Starting Function
+[08/20/2015 11:39:08][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 11:39:09][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:39:09][         Formatting The File()] Starting Function 
+[08/20/2015 11:39:09][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:39:09][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:39:09][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:39:09][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:39:09][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:41:25][                UFF_Generation] Starting Function
+[08/20/2015 11:41:25][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 11:41:25][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:41:25][         Formatting The File()] Starting Function 
+[08/20/2015 11:41:25][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:41:25][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:41:25][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:41:25][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:41:25][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:47:48][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:47:48][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:48:15][                UFF_Generation] Starting Function
+[08/20/2015 11:48:15][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:48:16][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:48:16][         Formatting The File()] Starting Function 
+[08/20/2015 11:48:16][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:48:16][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:48:16][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:48:16][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:48:16][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:48:40][                UFF_Generation] Starting Function
+[08/20/2015 11:48:40][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:48:40][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:48:40][         Formatting The File()] Starting Function 
+[08/20/2015 11:48:40][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:48:40][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:48:40][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:48:40][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:48:40][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:51:55][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:51:55][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:52:04][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:52:04][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:52:33][                UFF_Generation] Starting Function
+[08/20/2015 11:52:33][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 11:52:33][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:52:33][         Formatting The File()] Starting Function 
+[08/20/2015 11:52:33][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:52:33][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:52:34][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:52:34][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:52:34][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:53:03][                UFF_Generation] Starting Function
+[08/20/2015 11:53:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 11:53:03][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:53:03][         Formatting The File()] Starting Function 
+[08/20/2015 11:53:03][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:53:04][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:53:04][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:53:04][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:53:04][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:53:57][                UFF_Generation] Starting Function
+[08/20/2015 11:53:57][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/20/2015 11:53:57][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:53:58][         Formatting The File()] Starting Function 
+[08/20/2015 11:53:58][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:53:58][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:53:58][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:53:58][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:53:58][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:54:19][                UFF_Generation] Starting Function
+[08/20/2015 11:54:19][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:54:19][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:54:19][         Formatting The File()] Starting Function 
+[08/20/2015 11:54:19][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:54:19][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:54:19][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:54:19][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:54:19][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:54:48][                UFF_Generation] Starting Function
+[08/20/2015 11:54:48][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:54:48][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:54:48][         Formatting The File()] Starting Function 
+[08/20/2015 11:54:48][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:54:48][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:54:48][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:54:59][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:54:59][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:55:19][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:55:19][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:55:46][                UFF_Generation] Starting Function
+[08/20/2015 11:55:46][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:55:46][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:55:46][         Formatting The File()] Starting Function 
+[08/20/2015 11:55:46][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:55:46][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:55:46][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:55:53][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:55:53][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:56:45][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:56:45][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:57:09][                UFF_Generation] Starting Function
+[08/20/2015 11:57:09][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:57:10][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:57:10][         Formatting The File()] Starting Function 
+[08/20/2015 11:57:10][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:57:10][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:57:10][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:57:10][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 11:57:10][                UFF_Generation] Function Completed successfully.
+[08/20/2015 11:58:22][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:58:22][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:58:39][                UFF_Generation] Starting Function
+[08/20/2015 11:58:39][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 11:58:39][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 11:58:39][         Formatting The File()] Starting Function 
+[08/20/2015 11:58:39][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 11:58:39][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 11:58:39][                 GenerateUFF()] Starting Function 
+[08/20/2015 11:59:16][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 11:59:16][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 11:59:47][                UFF_Generation] Starting Function
+[08/20/2015 11:59:47][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773 ')
+[08/20/2015 12:00:43][                UFF_Generation] Starting Function
+[08/20/2015 12:00:43][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 12:00:44][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:00:44][         Formatting The File()] Starting Function 
+[08/20/2015 12:00:44][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:00:44][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:00:44][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:00:44][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:00:44][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:01:03][                UFF_Generation] Starting Function
+[08/20/2015 12:01:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:01:03][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:01:03][         Formatting The File()] Starting Function 
+[08/20/2015 12:01:03][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:01:03][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:01:03][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:01:04][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:01:04][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:08:08][                UFF_Generation] Starting Function
+[08/20/2015 12:08:13][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 12:08:29][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:08:29][         Formatting The File()] Starting Function 
+[08/20/2015 12:08:29][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:08:29][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:08:29][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:08:29][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:08:29][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:11:58][                UFF_Generation] Starting Function
+[08/20/2015 12:11:58][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 12:11:58][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:11:58][         Formatting The File()] Starting Function 
+[08/20/2015 12:11:58][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:12:34][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:13:01][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:16:17][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 12:16:17][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 12:16:58][                UFF_Generation] Starting Function
+[08/20/2015 12:16:58][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 12:16:58][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:17:22][         Formatting The File()] Starting Function 
+[08/20/2015 12:19:28][      GetSystemIntializeInfo()] Starting Function
+[08/20/2015 12:19:28][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/20/2015 12:20:01][                UFF_Generation] Starting Function
+[08/20/2015 12:20:01][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/20/2015 12:20:02][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:20:02][         Formatting The File()] Starting Function 
+[08/20/2015 12:20:02][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:20:07][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:20:07][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:20:07][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:20:07][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:21:32][                UFF_Generation] Starting Function
+[08/20/2015 12:21:32][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:21:33][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:21:33][         Formatting The File()] Starting Function 
+[08/20/2015 12:21:33][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:21:33][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:21:33][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:21:33][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:21:33][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:37:49][                UFF_Generation] Starting Function
+[08/20/2015 12:37:49][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:37:49][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:37:49][         Formatting The File()] Starting Function 
+[08/20/2015 12:37:49][         Formatting The File()] Completed with ERROR
+[08/20/2015 12:38:01][                UFF_Generation] Completed function with ERROR
+[08/20/2015 12:39:10][                UFF_Generation] Starting Function
+[08/20/2015 12:39:10][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:39:10][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:39:10][         Formatting The File()] Starting Function 
+[08/20/2015 12:39:10][         Formatting The File()] Completed with ERROR
+[08/20/2015 12:39:16][                UFF_Generation] Completed function with ERROR
+[08/20/2015 12:39:26][                UFF_Generation] Starting Function
+[08/20/2015 12:39:26][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:39:27][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:39:47][         Formatting The File()] Starting Function 
+[08/20/2015 12:39:47][         Formatting The File()] Completed with ERROR
+[08/20/2015 12:40:13][                UFF_Generation] Completed function with ERROR
+[08/20/2015 12:40:15][                UFF_Generation] Starting Function
+[08/20/2015 12:40:15][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/20/2015 12:40:15][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:40:20][         Formatting The File()] Starting Function 
+[08/20/2015 12:40:20][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:40:20][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:40:20][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:40:20][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:40:20][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:42:10][                UFF_Generation] Starting Function
+[08/20/2015 12:42:10][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/20/2015 12:42:10][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:42:10][         Formatting The File()] Starting Function 
+[08/20/2015 12:42:10][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:42:10][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:42:10][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:42:10][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:42:10][                UFF_Generation] Function Completed successfully.
+[08/20/2015 12:46:45][                UFF_Generation] Starting Function
+[08/20/2015 12:46:45][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/20/2015 12:46:45][                UFF_Generation] Calling Function FormatUFF()
+[08/20/2015 12:46:45][         Formatting The File()] Starting Function 
+[08/20/2015 12:46:45][         Formatting The File()] Completed With SUCCESS 
+[08/20/2015 12:46:45][                UFF_Generation] Calling Function GenerateUFF()
+[08/20/2015 12:46:45][                 GenerateUFF()] Starting Function 
+[08/20/2015 12:46:45][                 GenerateUFF()] Completed With SUCCESS 
+[08/20/2015 12:46:45][                UFF_Generation] Function Completed successfully.
+[08/25/2015 14:15:13][      GetSystemIntializeInfo()] Starting Function
+[08/25/2015 14:15:13][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/25/2015 14:17:02][                UFF_Generation] Starting Function
+[08/25/2015 14:17:02][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773')
+[08/25/2015 14:17:02][                UFF_Generation] Calling Function FormatUFF()
+[08/25/2015 14:17:02][         Formatting The File()] Starting Function 
+[08/25/2015 14:17:02][         Formatting The File()] Completed With SUCCESS 
+[08/25/2015 14:17:02][                UFF_Generation] Calling Function GenerateUFF()
+[08/25/2015 14:17:02][                 GenerateUFF()] Starting Function 
+[08/25/2015 14:17:02][                 GenerateUFF()] Completed With SUCCESS 
+[08/25/2015 14:17:02][                UFF_Generation] Function Completed successfully.
+[08/25/2015 14:17:28][                UFF_Generation] Starting Function
+[08/25/2015 14:17:28][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774')
+[08/25/2015 14:17:28][                UFF_Generation] Calling Function FormatUFF()
+[08/25/2015 14:17:28][         Formatting The File()] Starting Function 
+[08/25/2015 14:17:28][         Formatting The File()] Completed With SUCCESS 
+[08/25/2015 14:17:28][                UFF_Generation] Calling Function GenerateUFF()
+[08/25/2015 14:17:28][                 GenerateUFF()] Starting Function 
+[08/25/2015 14:17:28][                 GenerateUFF()] Completed With SUCCESS 
+[08/25/2015 14:17:28][                UFF_Generation] Function Completed successfully.
+[08/25/2015 14:17:55][                UFF_Generation] Starting Function
+[08/25/2015 14:17:55][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742')
+[08/25/2015 14:17:55][                UFF_Generation] Calling Function FormatUFF()
+[08/25/2015 14:17:55][         Formatting The File()] Starting Function 
+[08/25/2015 14:17:55][         Formatting The File()] Completed With SUCCESS 
+[08/25/2015 14:17:55][                UFF_Generation] Calling Function GenerateUFF()
+[08/25/2015 14:17:55][                 GenerateUFF()] Starting Function 
+[08/25/2015 14:17:55][                 GenerateUFF()] Completed With SUCCESS 
+[08/25/2015 14:17:55][                UFF_Generation] Function Completed successfully.
+[08/25/2015 14:18:23][                UFF_Generation] Starting Function
+[08/25/2015 14:18:23][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743')
+[08/25/2015 14:18:23][                UFF_Generation] Calling Function FormatUFF()
+[08/25/2015 14:18:23][         Formatting The File()] Starting Function 
+[08/25/2015 14:18:23][         Formatting The File()] Completed With SUCCESS 
+[08/25/2015 14:18:23][                UFF_Generation] Calling Function GenerateUFF()
+[08/25/2015 14:18:23][                 GenerateUFF()] Starting Function 
+[08/25/2015 14:18:23][                 GenerateUFF()] Completed With SUCCESS 
+[08/25/2015 14:18:23][                UFF_Generation] Function Completed successfully.
+[08/26/2015 13:16:57][      GetSystemIntializeInfo()] Starting Function
+[08/26/2015 13:16:57][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/26/2015 13:23:29][      GetSystemIntializeInfo()] Starting Function
+[08/26/2015 13:23:29][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 10:28:42][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 10:28:42][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:05:39][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:05:39][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:14:56][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:14:56][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:15:00][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:15:04][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:16:44][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:16:44][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:16:46][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:16:46][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:17:22][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:17:22][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:17:24][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:17:24][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:18:37][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:18:37][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:18:39][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:18:39][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:35:19][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:35:19][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:35:22][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:35:22][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:35:50][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:35:50][           btnGenerate_Click()] Validation Msg: Date cannot be blank  
+[08/27/2015 11:35:55][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:35:55][           btnGenerate_Click()] Validation Msg: Batch No. cannot be blank 
+[08/27/2015 11:36:11][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:36:11][           btnGenerate_Click()] Validation Msg: Company Type cannot be blank 
+[08/27/2015 11:36:23][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:36:23][           btnGenerate_Click()] Template Type M
+[08/27/2015 11:36:23][           btnGenerate_Click()] Calling Function UFF_Generation()
+[08/27/2015 11:36:23][                UFF_Generation] Starting Function
+[08/27/2015 11:36:23][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773', 'M')
+[08/27/2015 11:36:29][                UFF_Generation] No Matches Records 
+[08/27/2015 11:38:12][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:38:12][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:38:47][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:38:47][           btnGenerate_Click()] Template Type M
+[08/27/2015 11:38:47][           btnGenerate_Click()] Calling Function UFF_Generation()
+[08/27/2015 11:38:47][                UFF_Generation] Starting Function
+[08/27/2015 11:38:47][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773', 'M')
+[08/27/2015 11:38:54][                UFF_Generation] No Matches Records Found 
+[08/27/2015 11:41:40][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:41:40][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:41:43][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:41:43][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 11:42:05][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:42:05][           btnGenerate_Click()] Validation Msg: Date cannot be blank  
+[08/27/2015 11:42:08][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:42:08][           btnGenerate_Click()] Validation Msg: Batch No. cannot be blank 
+[08/27/2015 11:42:17][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:42:17][           btnGenerate_Click()] Validation Msg: Company Type cannot be blank 
+[08/27/2015 11:42:24][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:42:24][           btnGenerate_Click()] Template Type M
+[08/27/2015 11:42:24][           btnGenerate_Click()] Calling Function UFF_Generation()
+[08/27/2015 11:42:24][                UFF_Generation] Starting Function
+[08/27/2015 11:42:24][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773', 'M')
+[08/27/2015 11:42:24][                UFF_Generation] No Matches Records Found 
+[08/27/2015 11:42:36][           btnGenerate_Click()] Starting Function 
+[08/27/2015 11:42:36][           btnGenerate_Click()] Template Type S
+[08/27/2015 11:42:36][           btnGenerate_Click()] Calling Function UFF_Generation()
+[08/27/2015 11:42:36][                UFF_Generation] Starting Function
+[08/27/2015 11:42:36][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773', 'S')
+[08/27/2015 11:42:37][                UFF_Generation] Calling Function FormatUFF()
+[08/27/2015 11:42:37][         Formatting The File()] Starting Function 
+[08/27/2015 11:42:37][         Formatting The File()] Completed With SUCCESS 
+[08/27/2015 11:42:37][                UFF_Generation] Calling Function GenerateUFF()
+[08/27/2015 11:42:37][                 GenerateUFF()] Starting Function 
+[08/27/2015 11:42:37][                 GenerateUFF()] Completed With SUCCESS 
+[08/27/2015 11:42:37][                UFF_Generation] Function Completed successfully.
+[08/27/2015 11:53:07][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:53:07][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 11:56:35][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 11:56:35][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 12:04:54][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 12:04:54][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 12:04:56][           btnGenerate_Click()] Starting Function 
+[08/27/2015 12:04:56][           btnGenerate_Click()] Validation Msg: Folder path cannot be blank 
+[08/27/2015 12:05:26][           btnGenerate_Click()] Starting Function 
+[08/27/2015 12:05:26][           btnGenerate_Click()] Validation Msg: Template Type cannot be blank 
+[08/27/2015 12:05:28][           btnGenerate_Click()] Starting Function 
+[08/27/2015 12:05:28][           btnGenerate_Click()] Validation Msg: Template Type cannot be blank 
+[08/27/2015 12:05:32][           btnGenerate_Click()] Starting Function 
+[08/27/2015 12:05:32][           btnGenerate_Click()] Template Type S
+[08/27/2015 12:05:32][           btnGenerate_Click()] Calling Function UFF_Generation()
+[08/27/2015 12:05:32][                UFF_Generation] Starting Function
+[08/27/2015 12:05:32][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773,2774', 'S')
+[08/27/2015 12:05:32][                UFF_Generation] Calling Function FormatUFF()
+[08/27/2015 12:05:32][         Formatting The File()] Starting Function 
+[08/27/2015 12:05:32][         Formatting The File()] Completed With SUCCESS 
+[08/27/2015 12:05:32][                UFF_Generation] Calling Function GenerateUFF()
+[08/27/2015 12:05:32][                 GenerateUFF()] Starting Function 
+[08/27/2015 12:05:32][                 GenerateUFF()] Completed With SUCCESS 
+[08/27/2015 12:05:32][                UFF_Generation] Function Completed successfully.
+[08/27/2015 12:08:12][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 12:08:12][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/27/2015 12:08:27][      GetSystemIntializeInfo()] Starting Function
+[08/27/2015 12:08:27][      GetSystemIntializeInfo()] Completed with SUCCESS
+[09/10/2015 11:02:16][      GetSystemIntializeInfo()] Starting Function
+[09/10/2015 11:02:16][      GetSystemIntializeInfo()] Completed with SUCCESS
+[09/10/2015 11:02:55][           btnGenerate_Click()] Starting Function 
+[09/10/2015 11:02:55][           btnGenerate_Click()] Template Type S
+[09/10/2015 11:02:55][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 11:02:55][                UFF_Generation] Starting Function
+[09/10/2015 11:02:55][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773,2774', 'S')
+[09/10/2015 11:02:56][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 11:02:56][         Formatting The File()] Starting Function 
+[09/10/2015 11:02:56][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 11:02:56][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 11:02:56][                 GenerateUFF()] Starting Function 
+[09/10/2015 11:02:56][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 11:02:56][                UFF_Generation] Function Completed successfully.
+[09/10/2015 11:03:47][           btnGenerate_Click()] Starting Function 
+[09/10/2015 11:03:47][           btnGenerate_Click()] Template Type M
+[09/10/2015 11:03:47][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 11:03:47][                UFF_Generation] Starting Function
+[09/10/2015 11:03:47][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[09/10/2015 11:03:48][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 11:03:48][         Formatting The File()] Starting Function 
+[09/10/2015 11:03:48][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 11:03:48][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 11:03:48][                 GenerateUFF()] Starting Function 
+[09/10/2015 11:03:48][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 11:03:48][                UFF_Generation] Function Completed successfully.
+[09/10/2015 11:03:54][           btnGenerate_Click()] Starting Function 
+[09/10/2015 11:03:54][           btnGenerate_Click()] Template Type M
+[09/10/2015 11:03:54][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 11:03:54][                UFF_Generation] Starting Function
+[09/10/2015 11:03:54][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[09/10/2015 11:03:55][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 11:03:55][         Formatting The File()] Starting Function 
+[09/10/2015 11:03:55][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 11:03:55][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 11:03:55][                 GenerateUFF()] Starting Function 
+[09/10/2015 11:03:55][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 11:03:55][                UFF_Generation] Function Completed successfully.
+[09/10/2015 12:06:33][      GetSystemIntializeInfo()] Starting Function
+[09/10/2015 12:06:33][      GetSystemIntializeInfo()] Completed with SUCCESS
+[09/10/2015 12:07:10][           btnGenerate_Click()] Starting Function 
+[09/10/2015 12:07:10][           btnGenerate_Click()] Template Type M
+[09/10/2015 12:07:10][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 12:07:10][                UFF_Generation] Starting Function
+[09/10/2015 12:07:10][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743', 'M')
+[09/10/2015 12:07:10][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 12:07:10][         Formatting The File()] Starting Function 
+[09/10/2015 12:07:10][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 12:07:10][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 12:07:10][                 GenerateUFF()] Starting Function 
+[09/10/2015 12:08:40][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 12:08:40][                UFF_Generation] Function Completed successfully.
+[09/10/2015 12:08:47][           btnGenerate_Click()] Starting Function 
+[09/10/2015 12:08:47][           btnGenerate_Click()] Template Type M
+[09/10/2015 12:08:47][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 12:08:47][                UFF_Generation] Starting Function
+[09/10/2015 12:08:47][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743', 'M')
+[09/10/2015 12:09:34][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 12:09:50][         Formatting The File()] Starting Function 
+[09/10/2015 12:10:41][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 12:10:48][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 12:11:00][                 GenerateUFF()] Starting Function 
+[09/10/2015 12:11:00][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 12:11:00][                UFF_Generation] Function Completed successfully.
+[09/10/2015 12:11:51][           btnGenerate_Click()] Starting Function 
+[09/10/2015 12:11:51][           btnGenerate_Click()] Template Type M
+[09/10/2015 12:11:51][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 12:11:51][                UFF_Generation] Starting Function
+[09/10/2015 12:11:51][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[09/10/2015 12:11:52][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 12:11:52][         Formatting The File()] Starting Function 
+[09/10/2015 12:11:52][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 12:11:52][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 12:11:52][                 GenerateUFF()] Starting Function 
+[09/10/2015 12:11:52][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 12:11:52][                UFF_Generation] Function Completed successfully.
+[09/10/2015 12:12:31][           btnGenerate_Click()] Starting Function 
+[09/10/2015 12:12:31][           btnGenerate_Click()] Template Type S
+[09/10/2015 12:12:31][           btnGenerate_Click()] Calling Function UFF_Generation()
+[09/10/2015 12:12:31][                UFF_Generation] Starting Function
+[09/10/2015 12:12:31][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2773,2774', 'S')
+[09/10/2015 12:12:31][                UFF_Generation] Calling Function FormatUFF()
+[09/10/2015 12:12:31][         Formatting The File()] Starting Function 
+[09/10/2015 12:12:31][         Formatting The File()] Completed With SUCCESS 
+[09/10/2015 12:12:31][                UFF_Generation] Calling Function GenerateUFF()
+[09/10/2015 12:12:31][                 GenerateUFF()] Starting Function 
+[09/10/2015 12:12:31][                 GenerateUFF()] Completed With SUCCESS 
+[09/10/2015 12:12:31][                UFF_Generation] Function Completed successfully.
+[10/12/2015 14:12:25][      GetSystemIntializeInfo()] Starting Function
+[10/12/2015 14:12:25][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 16:41:24][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 16:41:24][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 16:47:28][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 16:47:28][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 16:52:20][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 16:52:20][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 16:54:55][           btnGenerate_Click()] Starting Function 
+[10/26/2015 16:54:55][           btnGenerate_Click()] Template Type M
+[10/26/2015 16:54:55][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 16:54:55][                UFF_Generation] Starting Function
+[10/26/2015 16:54:55][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/26/2015 16:54:59][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 16:54:59][         Formatting The File()] Starting Function 
+[10/26/2015 16:54:59][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 16:54:59][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 16:54:59][                 GenerateUFF()] Starting Function 
+[10/26/2015 16:54:59][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 16:54:59][                UFF_Generation] Function Completed successfully.
+[10/26/2015 16:58:03][           btnGenerate_Click()] Starting Function 
+[10/26/2015 16:58:03][           btnGenerate_Click()] Template Type M
+[10/26/2015 16:58:03][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 16:58:03][                UFF_Generation] Starting Function
+[10/26/2015 16:58:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/26/2015 16:58:04][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 16:58:04][         Formatting The File()] Starting Function 
+[10/26/2015 16:58:04][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 16:58:04][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 16:58:04][                 GenerateUFF()] Starting Function 
+[10/26/2015 16:58:04][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 16:58:04][                UFF_Generation] Function Completed successfully.
+[10/26/2015 16:59:34][           btnGenerate_Click()] Starting Function 
+[10/26/2015 16:59:34][           btnGenerate_Click()] Template Type S
+[10/26/2015 16:59:34][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 16:59:34][                UFF_Generation] Starting Function
+[10/26/2015 16:59:34][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2772,2773', 'S')
+[10/26/2015 16:59:34][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 16:59:34][         Formatting The File()] Starting Function 
+[10/26/2015 16:59:34][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 16:59:34][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 16:59:34][                 GenerateUFF()] Starting Function 
+[10/26/2015 16:59:34][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 16:59:34][                UFF_Generation] Function Completed successfully.
+[10/26/2015 16:59:49][           btnGenerate_Click()] Starting Function 
+[10/26/2015 16:59:49][           btnGenerate_Click()] Template Type S
+[10/26/2015 16:59:49][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 16:59:49][                UFF_Generation] Starting Function
+[10/26/2015 16:59:49][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2772,2773', 'S')
+[10/26/2015 16:59:49][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 16:59:49][         Formatting The File()] Starting Function 
+[10/26/2015 16:59:49][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 16:59:49][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 16:59:49][                 GenerateUFF()] Starting Function 
+[10/26/2015 16:59:49][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 16:59:49][                UFF_Generation] Function Completed successfully.
+[10/26/2015 17:50:49][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 17:50:49][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 17:52:03][           btnGenerate_Click()] Starting Function 
+[10/26/2015 17:52:03][           btnGenerate_Click()] Template Type M
+[10/26/2015 17:52:03][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 17:52:03][                UFF_Generation] Starting Function
+[10/26/2015 17:52:03][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/26/2015 17:52:04][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 17:52:04][         Formatting The File()] Starting Function 
+[10/26/2015 17:52:04][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 17:52:04][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 17:52:04][                 GenerateUFF()] Starting Function 
+[10/26/2015 17:52:04][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 17:52:04][                UFF_Generation] Function Completed successfully.
+[10/26/2015 17:52:30][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/26/2015 17:52:45][              MoveAllItemsTo()] Starting Function
+[10/26/2015 17:52:59][              MoveAllItemsTo()] Starting Function
+[10/26/2015 17:53:12][           btnGenerate_Click()] Calling Encryption()
+[10/26/2015 17:53:32][             FileMoveToArchive] Starting Function
+[10/26/2015 17:53:43][             FileMoveToArchive] Getting all the files from the Input folder
+[10/26/2015 17:53:54][             FileMoveToArchive] Encrypting the file... File Name : 20151026_17.52.04FUHEGRO3.txt
+[10/26/2015 17:54:29][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151026_17.52.04FUHEGRO3.txt
+[10/26/2015 17:54:29][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/26/2015 17:55:55][             FileMoveToArchive] Starting Function
+[10/26/2015 17:56:00][             FileMoveToArchive] Completed With SUCCESS
+[10/26/2015 17:56:09][             FileMoveToArchive] Completed With SUCCESS
+[10/26/2015 18:01:15][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 18:01:15][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 18:03:30][           btnGenerate_Click()] Starting Function 
+[10/26/2015 18:03:30][           btnGenerate_Click()] Template Type M
+[10/26/2015 18:03:30][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 18:03:30][                UFF_Generation] Starting Function
+[10/26/2015 18:03:30][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/26/2015 18:03:30][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 18:03:30][         Formatting The File()] Starting Function 
+[10/26/2015 18:03:30][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 18:03:30][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 18:03:30][                 GenerateUFF()] Starting Function 
+[10/26/2015 18:03:30][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 18:03:30][                UFF_Generation] Function Completed successfully.
+[10/26/2015 18:04:28][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/26/2015 18:04:28][              MoveAllItemsTo()] Starting Function
+[10/26/2015 18:04:28][              MoveAllItemsTo()] Starting Function
+[10/26/2015 18:04:28][           btnGenerate_Click()] Calling Encryption()
+[10/26/2015 18:04:28][             FileMoveToArchive] Starting Function
+[10/26/2015 18:04:28][             FileMoveToArchive] Getting all the files from the Input folder
+[10/26/2015 18:04:28][             FileMoveToArchive] Encrypting the file... File Name : 20151026_18.03.30FUHEGRO3.txt
+[10/26/2015 18:04:43][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151026_18.03.30FUHEGRO3.txt
+[10/26/2015 18:04:43][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/26/2015 18:04:43][             FileMoveToArchive] Starting Function
+[10/26/2015 18:04:44][             FileMoveToArchive] Error in renaming/copying/moving
+[10/26/2015 18:04:44][             FileMoveToArchive] Completed With ERROR
+[10/26/2015 18:06:51][      GetSystemIntializeInfo()] Starting Function
+[10/26/2015 18:06:51][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/26/2015 18:08:57][           btnGenerate_Click()] Starting Function 
+[10/26/2015 18:08:57][           btnGenerate_Click()] Template Type M
+[10/26/2015 18:08:57][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/26/2015 18:08:57][                UFF_Generation] Starting Function
+[10/26/2015 18:08:57][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/26/2015 18:08:59][                UFF_Generation] Calling Function FormatUFF()
+[10/26/2015 18:08:59][         Formatting The File()] Starting Function 
+[10/26/2015 18:08:59][         Formatting The File()] Completed With SUCCESS 
+[10/26/2015 18:08:59][                UFF_Generation] Calling Function GenerateUFF()
+[10/26/2015 18:08:59][                 GenerateUFF()] Starting Function 
+[10/26/2015 18:08:59][                 GenerateUFF()] Completed With SUCCESS 
+[10/26/2015 18:08:59][                UFF_Generation] Function Completed successfully.
+[10/26/2015 18:08:59][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/26/2015 18:08:59][              MoveAllItemsTo()] Starting Function
+[10/26/2015 18:08:59][              MoveAllItemsTo()] Starting Function
+[10/26/2015 18:08:59][           btnGenerate_Click()] Calling Encryption()
+[10/26/2015 18:08:59][             FileMoveToArchive] Starting Function
+[10/26/2015 18:08:59][             FileMoveToArchive] Getting all the files from the Input folder
+[10/26/2015 18:08:59][             FileMoveToArchive] Encrypting the file... File Name : 20151026_18.03.30FUHEGRO3.txt
+[10/26/2015 18:09:14][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151026_18.03.30FUHEGRO3.txt
+[10/26/2015 18:09:14][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/26/2015 18:09:14][             FileMoveToArchive] Starting Function
+[10/26/2015 18:09:14][             FileMoveToArchive] Completed With SUCCESS
+[10/26/2015 18:09:14][             FileMoveToArchive] Encrypting the file... File Name : 20151026_18.08.59FUHEGRO3.txt
+[10/26/2015 18:09:29][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151026_18.08.59FUHEGRO3.txt
+[10/26/2015 18:09:29][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/26/2015 18:09:29][             FileMoveToArchive] Starting Function
+[10/26/2015 18:09:29][             FileMoveToArchive] Completed With SUCCESS
+[10/26/2015 18:09:29][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 11:09:59][      GetSystemIntializeInfo()] Starting Function
+[10/27/2015 11:09:59][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/27/2015 11:11:40][           btnGenerate_Click()] Starting Function 
+[10/27/2015 11:11:40][           btnGenerate_Click()] Template Type M
+[10/27/2015 11:11:40][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/27/2015 11:11:40][                UFF_Generation] Starting Function
+[10/27/2015 11:11:40][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2742,2743', 'M')
+[10/27/2015 11:11:40][                UFF_Generation] Calling Function FormatUFF()
+[10/27/2015 11:11:40][         Formatting The File()] Starting Function 
+[10/27/2015 11:11:40][         Formatting The File()] Completed With SUCCESS 
+[10/27/2015 11:11:40][                UFF_Generation] Calling Function GenerateUFF()
+[10/27/2015 11:11:40][                 GenerateUFF()] Starting Function 
+[10/27/2015 11:11:40][                 GenerateUFF()] Completed With SUCCESS 
+[10/27/2015 11:11:40][                UFF_Generation] Function Completed successfully.
+[10/27/2015 11:11:40][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/27/2015 11:11:40][              MoveAllItemsTo()] Starting Function
+[10/27/2015 11:11:40][              MoveAllItemsTo()] Starting Function
+[10/27/2015 11:11:40][           btnGenerate_Click()] Calling Encryption()
+[10/27/2015 11:11:40][             FileMoveToArchive] Starting Function
+[10/27/2015 11:11:40][             FileMoveToArchive] Getting all the files from the Input folder
+[10/27/2015 11:11:40][             FileMoveToArchive] Encrypting the file... File Name : 20151027_11.07.32FUHEGRO3.txt
+[10/27/2015 11:11:55][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151027_11.07.32FUHEGRO3.txt
+[10/27/2015 11:11:55][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/27/2015 11:11:55][             FileMoveToArchive] Starting Function
+[10/27/2015 11:11:55][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 11:11:55][             FileMoveToArchive] Encrypting the file... File Name : 20151027_11.11.40FUHEGRO3.txt
+[10/27/2015 11:12:10][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151027_11.11.40FUHEGRO3.txt
+[10/27/2015 11:12:10][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/27/2015 11:12:10][             FileMoveToArchive] Starting Function
+[10/27/2015 11:12:10][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 11:12:10][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 14:14:00][      GetSystemIntializeInfo()] Starting Function
+[10/27/2015 14:14:00][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/27/2015 14:58:43][      GetSystemIntializeInfo()] Starting Function
+[10/27/2015 14:58:43][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/27/2015 15:01:51][           btnGenerate_Click()] Starting Function 
+[10/27/2015 15:01:51][           btnGenerate_Click()] Template Type M
+[10/27/2015 15:01:51][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/27/2015 15:01:51][                UFF_Generation] Starting Function
+[10/27/2015 15:01:51][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743,2742', 'M')
+[10/27/2015 15:01:51][                UFF_Generation] Calling Function FormatUFF()
+[10/27/2015 15:01:51][         Formatting The File()] Starting Function 
+[10/27/2015 15:01:51][         Formatting The File()] Completed With SUCCESS 
+[10/27/2015 15:01:51][                UFF_Generation] Calling Function GenerateUFF()
+[10/27/2015 15:01:51][                 GenerateUFF()] Starting Function 
+[10/27/2015 15:01:51][                 GenerateUFF()] Completed With SUCCESS 
+[10/27/2015 15:01:51][                UFF_Generation] Function Completed successfully.
+[10/27/2015 15:01:51][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/27/2015 15:01:51][              MoveAllItemsTo()] Starting Function
+[10/27/2015 15:01:51][              MoveAllItemsTo()] Starting Function
+[10/27/2015 15:01:51][           btnGenerate_Click()] Calling Encryption()
+[10/27/2015 15:01:51][             FileMoveToArchive] Starting Function
+[10/27/2015 15:01:51][             FileMoveToArchive] Getting all the files from the Input folder
+[10/27/2015 15:01:51][             FileMoveToArchive] Encrypting the file... File Name : 20151027_15.01.51FUHEGRO3.txt
+[10/27/2015 15:02:06][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151027_15.01.51FUHEGRO3.txt
+[10/27/2015 15:02:06][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/27/2015 15:02:06][             FileMoveToArchive] Starting Function
+[10/27/2015 15:02:06][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 15:02:06][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 15:02:06][           btnGenerate_Click()] Starting Function 
+[10/27/2015 15:02:06][           btnGenerate_Click()] Template Type M
+[10/27/2015 15:02:06][           btnGenerate_Click()] Calling Function UFF_Generation()
+[10/27/2015 15:02:06][                UFF_Generation] Starting Function
+[10/27/2015 15:02:06][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2743,2742', 'M')
+[10/27/2015 15:02:07][                UFF_Generation] Calling Function FormatUFF()
+[10/27/2015 15:02:07][         Formatting The File()] Starting Function 
+[10/27/2015 15:02:07][         Formatting The File()] Completed With SUCCESS 
+[10/27/2015 15:02:07][                UFF_Generation] Calling Function GenerateUFF()
+[10/27/2015 15:02:07][                 GenerateUFF()] Starting Function 
+[10/27/2015 15:02:07][                 GenerateUFF()] Completed With SUCCESS 
+[10/27/2015 15:02:07][                UFF_Generation] Function Completed successfully.
+[10/27/2015 15:02:07][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[10/27/2015 15:02:07][              MoveAllItemsTo()] Starting Function
+[10/27/2015 15:02:07][              MoveAllItemsTo()] Starting Function
+[10/27/2015 15:02:07][           btnGenerate_Click()] Calling Encryption()
+[10/27/2015 15:02:07][             FileMoveToArchive] Starting Function
+[10/27/2015 15:02:07][             FileMoveToArchive] Getting all the files from the Input folder
+[10/27/2015 15:02:07][             FileMoveToArchive] Encrypting the file... File Name : 20151027_15.02.07FUHEGRO3.txt
+[10/27/2015 15:02:22][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151027_15.02.07FUHEGRO3.txt
+[10/27/2015 15:02:22][             FileMoveToArchive] Calling FileMoveToLocation()
+[10/27/2015 15:02:22][             FileMoveToArchive] Starting Function
+[10/27/2015 15:02:22][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 15:02:22][             FileMoveToArchive] Completed With SUCCESS
+[10/27/2015 15:26:04][      GetSystemIntializeInfo()] Starting Function
+[10/27/2015 15:26:04][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/27/2015 15:26:32][      GetSystemIntializeInfo()] Starting Function
+[10/27/2015 15:26:32][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/23/2015 16:36:19][      GetSystemIntializeInfo()] Starting Function
+[11/23/2015 16:36:19][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/23/2015 16:39:31][      GetSystemIntializeInfo()] Starting Function
+[11/23/2015 16:39:31][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/23/2015 16:44:32][           btnGenerate_Click()] Starting Function 
+[11/23/2015 16:44:33][           btnGenerate_Click()] Template Type M
+[11/23/2015 16:44:33][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 16:44:33][                UFF_Generation] Starting Function
+[11/23/2015 16:44:33][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'M')
+[11/23/2015 16:44:33][                UFF_Generation] No Matches Records Found 
+[11/23/2015 16:44:35][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 16:44:35][              MoveAllItemsTo()] Starting Function
+[11/23/2015 16:44:35][              MoveAllItemsTo()] Starting Function
+[11/23/2015 16:44:35][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 16:44:35][             FileMoveToArchive] Starting Function
+[11/23/2015 16:44:35][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 16:44:35][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 16:59:32][           btnGenerate_Click()] Starting Function 
+[11/23/2015 16:59:32][           btnGenerate_Click()] Template Type M
+[11/23/2015 16:59:32][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 16:59:32][                UFF_Generation] Starting Function
+[11/23/2015 16:59:32][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('1234', 'M')
+[11/23/2015 16:59:32][                UFF_Generation] No Matches Records Found 
+[11/23/2015 16:59:33][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 16:59:33][              MoveAllItemsTo()] Starting Function
+[11/23/2015 16:59:33][              MoveAllItemsTo()] Starting Function
+[11/23/2015 16:59:33][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 16:59:33][             FileMoveToArchive] Starting Function
+[11/23/2015 16:59:33][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 16:59:33][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:01:44][      GetSystemIntializeInfo()] Starting Function
+[11/23/2015 17:01:44][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/23/2015 17:19:53][      GetSystemIntializeInfo()] Starting Function
+[11/23/2015 17:19:53][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/23/2015 17:22:18][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:22:19][           btnGenerate_Click()] Validation Msg: Date cannot be blank  
+[11/23/2015 17:22:27][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:22:27][           btnGenerate_Click()] Template Type M
+[11/23/2015 17:22:27][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:22:27][                UFF_Generation] Starting Function
+[11/23/2015 17:22:27][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'M')
+[11/23/2015 17:22:27][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:22:30][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:22:30][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:22:30][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:22:30][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:22:30][             FileMoveToArchive] Starting Function
+[11/23/2015 17:22:30][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:22:30][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:23:11][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:23:11][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:23:11][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:23:11][                UFF_Generation] Starting Function
+[11/23/2015 17:23:11][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'S')
+[11/23/2015 17:23:11][                UFF_Generation] Calling Function FormatUFF()
+[11/23/2015 17:23:11][         Formatting The File()] Starting Function 
+[11/23/2015 17:23:11][         Formatting The File()] Completed With SUCCESS 
+[11/23/2015 17:23:11][                UFF_Generation] Calling Function GenerateUFF()
+[11/23/2015 17:23:11][                 GenerateUFF()] Starting Function 
+[11/23/2015 17:23:11][                 GenerateUFF()] Completed With SUCCESS 
+[11/23/2015 17:23:11][                UFF_Generation] Function Completed successfully.
+[11/23/2015 17:23:11][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:23:11][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:23:11][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:23:11][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:23:11][             FileMoveToArchive] Starting Function
+[11/23/2015 17:23:11][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:23:11][             FileMoveToArchive] Encrypting the file... File Name : 20151123_17.23.11FUHEGRO3.txt
+[11/23/2015 17:23:26][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151123_17.23.11FUHEGRO3.txt
+[11/23/2015 17:23:26][             FileMoveToArchive] Calling FileMoveToLocation()
+[11/23/2015 17:23:26][             FileMoveToArchive] Starting Function
+[11/23/2015 17:23:26][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:23:26][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:27:14][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:27:14][           btnGenerate_Click()] Template Type M
+[11/23/2015 17:27:14][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:27:14][                UFF_Generation] Starting Function
+[11/23/2015 17:27:14][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'M')
+[11/23/2015 17:27:14][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:27:15][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:27:15][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:27:15][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:27:15][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:27:15][             FileMoveToArchive] Starting Function
+[11/23/2015 17:27:15][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:27:15][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:27:18][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:27:18][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:27:18][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:27:18][                UFF_Generation] Starting Function
+[11/23/2015 17:27:18][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'S')
+[11/23/2015 17:27:19][                UFF_Generation] Calling Function FormatUFF()
+[11/23/2015 17:27:19][         Formatting The File()] Starting Function 
+[11/23/2015 17:27:19][         Formatting The File()] Completed With SUCCESS 
+[11/23/2015 17:27:19][                UFF_Generation] Calling Function GenerateUFF()
+[11/23/2015 17:27:19][                 GenerateUFF()] Starting Function 
+[11/23/2015 17:27:19][                 GenerateUFF()] Completed With SUCCESS 
+[11/23/2015 17:27:19][                UFF_Generation] Function Completed successfully.
+[11/23/2015 17:27:19][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:27:19][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:27:19][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:27:19][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:27:19][             FileMoveToArchive] Starting Function
+[11/23/2015 17:27:19][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:27:19][             FileMoveToArchive] Encrypting the file... File Name : 20151123_17.27.19FUHEGRO3.txt
+[11/23/2015 17:27:34][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151123_17.27.19FUHEGRO3.txt
+[11/23/2015 17:27:34][             FileMoveToArchive] Calling FileMoveToLocation()
+[11/23/2015 17:27:34][             FileMoveToArchive] Starting Function
+[11/23/2015 17:27:34][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:27:34][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:33:07][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:33:07][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:33:07][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:33:07][                UFF_Generation] Starting Function
+[11/23/2015 17:33:07][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'S')
+[11/23/2015 17:33:07][                UFF_Generation] Calling Function FormatUFF()
+[11/23/2015 17:33:07][         Formatting The File()] Starting Function 
+[11/23/2015 17:33:07][         Formatting The File()] Completed With SUCCESS 
+[11/23/2015 17:33:07][                UFF_Generation] Calling Function GenerateUFF()
+[11/23/2015 17:33:07][                 GenerateUFF()] Starting Function 
+[11/23/2015 17:33:07][                 GenerateUFF()] Completed With SUCCESS 
+[11/23/2015 17:33:07][                UFF_Generation] Function Completed successfully.
+[11/23/2015 17:33:07][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:33:07][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:07][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:07][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:33:07][             FileMoveToArchive] Starting Function
+[11/23/2015 17:33:07][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:33:07][             FileMoveToArchive] Encrypting the file... File Name : 20151123_17.33.07FUHEGRO3.txt
+[11/23/2015 17:33:22][             FileMoveToArchive] Successfully encrypted the file. File Name : 20151123_17.33.07FUHEGRO3.txt
+[11/23/2015 17:33:22][             FileMoveToArchive] Calling FileMoveToLocation()
+[11/23/2015 17:33:22][             FileMoveToArchive] Starting Function
+[11/23/2015 17:33:22][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:33:22][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:33:29][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:33:29][           btnGenerate_Click()] Template Type M
+[11/23/2015 17:33:29][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:33:29][                UFF_Generation] Starting Function
+[11/23/2015 17:33:29][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774', 'M')
+[11/23/2015 17:33:29][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:33:35][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:33:35][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:35][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:35][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:33:35][             FileMoveToArchive] Starting Function
+[11/23/2015 17:33:35][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:33:35][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:33:52][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:33:52][           btnGenerate_Click()] Template Type M
+[11/23/2015 17:33:52][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:33:52][                UFF_Generation] Starting Function
+[11/23/2015 17:33:52][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774,2741', 'M')
+[11/23/2015 17:33:53][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:33:55][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:33:55][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:55][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:33:55][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:33:55][             FileMoveToArchive] Starting Function
+[11/23/2015 17:33:55][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:33:55][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:34:00][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:34:00][           btnGenerate_Click()] Template Type M
+[11/23/2015 17:34:00][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:34:00][                UFF_Generation] Starting Function
+[11/23/2015 17:34:00][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2774,2741', 'M')
+[11/23/2015 17:34:00][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:34:02][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:34:02][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:02][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:02][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:34:02][             FileMoveToArchive] Starting Function
+[11/23/2015 17:34:02][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:34:02][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:34:08][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:34:08][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:34:08][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:34:08][                UFF_Generation] Starting Function
+[11/23/2015 17:34:08][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741', 'S')
+[11/23/2015 17:34:08][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:34:10][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:34:10][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:10][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:10][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:34:10][             FileMoveToArchive] Starting Function
+[11/23/2015 17:34:10][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:34:10][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:34:14][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:34:14][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:34:14][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:34:14][                UFF_Generation] Starting Function
+[11/23/2015 17:34:14][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741', 'S')
+[11/23/2015 17:34:14][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:34:15][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:34:15][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:15][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:15][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:34:15][             FileMoveToArchive] Starting Function
+[11/23/2015 17:34:15][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:34:15][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:34:22][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:34:22][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:34:22][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:34:22][                UFF_Generation] Starting Function
+[11/23/2015 17:34:22][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741', 'S')
+[11/23/2015 17:34:23][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:34:24][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:34:24][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:24][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:24][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:34:24][             FileMoveToArchive] Starting Function
+[11/23/2015 17:34:24][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:34:24][             FileMoveToArchive] Completed With SUCCESS
+[11/23/2015 17:34:28][           btnGenerate_Click()] Starting Function 
+[11/23/2015 17:34:28][           btnGenerate_Click()] Template Type S
+[11/23/2015 17:34:28][           btnGenerate_Click()] Calling Function UFF_Generation()
+[11/23/2015 17:34:28][                UFF_Generation] Starting Function
+[11/23/2015 17:34:28][                UFF_Generation] Execute SQLcall "AE_SP004_UFF_Generation" ('2741', 'S')
+[11/23/2015 17:34:29][                UFF_Generation] No Matches Records Found 
+[11/23/2015 17:34:30][           btnGenerate_Click()] Calling MoveAllItemsTo()
+[11/23/2015 17:34:30][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:30][              MoveAllItemsTo()] Starting Function
+[11/23/2015 17:34:30][           btnGenerate_Click()] Calling Encryption()
+[11/23/2015 17:34:30][             FileMoveToArchive] Starting Function
+[11/23/2015 17:34:30][             FileMoveToArchive] Getting all the files from the Input folder
+[11/23/2015 17:34:30][             FileMoveToArchive] Completed With SUCCESS

@@ -1,0 +1,170 @@
+﻿
+call  "AE_SP004_UFF_Generation"('2743','M');
+
+drop procedure "AE_SP004_UFF_Generation";
+
+CREATE PROCEDURE "AE_SP004_UFF_Generation"
+	(IN Batch varchar(1000), IN TType varchar(20)) 
+	
+AS 
+index int;
+delimiter nvarchar(10);
+text nvarchar(1000);
+BEGIN
+index := -1;
+delimiter := ',';
+text := :Batch;
+
+CREATE COLUMN TABLE BatchNo  ("D01" NVARCHAR(254));
+
+WHILE (LENGTH(:text) > 0) DO index := LOCATE(:text, :delimiter);
+  IF (:index = 0) AND (LENGTH(:text) > 0) AND :TEXT <> '0' THEN 
+  INSERT INTO  BatchNo (SELECT :text FROM DUMMY);
+  BREAK;
+ END IF;
+ IF (:index > 1) THEN 
+  INSERT INTO  BatchNo (SELECT LEFT(:text, :index - 1) FROM DUMMY);
+  text := RIGHT(:text, (LENGTH(:text) - :index));
+ ELSE text := RIGHT(:text, (LENGTH(:text) - :index));
+ END IF;
+END WHILE;
+
+CREATE COLUMN TABLE UFF  ("D01" NVARCHAR(254),"D02" NVARCHAR(254),"D03" NVARCHAR(254),
+"D04" NVARCHAR(254),"D05" NVARCHAR(254),"D06" NVARCHAR(254),"D07" NVARCHAR(254),"D08" NVARCHAR(254),
+"D09" NVARCHAR(254),"D10" NVARCHAR(254),"D11" NVARCHAR(254),"D12" NVARCHAR(254),"D13" NVARCHAR(254),
+"D14" NVARCHAR(254),"D15" NVARCHAR(254),"D16" NVARCHAR(254),"D17" NVARCHAR(254),"D18" NVARCHAR(254),
+"D19" NVARCHAR(254),"D20" NVARCHAR(254),"D21" NVARCHAR(254),"D22" NVARCHAR(254),"D23" NVARCHAR(254),
+"D24" NVARCHAR(254),"D25" NVARCHAR(254),"D26" NVARCHAR(254),"D27" NVARCHAR(254),"D28" DECIMAL (19,2),
+"D29" NVARCHAR(254),"D30" NVARCHAR(254),"D31" NVARCHAR(254),"D32" NVARCHAR(254),"D33" NVARCHAR(254),
+"D34" NVARCHAR(254),"D35" NVARCHAR(254),"D36" NVARCHAR(254),"D37" NVARCHAR(254),"D38" NVARCHAR(254),
+"D39" NVARCHAR(254),"D40" NVARCHAR(254),"D41" NVARCHAR(254),"D42" NVARCHAR(254),"D43" NVARCHAR(254),
+"D44" NVARCHAR(254),"D45" NVARCHAR(254),"D46" NVARCHAR(254),"D47" NVARCHAR(254),"D48" NVARCHAR(254),
+"D49" NVARCHAR(254),"D50" NVARCHAR(254),"D51" NVARCHAR(254),"D52" NVARCHAR(254),
+"D53" NVARCHAR(254),"D54" NVARCHAR(254),"D55" NVARCHAR(254),
+"D56" NVARCHAR(254),"D57" NVARCHAR(254),"D58" NVARCHAR(254),"D59" NVARCHAR(254),"D60" NVARCHAR(254),
+"D61" NVARCHAR(254),"D62" NVARCHAR(254),"D63" NVARCHAR(254),
+"U_AI_VisitNo" NVARCHAR(254), "U_AI_PatientName" NVARCHAR(254) ,  "Address" NVARCHAR(254),               
+ "U_AI_ICNo" NVARCHAR(254),  "U_AI_CompanyName" NVARCHAR(254), "U_AI_CompanyCode" NVARCHAR(254),"U_AI_VisitDate" NVARCHAR(254), 
+ "U_AI_ProviderName" NVARCHAR(254), "U_AI_BenefitType" NVARCHAR(254), "GrandTotal" DECIMAL(19,2) ,
+ "U_AI_UnclaimedAmount" DECIMAL(19,2), "SumApplied" DECIMAL(19,2),
+ "U_AI_RemarkMember" NVARCHAR(254),  "U_AI_INVOICENO" NVARCHAR(254), "D65" NVARCHAR(254), "D66" NVARCHAR(254),
+ "D67" NVARCHAR(254),"D68" NVARCHAR(254) );
+
+INSERT INTO UFF (
+SELECT 'PAYMENT' "D01",'BCH' "D02",left(replace(T1."AcctNum",'-',''),35) "D03",'SGD' "D04",'' "D05",T1."Currency" "D06",'' "D07",
+T0."DocDate" "D08",'' "D09",''"D10", 
+left(case when instr(T0."Address",'"') > 0 then '""' || T0."Address" || '""'
+     when instr(T0."Address",',') > 0 then '"' || T0."Address" || '"'
+     else T0."Address" end,70) "D11",
+left(case when instr(T0."Address",'"') > 0 then '""' || T0."Address" || '""'
+     when instr(T0."Address",',') > 0 then '"' || T0."Address" || '"'
+     else T0."Address" end,70) "D12",
+'' "D13",'' "D14",'' "D15",'' "D16",'' "D17",'' "D18",'' "D19",'' "D20",'' "D21",'' "D22",'' "D23",'' "D24",
+'' "D25",'' "D26",'' "D27", MAX(T0."DocTotal") "D28",
+'' "D29",'' "D30",'' "D31",'' "D32",'' "D33",left(T0."DocNum",12) "D34",left(T0."DocNum",16) "D35",'' "D36",
+--left(case when instr(T2."U_AI_ADD5",'"') > 0 then '""' || T2."U_AI_ADD5" || '""'
+  --   when instr(T2."U_AI_ADD5",',') > 0 then '"' || T2."U_AI_ADD5" || '"'
+    -- else T2."U_AI_ADD5" end, 128) "D37",
+     
+ '' "D37",'' "D38",'' "D39",'' "D40",'' "D41",'' "D42",'' "D43",'' "D44",
+ CASE WHEN UCASE(LEFT(T0."U_AI_CtrOwner",3)) = 'AIA' THEN 'M'
+      WHEN UCASE(LEFT(T0."U_AI_CtrOwner",3)) = 'AON' THEN 'S'  ELSE '' END "D45",'' "D46",'' "D47",
+ 
+left(case when instr(T2."U_AI_CompanyName",'"') > 0 then '""' || T2."U_AI_CompanyName" || '""'
+     when instr(T2."U_AI_CompanyName",',') > 0 then '"' || T2."U_AI_CompanyName" || '"'
+     else T2."U_AI_CompanyName" end ,35) "D48",
+left(case when instr(T2."U_AI_ADD1",'"') > 0 then '""' || T2."U_AI_ADD1" || '""'
+     when instr(T2."U_AI_ADD1",',') > 0 then '"' || T2."U_AI_ADD1" || '"'
+     else T2."U_AI_ADD1" end,35) "D49",
+left(case when instr(T2."U_AI_ADD2",'"') > 0 then '""' || T2."U_AI_ADD2" || '""'
+     when instr(T2."U_AI_ADD2",',') > 0 then '"' || T2."U_AI_ADD2" || '"'
+     else T2."U_AI_ADD2" end,35) "D50",
+left(case when instr(T2."U_AI_ADD3",'"') > 0 then '""' || T2."U_AI_ADD3" || '""'
+     when instr(T2."U_AI_ADD3",',') > 0 then '"' || T2."U_AI_ADD3" || '"'
+     else T2."U_AI_ADD3" end,35) "D51",'' "D52",
+left(case when instr(T2."U_AI_ADD4",'"') > 0 then '""' || T2."U_AI_ADD4" || '""'
+     when instr(T2."U_AI_ADD4",',') > 0 then '"' || T2."U_AI_ADD4" || '"'
+     else T2."U_AI_ADD4" end ,8) "D53",'' "D54",'' "D55",'' "D56",'' "D57",'' "D58",'' "D59",'' "D60"
+     ,'' "D61",'' "D62", '' "D63",
+case when instr(T2."U_AI_VisitNo",'"') > 0 then '""' || T2."U_AI_VisitNo" || '""'
+     when instr(T2."U_AI_VisitNo",',') > 0 then '"' || T2."U_AI_VisitNo" || '"'
+     else T2."U_AI_VisitNo" end "U_AI_VisitNo",
+case when instr(T2."U_AI_PatientName",'"') > 0 then '""' || T2."U_AI_PatientName" || '""'
+     when instr(T2."U_AI_PatientName",',') > 0 then '"' || T2."U_AI_PatientName" || '"'
+     else T2."U_AI_PatientName" end "U_AI_PatientName",
+case when instr(T0."Address",'"') > 0 then '""' || T0."Address" || '""'
+     when instr(T0."Address",',') > 0 then '"' || T0."Address" || '"'
+     else T0."Address" end "Address",
+case when instr(T2."U_AI_ICNo",'"') > 0 then '""' || T2."U_AI_ICNo" || '""'
+     when instr(T2."U_AI_ICNo",',') > 0 then '"' || T2."U_AI_ICNo" || '"'
+     else T2."U_AI_ICNo" end "U_AI_ICNo",
+case when instr(T2."U_AI_CompanyName",'"') > 0 then '""' || T2."U_AI_CompanyName" || '""'
+     when instr(T2."U_AI_CompanyName",',') > 0 then '"' || T2."U_AI_CompanyName" || '"'
+     else T2."U_AI_CompanyName" end "U_AI_CompanyName",  
+case when instr(T2."U_AI_CompanyCode",'"') > 0 then '""' || T2."U_AI_CompanyCode" || '""'
+     when instr(T2."U_AI_CompanyCode",',') > 0 then '"' || T2."U_AI_CompanyCode" || '"'
+     else T2."U_AI_CompanyCode" end "U_AI_CompanyCode",    
+ MAX(T2."U_AI_VisitDate") "U_AI_VisitDate" ,
+ case when instr(T2."U_AI_ProviderName",'"') > 0 then '""' || T2."U_AI_ProviderName" || '""'
+     when instr(T2."U_AI_ProviderName",',') > 0 then '"' || T2."U_AI_ProviderName" || '"'
+     else T2."U_AI_ProviderName" end "U_AI_ProviderName",
+ case when instr(T2."U_AI_BenefitType",'"') > 0 then '""' || T2."U_AI_BenefitType" || '""'
+     when instr(T2."U_AI_BenefitType",',') > 0 then '"' || T2."U_AI_BenefitType" || '"'
+     else T2."U_AI_BenefitType" end "U_AI_BenefitType",
+   MAX(T2."U_AI_GrandTotal") "GrandTotal" , 
+   MAX(T2."U_AI_UnclaimedAmount") "U_AI_UnclaimedAmount" ,
+   MAX(T2."SumApplied") "SumApplied" ,
+case when instr(T2."U_AI_RemarkMember",'"') > 0 then '""' || T2."U_AI_RemarkMember" || '""'
+     when instr(T2."U_AI_RemarkMember",',') > 0 then '"' || T2."U_AI_RemarkMember" || '"'
+     else T2."U_AI_RemarkMember" end "U_AI_RemarkMember",  T2."U_AI_INVOICENO",
+/*left(case when instr(T2."U_AI_ADD5",'"') > 0 then '""' || T2."U_AI_ADD5" || '""'
+    when instr(T2."U_AI_ADD5",',') > 0 then '"' || T2."U_AI_ADD5" || '"'
+    else T2."U_AI_ADD5" end, 128) "D65" */
+    'Singapore' "D65",'' "D66",'' "D67",'' "D68"
+     
+FROM OVPM T0  
+INNER JOIN VPM1 T1 ON T0."DocEntry" = T1."DocNum" 
+INNER JOIN VPM4 T2 ON T0."DocEntry" = T2."DocNum"
+WHERE T0."CounterRef" IN (select "D01" from BatchNo)
+GROUP BY T1."AcctNum",T1."Currency",T0."DocDate",T0."Address",T1."Currency",T0."DocNum",
+T2."U_AI_ADD5",T2."U_AI_CompanyName",T2."U_AI_ADD1",T2."U_AI_ADD2",T2."U_AI_ADD3",T2."U_AI_ADD4",
+T2."U_AI_VisitNo", T2."U_AI_PatientName" ,  T0."Address" ,               
+ T2."U_AI_ICNo" ,  T2."U_AI_CompanyName" ,T2."U_AI_CompanyCode", T2."U_AI_ProviderName" ,
+ T2."U_AI_BenefitType", T2."U_AI_RemarkMember", T2."U_AI_INVOICENO",T0."U_AI_CtrOwner" );
+ 
+
+ 
+SELECT IFNULL("D01",'') || ',' || IFNULL("D02",'') || ',' || IFNULL("D03",'') || ',' || IFNULL("D04",'') || ',' || IFNULL("D05",'') || ',' || IFNULL("D06",'') || ',' ||
+IFNULL("D07",'') || ',' || IFNULL(right(cast("D08" as nvarchar(10)),2) || left(right(cast("D08" as nvarchar(10)),5),2) || left(cast("D08" as nvarchar(10)),4) ,'') || ',' || IFNULL("D09",'') || ',' || IFNULL("D10",'') || ',' || IFNULL("D11",'') || ',' || IFNULL("D12",'') || ',' || IFNULL("D13",'') || ',' ||
+IFNULL("D14",'') || ',' || IFNULL("D15",'') || ',' || IFNULL("D16",'') || ',' || IFNULL("D17",'') || ',' || IFNULL("D18",'') || ',' || IFNULL("D19",'') || ',' || IFNULL("D20",'') || ',' ||
+IFNULL("D21",'') || ',' || IFNULL("D22",'') || ',' || IFNULL("D23",'') || ',' || IFNULL("D24",'') || ',' || IFNULL("D25",'') || ',' || IFNULL("D26",'') || ',' || IFNULL("D27",'') || ',' ||
+IFNULL("D28" ,0)|| ','  || IFNULL("D29",'') || ',' || IFNULL("D30",'') || ',' || IFNULL("D31",'') || ',' || IFNULL("D32",'') || ',' || IFNULL("D33",'') || ',' || IFNULL("D34",'') || ',' ||
+IFNULL("D35",'') || ',' || IFNULL("D36",'') || ',' || IFNULL("D37",'') || ',' || IFNULL("D38",'') || ',' || 
+IFNULL("D39",'') || ',' || IFNULL("D40",'') || ',' || IFNULL("D41",'') || ',' || IFNULL("D42",'') || ',' || IFNULL("D43",'') || ',' || IFNULL("D44",'') || ',' ||
+IFNULL("D45",'') || ',' || IFNULL("D46",'') || ',' || IFNULL("D47",'') || ',' || IFNULL("D48",'') || ',' || IFNULL("D49",'') || ',' || IFNULL("D50",'') || ',' || IFNULL("D51",'') || ',' ||
+IFNULL("D52",'') || ',' || IFNULL("D53",'') || ',' || IFNULL("D54",'') || ',' || IFNULL("D55",'') || ',' || IFNULL("D56",'') || ',' || IFNULL("D57",'') || ',' || IFNULL("D58",'') || ',' ||
+IFNULL("D59",'') || ',' ||IFNULL("D60" ,'')|| ',' || IFNULL("D61",'') || ',' || IFNULL("D62",'') || ',' || IFNULL("D63",'') || ',' "Header",
+
+'Claim Ref No.            : ' || RPAD(IFNULL("U_AI_VisitNo",''),43) ||  
+'Member Name              : ' || RPAD(IFNULL("U_AI_PatientName",''),43) ||  
+'Claimant Name            : ' || RPAD(IFNULL("Address",''),43) ||  
+'Claimant National ID No. : ' || RPAD(IFNULL("U_AI_ICNo",''),43) || 
+'Company Name             : ' || RPAD(IFNULL("U_AI_CompanyName",''),43) ||  
+'Policy No.               : ' || RPAD(IFNULL("U_AI_CompanyCode",''),43) ||   
+'Visit Date               : ' || RPAD(IFNULL(cast("U_AI_VisitDate" as nvarchar(10)),''),43) || 
+'Service Provider         : ' || RPAD(IFNULL("U_AI_ProviderName",''),43) ||   
+'Receipt No.              : ' || RPAD(IFNULL("U_AI_INVOICENO",''),43) ||   
+'Claim Type               : ' || RPAD(IFNULL("U_AI_BenefitType",''),43) ||   
+'Reimbursement Amount (S$)                                             '
+'Incurred Expense         : S$' || RPAD(IFNULL("GrandTotal" ,'.00'),41) ||  
+'Non-payable Amount       : S$' || RPAD(IFNULL("U_AI_UnclaimedAmount",'.00'),41) ||  
+'Amount Payable           : S$' || RPAD(IFNULL("SumApplied",'.00'),41) ||  
+'Remarks                  : ' || RPAD(IFNULL("U_AI_RemarkMember",''),43)  "D64" ,
+',' || IFNULL("D65",'') ||',' || IFNULL("D66",'') ||',' || IFNULL("D67",'') ||',' || IFNULL("D68",'')  "Col1"
+,  
+ "D28" "DocTotal" , "D34" "DocNum"
+FROM UFF WHERE "D45" = :TType;
+
+DROP TABLE UFF;
+DROP TABLE BatchNo;
+END;

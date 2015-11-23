@@ -1,0 +1,40 @@
+﻿DROP PROCEDURE MY_CURSOR_PROC;
+
+CREATE PROCEDURE MY_CURSOR_PROC()
+LANGUAGE SQLSCRIPT
+AS
+     CAT NVARCHAR(5000);
+     CAT1 NVARCHAR(5000);
+    
+       begin
+        temp = SELECT "DocEntry"  from ORDR where "DocNum" = '14000001';
+        begin
+         DECLARE CURSOR cur FOR SELECT * FROM :temp;
+         OPEN CUR;
+         SELECT "DocEntry" INTO CAT FROM :TEMP;
+           temp1 = SELECT "ItemCode"  from RDR1 where "DocEntry" = :CAT;
+              begin
+              DECLARE CURSOR cur1 FOR SELECT * FROM :temp1;
+              OPEN CUR1;
+                 FOR CUR1_ROW as CUR1 DO
+                  UPDATE "RDR1"
+                 SET CAT1 := :CAT1 || CUR1_ROW.ItemCode  ;
+               
+                END FOR;
+              CLOSE CUR1;
+              END;
+         CLOSE CUR;
+             END;
+       
+     
+   END;
+   
+
+
+
+CALL MY_CURSOR_PROC()
+
+
+
+
+

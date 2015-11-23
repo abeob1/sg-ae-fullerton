@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AE_DBSEncryption", "AE_DBSEncryption\AE_DBSEncryption.vbproj", "{91549A5E-2C80-4AC4-9EA6-65F42A1A7F70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91549A5E-2C80-4AC4-9EA6-65F42A1A7F70}.Debug|x86.ActiveCfg = Debug|x86
+		{91549A5E-2C80-4AC4-9EA6-65F42A1A7F70}.Debug|x86.Build.0 = Debug|x86
+		{91549A5E-2C80-4AC4-9EA6-65F42A1A7F70}.Release|x86.ActiveCfg = Release|x86
+		{91549A5E-2C80-4AC4-9EA6-65F42A1A7F70}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.exe
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.pdb
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.xml
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.frmDBSEncryption.resources
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.Resources.resources
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.vbproj.GenerateResource.Cache
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.exe
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.xml
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.pdb
+C:\Abeo\DBS File Encryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.exe.config
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.exe.config
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.exe
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.xml
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.pdb
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.exe
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.pdb
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\bin\Debug\AE_DBSEncryption.xml
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.frmDBSEncryption.resources
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.Resources.resources
+C:\Abeo\DBSFileEncryption\AE_DBSEncryption\AE_DBSEncryption\obj\x86\Debug\AE_DBSEncryption.vbproj.GenerateResource.Cache
