@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="Abeo" SchemaVersion="" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="AE_ANAPLAN_AO01" ExtVersion="0.1" Contdata="Abeo" Partner="Abeo" DBType="HANA" ClientType="A">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="910.200.10" To="910.200.10" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository />
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="AE_ANAPLAN_AO01.b1s">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.exe">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.exe.config">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.pdb">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe.config">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe.manifest">
+              <Actions />
+            </File>
+            <File FileName="Generate Text File.srf">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbobsCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbouiCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Office.Interop.Excel.dll">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Office.Interop.Excel.xml">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Vbe.Interop.dll">
+              <Actions />
+            </File>
+            <File FileName="office.dll">
+              <Actions />
+            </File>
+            <File FileName="office.xml">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="AE_ANAPLAN_AO01.b1s">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.exe">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.exe.config">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.pdb">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe.config">
+              <Actions />
+            </File>
+            <File FileName="AE_ANAPLAN_AO01.vshost.exe.manifest">
+              <Actions />
+            </File>
+            <File FileName="Generate Text File.srf">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbobsCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbouiCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Office.Interop.Excel.dll">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Office.Interop.Excel.xml">
+              <Actions />
+            </File>
+            <File FileName="Microsoft.Vbe.Interop.dll">
+              <Actions />
+            </File>
+            <File FileName="office.dll">
+              <Actions />
+            </File>
+            <File FileName="office.xml">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="" AddonSig="">
+        <Installation>
+          <Files />
+        </Installation>
+        <Uninstallation>
+          <Files />
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>
