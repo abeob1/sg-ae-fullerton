@@ -81,7 +81,7 @@ Module modGenerateTrialBalance
         End If
 
         If sCoCodeFrom <> "" And sCoCodeTo <> "" Then
-            Sql = "SELECT NULL ""Select"",""U_ENTITYCODE"" AS ""Entity Code"" ,""U_ENTITYNAME"" AS ""Entity Decription"" FROM ""@AE_ENTITYLIST"" " & _
+            Sql = "SELECT NULL ""Select"",""U_ENTITYCODE"" AS ""Entity Code"" ,""U_ENTITYNAME"" AS ""Entity Decription"",""U_ANAPLANCODE"" AS ""AnaPlanCode"" FROM ""@AE_ENTITYLIST"" " & _
                   " WHERE U_GROUPCODE >= '" & sCoCodeFrom & "' AND U_GROUPCODE <= '" & sCoCodeTo & "' "
             oGrid = objForm.Items.Item("14").Specific
             objForm.DataSources.DataTables.Item("dtEntityList").Rows.Clear()
@@ -90,6 +90,7 @@ Module modGenerateTrialBalance
             oGrid.Columns.Item(0).Type = SAPbouiCOM.BoGridColumnType.gct_CheckBox
             oGrid.Columns.Item(1).Editable = False
             oGrid.Columns.Item(2).Editable = False
+            oGrid.Columns.Item(3).Editable = False
         End If
 
         p_oSBOApplication.StatusBar.SetText("Operation Completed successfully", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success)
@@ -166,6 +167,7 @@ Module modGenerateTrialBalance
         Dim sSql As String = String.Empty
         Dim sFolderPath As String = String.Empty
         Dim sEntityCode As String = String.Empty
+        Dim sAnaPlanCode As String = String.Empty
         Dim oRecordSet As SAPbobsCOM.Recordset = Nothing
         Dim dtFromDate As Date
         Dim dtToDate As Date
@@ -188,7 +190,13 @@ Module modGenerateTrialBalance
                 If oGrid.DataTable.GetValue("Select", i) = "Y" Then
                     k = 1
                     sEntityCode = oGrid.DataTable.GetValue("Entity Code", i)
-                    sSql = "CALL " & sEntityCode & ".AE_SP001_AnaplanTrailBalExtraction_Addon('" & dtFromDate.ToString("yyyy-MM-dd") & "','" & dtToDate.ToString("yyyy-MM-dd") & "')"
+                    sAnaPlanCode = oGrid.DataTable.GetValue("AnaPlanCode", i)
+
+                    '*******CREATE PROCEDURE IN THE SELECTED ENTITY
+                    'CreateProcedure("AE_SP001_AnaplanTrailBalExtraction_Addon", sEntityCode)
+                    CreateProcedure_Entity(p_oDICompany, "AE_SP001_AnaplanTrailBalExtraction_Addon", sEntityCode)
+
+                    sSql = "CALL " & sEntityCode & ".""AE_SP001_AnaplanTrailBalExtraction_Addon""('" & dtFromDate.ToString("yyyy-MM-dd") & "','" & dtToDate.ToString("yyyy-MM-dd") & "','" & sAnaPlanCode & "')"
                     oDs = ExecuteQuery(p_oDICompany, sSql, sEntityCode)
                     If oDs.Tables(0).Rows.Count > 0 Then
                         Dim sFilePath As String
@@ -249,11 +257,49 @@ Module modGenerateTrialBalance
         End Try
     End Function
 
+    Public Sub CreateProcedure_Entity(ByVal oCompany As SAPbobsCOM.Company, ByVal sProcedure As String, ByVal sEntity As String)
+        Dim sQuery As String = String.Empty
+        Dim iCount As Integer = 0
+        Dim oDs As New DataSet
+        Dim sFile As String = String.Empty
+        Dim sTextLine As String = String.Empty
+
+        Try
+            sFuncName = "CreateProcedure_Entity"
+
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function", sFuncName)
+            sFile = Application.StartupPath & "\" & sProcedure & ".txt"
+
+            If IO.File.Exists(sFile) Then
+                Using objReader As New System.IO.StreamReader(sFile)
+                    sTextLine = objReader.ReadToEnd()
+                End Using
+
+                sQuery = "SELECT COUNT(""PROCEDURE_NAME"") AS ""MNO"" FROM ""PROCEDURES"" WHERE ""SCHEMA_NAME""  = '" & sEntity & "' AND ""PROCEDURE_NAME"" = '" + sProcedure + "'"
+                oDs = ExecuteQuery(oCompany, sQuery, sEntity)
+                If oDs.Tables(0).Rows.Count > 0 Then
+                    iCount = oDs.Tables(0).Rows(0).Item(0).ToString()
+                End If
+                If iCount > 0 Then
+                    sQuery = "DROP PROCEDURE " & sEntity & ".""" & sProcedure & """ "
+                    ExecuteNonQuery(oCompany, sQuery, sEntity)
+                End If
+                ExecuteNonQuery(oCompany, sTextLine, sEntity)
+            End If
+
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
+        Catch ex As Exception
+            sErrDesc = ex.Message
+            Call WriteToLogFile(sErrDesc, sFuncName)
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with ERROR", sFuncName)
+        End Try
+    End Sub
+
     Public Function OpenExcelDemo(ByVal sFileName As String, ByRef sErrDesc As String) As Long  ', ByVal SheetName As String
         Dim sFuncName As String = "OpenExcelDemo"
-        Dim xlsApp As Microsoft.Office.Interop.Excel.ApplicationClass
-        Dim xlsWB As Microsoft.Office.Interop.Excel.WorkbookClass
-        xlsApp = New Microsoft.Office.Interop.Excel.ApplicationClass
+        Dim xlsApp As Microsoft.Office.Interop.Excel.Application
+        Dim xlsWB As Microsoft.Office.Interop.Excel.Workbook
+        xlsApp = New Microsoft.Office.Interop.Excel.Application
 
         Try
             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting function", sFuncName)

@@ -196,6 +196,37 @@ Module modCommon
         Return ods
     End Function
 
+    Public Function ExecuteNonQuery(ByVal oCompany As SAPbobsCOM.Company, ByVal sSql As String, ByVal sEntity As String) As DataSet
+        Dim sFuncName As String = "ExecuteNonQuery"
+        Dim sErrDesc As String = String.Empty
+
+        Dim cmd As New Odbc.OdbcCommand
+        Dim ods As New DataSet
+        Dim oDbProviderFactoryObj As DbProviderFactory = DbProviderFactories.GetFactory("System.Data.Odbc")
+        Dim Con As DbConnection = oDbProviderFactoryObj.CreateConnection()
+
+        Try
+            ''--" & oCompany.DbPassword & "
+            Con.ConnectionString = "DRIVER={HDBODBC32};UID=" & oCompany.DbUserName & ";PWD=" & sHanaPassword & ";SERVERNODE=" & oCompany.Server & ";CS=" & sEntity
+            Con.Open()
+
+            cmd.CommandType = CommandType.Text
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Executing SQL " & sSql, sFuncName)
+            cmd.CommandText = sSql
+            cmd.Connection = Con
+            cmd.CommandTimeout = 0
+            cmd.ExecuteNonQuery()
+
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
+        Catch ex As Exception
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Execute Query Error", sFuncName)
+            Throw New Exception(ex.Message)
+        Finally
+            Con.Dispose()
+        End Try
+        Return ods
+    End Function
+
     Public Function CreateUDOTable(ByVal TableName As String, ByVal TableDescription As String, ByVal TableType As SAPbobsCOM.BoUTBTableType) As Boolean
         Dim intRetCode As Integer
         Dim objUserTableMD As SAPbobsCOM.UserTablesMD
@@ -342,6 +373,7 @@ Module modCommon
         Dim iQryId As Integer
 
         Try
+            sFuncName = "AssignFMS"
             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function", sFuncName)
 
             oRecordSet = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
@@ -387,6 +419,47 @@ Module modCommon
             Call WriteToLogFile(sErrDesc, sFuncName)
             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with ERROR", sFuncName)
             Throw New ArgumentException(sErrDesc)
+        End Try
+    End Sub
+
+    Public Sub CreateProcedure(ByVal sProcName As String)
+        Dim sFile As String = String.Empty
+        Dim sTextLine As String = String.Empty
+        Dim oRset As SAPbobsCOM.Recordset
+
+        Try
+            sFuncName = "CreateProcedure"
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function", sFuncName)
+
+            oRset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            sFile = System.Windows.Forms.Application.StartupPath & "\" & sProcName & ".txt"
+
+            If IO.File.Exists(sFile) Then
+                Using objReader As New System.IO.StreamReader(sFile)
+                    sTextLine = objReader.ReadToEnd()
+                End Using
+
+                If sTextLine <> String.Empty Then
+                    Dim sQuery As String = String.Empty
+                    Dim iCount As Integer = 0
+                    sQuery = "SELECT ""PROCEDURE_NAME"" FROM ""PROCEDURES"" WHERE ""SCHEMA_NAME""  = '" & p_oDICompany.CompanyDB & "' AND UPPER(""PROCEDURE_NAME"") = '" + sProcName.ToUpper() + "'"
+                    oRset.DoQuery(sQuery)
+                    If oRset.RecordCount > 0 Then
+                        sQuery = "DROP PROCEDURE " & sProcName & ""
+                        oRset.DoQuery(sQuery)
+                    End If
+
+                    oRset.DoQuery(sTextLine)
+
+                End If
+            End If
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(oRset)
+
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
+        Catch ex As Exception
+            sErrDesc = ex.Message
+            Call WriteToLogFile(sErrDesc, sFuncName)
+            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with ERROR", sFuncName)
         End Try
     End Sub
 

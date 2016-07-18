@@ -1,0 +1,207 @@
+CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;

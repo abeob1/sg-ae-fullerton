@@ -2296,5 +2296,1224 @@
 [07/12/2016 19:56:59][                           OpenExcelDemo] Starting function
 [07/12/2016 19:56:59][                           OpenExcelDemo] Completed with SUCCESS
 [07/12/2016 19:56:59][                         GenerateCSVFile] Completed with SUCCESS
-[07/13/2016 12:31:53][                                  Main()] Starting Addon startup function
-[07/13/2016 12:31:54][                                  Main()] Completed with ERROR
+[07/13/2016 13:26:12][                                  Main()] Starting Addon startup function
+[07/13/2016 13:26:12][                                  Main()] Initializing public SBO Application object
+[07/13/2016 13:26:12][                                  Main()] Retriving SBO application company handle
+[07/13/2016 13:26:13][                                  Main()] Retrived SBO application company handle
+[07/13/2016 13:26:13][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 13:26:13][                      ConnectDICompSSO()] Starting function
+[07/13/2016 13:26:18][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 13:26:18][                                  Main()] Creating Event handler class
+[07/13/2016 13:26:18][                      Class_Initialize()] Starting function
+[07/13/2016 13:26:18][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 13:26:18][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 13:26:18][                                  Main()] Calling AddMenuItems()
+[07/13/2016 13:26:19][                                  Main()] Creating tables
+[07/13/2016 13:26:19][                                  Main()] Starting Function
+[07/13/2016 13:26:19][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:26:19][                                  Main()] Starting Function
+[07/13/2016 13:26:19][                                  Main()] Error while creating FMS
+[07/13/2016 13:26:19][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:26:19][                                  Main()] Starting Function
+[07/13/2016 13:26:19][                                  Main()] Error while creating FMS
+[07/13/2016 13:26:19][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:26:19][                                  Main()] Addon started successfully
+[07/13/2016 13:29:30][                                  Main()] Starting Addon startup function
+[07/13/2016 13:29:30][                                  Main()] Initializing public SBO Application object
+[07/13/2016 13:29:31][                                  Main()] Retriving SBO application company handle
+[07/13/2016 13:29:31][                                  Main()] Retrived SBO application company handle
+[07/13/2016 13:29:31][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 13:29:31][                      ConnectDICompSSO()] Starting function
+[07/13/2016 13:29:35][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 13:29:35][                                  Main()] Creating Event handler class
+[07/13/2016 13:29:35][                      Class_Initialize()] Starting function
+[07/13/2016 13:29:35][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 13:29:35][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 13:29:35][                                  Main()] Calling AddMenuItems()
+[07/13/2016 13:29:35][                                  Main()] Creating tables
+[07/13/2016 13:29:35][                                  Main()] Starting Function
+[07/13/2016 13:29:35][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:29:35][                                  Main()] Starting Function
+[07/13/2016 13:29:35][                                  Main()] Error while creating FMS
+[07/13/2016 13:29:35][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:29:35][                                  Main()] Starting Function
+[07/13/2016 13:29:35][                                  Main()] Error while creating FMS
+[07/13/2016 13:29:35][                                  Main()] Completed with SUCCESS
+[07/13/2016 13:29:35][                                  Main()] Addon started successfully
+[07/13/2016 13:30:40][                         GenerateCSVFile] Starting Function
+[07/13/2016 13:30:41][                            ExecuteQuery] Executing SQL CALL FHG_TEST_14102015.AE_SP001_AnaplanTrailBalExtraction_Addon('2016-07-13','2016-07-13','FHG001')
+[07/13/2016 13:30:44][                           OpenExcelDemo] Starting function
+[07/13/2016 13:30:45][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 13:30:45][                         GenerateCSVFile] Completed with SUCCESS
+[07/13/2016 14:19:44][                                  Main()] Starting Addon startup function
+[07/13/2016 14:19:44][                                  Main()] Initializing public SBO Application object
+[07/13/2016 14:19:44][                                  Main()] Retriving SBO application company handle
+[07/13/2016 14:19:44][                                  Main()] Retrived SBO application company handle
+[07/13/2016 14:19:44][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 14:19:44][                      ConnectDICompSSO()] Starting function
+[07/13/2016 14:19:48][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 14:19:48][                                  Main()] Creating Event handler class
+[07/13/2016 14:19:48][                      Class_Initialize()] Starting function
+[07/13/2016 14:19:48][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 14:19:48][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 14:19:48][                                  Main()] Calling AddMenuItems()
+[07/13/2016 14:19:48][                                  Main()] Creating tables
+[07/13/2016 14:19:48][                                  Main()] Starting Function
+[07/13/2016 14:19:48][                                  Main()] Completed with SUCCESS
+[07/13/2016 14:19:48][                               AssignFMS] Starting Function
+[07/13/2016 14:19:48][                               AssignFMS] Error while creating FMS
+[07/13/2016 14:19:48][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 14:19:48][                               AssignFMS] Starting Function
+[07/13/2016 14:19:48][                               AssignFMS] Error while creating FMS
+[07/13/2016 14:19:48][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 14:20:14][                         CreateProcedure] Starting Function
+[07/13/2016 14:34:43][                                  Main()] Starting Addon startup function
+[07/13/2016 14:34:43][                                  Main()] Initializing public SBO Application object
+[07/13/2016 14:34:43][                                  Main()] Retriving SBO application company handle
+[07/13/2016 14:34:44][                                  Main()] Retrived SBO application company handle
+[07/13/2016 14:34:44][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 14:34:44][                      ConnectDICompSSO()] Starting function
+[07/13/2016 14:34:47][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 14:34:47][                                  Main()] Creating Event handler class
+[07/13/2016 14:34:47][                      Class_Initialize()] Starting function
+[07/13/2016 14:34:47][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 14:34:47][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 14:34:47][                                  Main()] Calling AddMenuItems()
+[07/13/2016 14:34:47][                                  Main()] Creating tables
+[07/13/2016 14:34:47][                                  Main()] Starting Function
+[07/13/2016 14:34:47][                                  Main()] Completed with SUCCESS
+[07/13/2016 14:34:47][                               AssignFMS] Starting Function
+[07/13/2016 14:34:47][                               AssignFMS] Error while creating FMS
+[07/13/2016 14:34:47][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 14:34:47][                               AssignFMS] Starting Function
+[07/13/2016 14:34:47][                               AssignFMS] Error while creating FMS
+[07/13/2016 14:34:47][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 14:34:53][                         CreateProcedure] Starting Function
+[07/13/2016 14:35:26][                         CreateProcedure] Completed with SUCCESS
+[07/13/2016 14:35:28][                                  Main()] Addon started successfully
+[07/13/2016 17:42:00][                                  Main()] Starting Addon startup function
+[07/13/2016 17:42:01][                                  Main()] Initializing public SBO Application object
+[07/13/2016 17:42:01][                                  Main()] Retriving SBO application company handle
+[07/13/2016 17:42:02][                                  Main()] Retrived SBO application company handle
+[07/13/2016 17:42:02][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 17:42:02][                      ConnectDICompSSO()] Starting function
+[07/13/2016 17:42:11][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 17:42:11][                                  Main()] Creating Event handler class
+[07/13/2016 17:42:11][                      Class_Initialize()] Starting function
+[07/13/2016 17:42:11][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 17:42:11][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 17:42:11][                                  Main()] Calling AddMenuItems()
+[07/13/2016 17:42:11][                                  Main()] Creating tables
+[07/13/2016 17:42:11][                                  Main()] Starting Function
+[07/13/2016 17:42:11][                                  Main()] Completed with SUCCESS
+[07/13/2016 17:42:11][                               AssignFMS] Starting Function
+[07/13/2016 17:42:11][                               AssignFMS] Error while creating FMS
+[07/13/2016 17:42:11][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 17:42:11][                               AssignFMS] Starting Function
+[07/13/2016 17:42:11][                               AssignFMS] Error while creating FMS
+[07/13/2016 17:42:11][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 17:42:11][                                  Main()] Addon started successfully
+[07/13/2016 17:42:37][                         GenerateCSVFile] Starting Function
+[07/13/2016 17:43:25][                                  Main()] Starting Addon startup function
+[07/13/2016 17:43:25][                                  Main()] Initializing public SBO Application object
+[07/13/2016 17:43:25][                                  Main()] Retriving SBO application company handle
+[07/13/2016 17:43:26][                                  Main()] Retrived SBO application company handle
+[07/13/2016 17:43:26][                                  Main()] Calling ConnectDICompSSO()
+[07/13/2016 17:43:26][                      ConnectDICompSSO()] Starting function
+[07/13/2016 17:43:29][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/13/2016 17:43:29][                                  Main()] Creating Event handler class
+[07/13/2016 17:43:29][                      Class_Initialize()] Starting function
+[07/13/2016 17:43:29][                      Class_Initialize()] Retriving SBO Application handle
+[07/13/2016 17:43:29][                      Class_Initialize()] Completed with SUCCESS
+[07/13/2016 17:43:29][                                  Main()] Calling AddMenuItems()
+[07/13/2016 17:43:29][                                  Main()] Creating tables
+[07/13/2016 17:43:29][                                  Main()] Starting Function
+[07/13/2016 17:43:29][                                  Main()] Completed with SUCCESS
+[07/13/2016 17:43:29][                               AssignFMS] Starting Function
+[07/13/2016 17:43:29][                               AssignFMS] Error while creating FMS
+[07/13/2016 17:43:29][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 17:43:29][                               AssignFMS] Starting Function
+[07/13/2016 17:43:29][                               AssignFMS] Error while creating FMS
+[07/13/2016 17:43:29][                               AssignFMS] Completed with SUCCESS
+[07/13/2016 17:43:29][                                  Main()] Addon started successfully
+[07/13/2016 17:43:31][                         GenerateCSVFile] Starting Function
+[07/13/2016 17:43:51][                  CreateProcedure_Entity] Starting Function
+[07/13/2016 17:44:19][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'FHG_TEST_14102015' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:44:55][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'FHG_TEST_14102015' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:44:55][                         ExecuteNonQuery] Executing SQL CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;
+[07/13/2016 17:44:55][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:44:55][                  CreateProcedure_Entity] Completed with SUCCESS
+[07/13/2016 17:44:55][                            ExecuteQuery] Executing SQL CALL FHG_TEST_14102015."AE_SP001_AnaplanTrailBalExtraction_Addon"('2016-07-13','2016-07-13','FHG001')
+[07/13/2016 17:44:58][                           OpenExcelDemo] Starting function
+[07/13/2016 17:45:00][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 17:45:00][                         GenerateCSVFile] Completed with SUCCESS
+[07/13/2016 17:46:08][                         GenerateCSVFile] Starting Function
+[07/13/2016 17:46:15][                  CreateProcedure_Entity] Starting Function
+[07/13/2016 17:46:19][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'FHG_TEST_14102015' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:46:26][                         ExecuteNonQuery] Executing SQL DROP PROCEDURE FHG_TEST_14102015."AE_SP001_AnaplanTrailBalExtraction_Addon" 
+[07/13/2016 17:46:26][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:46:43][                         ExecuteNonQuery] Executing SQL CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;
+[07/13/2016 17:46:44][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:47:01][                  CreateProcedure_Entity] Completed with SUCCESS
+[07/13/2016 17:47:01][                            ExecuteQuery] Executing SQL CALL FHG_TEST_14102015."AE_SP001_AnaplanTrailBalExtraction_Addon"('2016-07-13','2016-07-13','FHG001')
+[07/13/2016 17:47:02][                           OpenExcelDemo] Starting function
+[07/13/2016 17:47:03][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 17:47:03][                         GenerateCSVFile] Completed with SUCCESS
+[07/13/2016 17:48:08][                         GenerateCSVFile] Starting Function
+[07/13/2016 17:48:13][                  CreateProcedure_Entity] Starting Function
+[07/13/2016 17:48:13][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'FHG_TEST_24042015' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:48:13][                         ExecuteNonQuery] Executing SQL CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;
+[07/13/2016 17:48:13][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:48:13][                  CreateProcedure_Entity] Completed with SUCCESS
+[07/13/2016 17:48:13][                            ExecuteQuery] Executing SQL CALL FHG_TEST_24042015."AE_SP001_AnaplanTrailBalExtraction_Addon"('2016-07-13','2016-07-13','')
+[07/13/2016 17:48:16][                           OpenExcelDemo] Starting function
+[07/13/2016 17:48:17][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 17:48:17][                  CreateProcedure_Entity] Starting Function
+[07/13/2016 17:48:17][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'AUJHG_TEST' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:48:17][                         ExecuteNonQuery] Executing SQL CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;
+[07/13/2016 17:48:17][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:48:17][                  CreateProcedure_Entity] Completed with SUCCESS
+[07/13/2016 17:48:18][                            ExecuteQuery] Executing SQL CALL AUJHG_TEST."AE_SP001_AnaplanTrailBalExtraction_Addon"('2016-07-13','2016-07-13','')
+[07/13/2016 17:48:19][                           OpenExcelDemo] Starting function
+[07/13/2016 17:48:20][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 17:48:20][                  CreateProcedure_Entity] Starting Function
+[07/13/2016 17:48:20][                            ExecuteQuery] Executing SQL SELECT COUNT("PROCEDURE_NAME") AS "MNO" FROM "PROCEDURES" WHERE "SCHEMA_NAME"  = 'FHG_TEST_14102015' AND "PROCEDURE_NAME" = 'AE_SP001_AnaplanTrailBalExtraction_Addon'
+[07/13/2016 17:48:20][                         ExecuteNonQuery] Executing SQL DROP PROCEDURE FHG_TEST_14102015."AE_SP001_AnaplanTrailBalExtraction_Addon" 
+[07/13/2016 17:48:20][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:48:20][                         ExecuteNonQuery] Executing SQL CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
+(
+ IN FromDate DATE,
+IN ToDate DATE,
+IN AnaPlanCode VARCHAR
+)
+
+AS
+
+DateFrom VARCHAR(20);
+DateTo VARCHAR(20);
+
+
+BEGIN
+
+ DateFrom:=TO_CHAR(:FromDate ,'YYYY-MM-DD');
+ DateTo:=TO_CHAR(:ToDate ,'YYYY-MM-DD');
+
+CREATE COLUMN TABLE "TBEXTRACT" (ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);
+								
+CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(100)
+								,ICPartnerCode Varchar(200),AcctCode varchar(200)
+								,Movement varchar(10),Amount Decimal);								
+--================================ Balance Amount ==================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<=:DateTo
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Opening Balance ==========================================================================
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M00' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate"<:DateFrom 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--================================== Debit Amount ===============================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit")  AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M05' AS "Movement"
+,SUM(T0."Debit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+--=================================== Credit Amout ==========================================================================
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'M06' AS "Movement"
+,-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+--=============================================================================================================
+INSERT INTO "TBFINAL"(
+SELECT 
+TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+,:AnaPlanCode AS "Anaplan Entity Code"
+----,MAX(T0."REPORTINGUNIT")
+,T0."ICPARTNERCODE"
+,T0."ACCTCODE"
+,T0."MOVEMENT"
+,SUM(T0."AMOUNT")
+
+ FROM "TBEXTRACT" T0 GROUP BY T0."ICPARTNERCODE",T0."ACCTCODE"
+,T0."MOVEMENT");
+ 
+  
+SELECT T0."REPORTINGDATE" AS "Trans date",T0."REPORTINGUNIT" AS "Reporting unit"
+,T0."ICPARTNERCODE" AS "IC Partner", T0."ACCTCODE" AS "Local Account"
+,T0."MOVEMENT" AS "Movement", T0."AMOUNT" AS "Amount" 
+FROM "TBFINAL" T0 
+ORDER BY T0."ACCTCODE",T0."ICPARTNERCODE";
+
+DROP TABLE "TBEXTRACT";
+DROP TABLE "TBFINAL";
+
+END;
+[07/13/2016 17:48:20][                         ExecuteNonQuery] Completed with SUCCESS
+[07/13/2016 17:48:20][                  CreateProcedure_Entity] Completed with SUCCESS
+[07/13/2016 17:48:20][                            ExecuteQuery] Executing SQL CALL FHG_TEST_14102015."AE_SP001_AnaplanTrailBalExtraction_Addon"('2016-07-13','2016-07-13','FHG001')
+[07/13/2016 17:48:22][                           OpenExcelDemo] Starting function
+[07/13/2016 17:48:22][                           OpenExcelDemo] Completed with SUCCESS
+[07/13/2016 17:48:22][                         GenerateCSVFile] Completed with SUCCESS

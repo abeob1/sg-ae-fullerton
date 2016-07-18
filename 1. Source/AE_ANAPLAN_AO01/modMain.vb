@@ -82,7 +82,8 @@
             addField("@AE_ENTITYLIST", "GROUPCODE", "GROUP CODE", SAPbobsCOM.BoFieldTypes.db_Alpha, 50, SAPbobsCOM.BoFldSubTypes.st_None, "", "", "")
             addField("@AE_ENTITYLIST", "ENTITYCODE", "ENTITY CODE", SAPbobsCOM.BoFieldTypes.db_Alpha, 100, SAPbobsCOM.BoFldSubTypes.st_None, "", "", "")
             addField("@AE_ENTITYLIST", "ENTITYNAME", "ENTITY DESCRIPTION", SAPbobsCOM.BoFieldTypes.db_Alpha, 100, SAPbobsCOM.BoFldSubTypes.st_None, "", "", "")
-            
+            addField("@AE_ENTITYLIST", "ANAPLANCODE", "ANAPLANCODE", SAPbobsCOM.BoFieldTypes.db_Alpha, 10, SAPbobsCOM.BoFldSubTypes.st_None, "", "", "")
+
         Catch ex As Exception
             sErrDesc = ex.Message
             Call WriteToLogFile(sErrDesc, sFuncName)
