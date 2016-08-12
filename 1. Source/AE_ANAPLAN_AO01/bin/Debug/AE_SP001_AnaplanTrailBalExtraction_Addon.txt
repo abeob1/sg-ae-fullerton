@@ -38,8 +38,26 @@ FROM
 LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
 RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
-WHERE T0."RefDate"<=:DateTo
-AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+WHERE T0."RefDate"<=:DateTo 
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo AND T0."TransType"<>-3
+AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(4,5,6,7,8)
 GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
 
 
@@ -57,8 +75,26 @@ FROM
 LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
 RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
-WHERE T0."RefDate"<=:DateTo
-AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' --AND T2."GroupMask" IN(1,2,3)
+WHERE T0."RefDate"<=:DateTo 
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+
+INSERT INTO "TBEXTRACT"(
+								
+SELECT
+T0."ShortName",
+T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+,T0."Account"
+,'' AS "Movement"
+,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
+
+FROM 
+"JDT1" T0
+LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
+RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
+
+WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo AND T0."TransType"<>-3
+AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(4,5,6,7,8)
 GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
 
 
@@ -77,7 +113,7 @@ FROM
 LEFT JOIN "OCRD" T1 ON T0."ShortName"=T1."CardCode"
 RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
-WHERE T0."RefDate"<:DateFrom
+WHERE T0."RefDate"<:DateFrom 
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
 GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
 
@@ -184,6 +220,7 @@ GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
 INSERT INTO "TBFINAL"(
 SELECT 
 TO_CHAR(:DateTo,'DD-MM-YYYY')AS "Reporting Date"
+--,:CompanyCode AS "Anaplan Entity Code"
 ,:AnaPlanCode AS "Anaplan Entity Code"
 ----,MAX(T0."REPORTINGUNIT")
 ,T0."ICPARTNERCODE"

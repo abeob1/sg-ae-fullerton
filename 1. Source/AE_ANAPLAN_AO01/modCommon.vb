@@ -219,6 +219,7 @@ Module modCommon
 
             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
         Catch ex As Exception
+            Call WriteToLogFile(ex.Message, sFuncName)
             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Execute Query Error", sFuncName)
             Throw New Exception(ex.Message)
         Finally

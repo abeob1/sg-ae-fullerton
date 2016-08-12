@@ -18,14 +18,7 @@ E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.frmB
 E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.vbproj.GenerateResource.Cache
 E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.exe
 E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.pdb
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\Interop.SAPbobsCOM.dll
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\Interop.SAPbouiCOM.dll
 E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.exe.config
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\Microsoft.Office.Interop.Excel.dll
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\office.dll
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\Microsoft.Vbe.Interop.dll
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\Microsoft.Office.Interop.Excel.xml
-E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\bin\Debug\office.xml
 C:\Abeo\AnaPlan\Source Code\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.exe.config
 C:\Abeo\AnaPlan\Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\Interop.SAPbobsCOM.dll
 C:\Abeo\AnaPlan\Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\Interop.SAPbouiCOM.dll
@@ -42,3 +35,4 @@ D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\Interop.SAPbo
 D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.vbproj.ResolveComReference.cache
 D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.exe
 D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.pdb
+E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.vbprojResolveAssemblyReference.cache

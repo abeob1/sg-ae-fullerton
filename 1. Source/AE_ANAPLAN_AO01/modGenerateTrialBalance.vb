@@ -13,6 +13,7 @@ Module modGenerateTrialBalance
     Private oGrid As SAPbouiCOM.Grid
     Private oCheck As SAPbouiCOM.CheckBox
     Private sFolderPath As String
+    Private bdoubleCheck As Boolean
 
     Private Sub FolderBrowserDialog(ByRef objForm As SAPbouiCOM.Form)
         Dim myThread As New System.Threading.Thread(AddressOf OpenFolderBrowserDialog)
@@ -360,6 +361,31 @@ Module modGenerateTrialBalance
                             objForm.Freeze(True)
                             LoadGrid(objForm)
                             objForm.Freeze(False)
+                        End If
+
+                    Case SAPbouiCOM.BoEventTypes.et_DOUBLE_CLICK
+                        objForm = p_oSBOApplication.Forms.GetForm(pval.FormTypeEx, pval.FormTypeCount)
+                        If pval.ItemUID = "14" Then
+                            oGrid = objForm.Items.Item("14").Specific
+                            If oGrid.DataTable.Rows.Count - 1 > -1 Then
+                                p_oSBOApplication.StatusBar.SetText("Processing...Please wait...", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
+                                objForm.Freeze(True)
+                                If bdoubleCheck = False Then
+                                    For i As Integer = 0 To oGrid.DataTable.Rows.Count - 1
+                                        oGrid.DataTable.SetValue("Select", i, "Y")
+                                    Next
+                                    bdoubleCheck = True
+                                ElseIf bdoubleCheck = True Then
+                                    For i As Integer = 0 To oGrid.DataTable.Rows.Count - 1
+                                        oGrid.DataTable.SetValue("Select", i, "N")
+                                    Next
+                                    bdoubleCheck = False
+                                End If
+                                objForm.Freeze(False)
+                                p_oSBOApplication.StatusBar.SetText("Operation completed successfully", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
+
+                            End If
+
                         End If
 
                 End Select
