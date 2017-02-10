@@ -36,3 +36,9 @@ D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO
 D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.exe
 D:\J\Fullerton\Installer Source Code\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.pdb
 E:\Abeo Projects\Fullerton -J\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.vbprojResolveAssemblyReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\bin\Debug\AE_ANAPLAN_AO01.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\FULLERTON\1. Source\AE_ANAPLAN_AO01\obj\x86\Debug\AE_ANAPLAN_AO01.pdb
