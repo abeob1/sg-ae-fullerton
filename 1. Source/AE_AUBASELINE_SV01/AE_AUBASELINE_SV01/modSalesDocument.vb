@@ -311,9 +311,19 @@
                             System.Runtime.InteropServices.Marshal.ReleaseComObject(oRecSet)
 
                             Dim iIndex As Integer = sInvoiceDate.IndexOf(" ")
-                            Dim sInvoiceDate_Trimed As String = sInvoiceDate.Substring(0, iIndex)
+                            Dim sInvoiceDate_Trimed As String
+                            If iIndex > -1 Then
+                                sInvoiceDate_Trimed = sInvoiceDate.Substring(0, iIndex)
+                            Else
+                                sInvoiceDate_Trimed = sInvoiceDate
+                            End If
                             Dim iIndex1 As Integer = sInvoiceDate.IndexOf(" ")
-                            Dim sDueDate_Trimed As String = sDueDate.Substring(0, iIndex1)
+                            Dim sDueDate_Trimed As String
+                            If iIndex1 > -1 Then
+                                sDueDate_Trimed = sDueDate.Substring(0, iIndex1)
+                            Else
+                                sDueDate_Trimed = sDueDate
+                            End If
                             Dim dInvoiceDate, dDueDate As Date
                             Dim format() = {"dd/MM/yyyy", "d/M/yyyy", "dd-MM-yyyy", "dd/MM/yy", "dd.MM.yyyy", "yyyyMMdd", "MMddYYYY", "M/dd/yyyy", "MM/dd/YYYY"}
                             Date.TryParseExact(sInvoiceDate_Trimed, format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None, dInvoiceDate)
@@ -664,12 +674,22 @@
 
                             Dim format() = {"dd/MM/yyyy", "d/M/yyyy", "dd-MM-yyyy", "dd/MM/yy", "dd.MM.yyyy", "yyyyMMdd", "MMddYYYY", "M/dd/yyyy", "MM/dd/YYYY"}
                             Dim iIndex As Integer = sInvoiceDate.IndexOf(" ")
-                            Dim sInvoiceDate_Trimed As String = sInvoiceDate.Substring(0, iIndex)
+                            Dim sInvoiceDate_Trimed As String
+                            If iIndex > -1 Then
+                                sInvoiceDate_Trimed = sInvoiceDate.Substring(0, iIndex)
+                            Else
+                                sInvoiceDate_Trimed = sInvoiceDate
+                            End If
                             Dim dInvoiceDate, dDueDate As Date
                             Date.TryParseExact(sInvoiceDate_Trimed, format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None, dInvoiceDate)
                             If sDueDate <> "" Then
                                 Dim iIndex1 As Integer = sDueDate.IndexOf(" ")
-                                Dim sDueDate_Trimed As String = sDueDate.Substring(0, iIndex1)
+                                Dim sDueDate_Trimed As String
+                                If iIndex1 > -1 Then
+                                    sDueDate_Trimed = sDueDate.Substring(0, iIndex1)
+                                Else
+                                    sDueDate_Trimed = sDueDate
+                                End If
                                 Date.TryParseExact(sDueDate_Trimed, format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None, dDueDate)
                             End If
                             'Dim selected As System.Data.DataTable = oDv.ToTable("Selected", False, "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10")
