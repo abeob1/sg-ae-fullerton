@@ -297,6 +297,11 @@
                             sDueDate = oDv(0)(13).ToString.Trim
                             sCurrency = oDv(0)(32).ToString.Trim()
 
+                            If sInvoiceNo = "INV-003851" Then
+                                MsgBox("INV-003851 Invoice NO")
+                            End If
+
+
                             Dim sSQL As String
                             sSQL = "SELECT ""DocEntry"" FROM ""OINV"" WHERE ""NumAtCard"" = '" & sInvoiceNo & "' "
                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Executing SQL " & sSQL, sFuncName)
@@ -409,7 +414,14 @@
                             For j As Integer = 0 To oDv.Count - 1
                                 If CDbl(oDv(j)(24).ToString.Trim) = 0 And (oDv(j)(25).ToString.Trim = String.Empty) Then
                                     oDv.RowFilter = "ISNULL(F26,0) <> 0 "
-                                    sAcctCode = oDv(0)(25).ToString.Trim
+                                    If oDv.Count > 0 Then
+                                        sAcctCode = oDv(0)(25).ToString.Trim
+                                    Else
+                                        sErrDesc = "Account Code is Mandatory/Please check the excel file for invoice " & sInvoiceNo
+                                        Console.WriteLine(sErrDesc)
+                                        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug(sErrDesc, sFuncName)
+                                        Throw New ArgumentException(sErrDesc)
+                                    End If
                                     oDv.RowFilter = Nothing
                                 Else
                                     sAcctCode = oDv(j)(25).ToString.Trim
