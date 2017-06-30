@@ -2,7 +2,7 @@ CREATE PROCEDURE "AE_SP001_AnaplanTrailBalExtraction_Addon"
 (
  IN FromDate DATE,
 IN ToDate DATE,
-IN AnaPlanCode VARCHAR
+IN AnaPlanCode VARCHAR(100)
 )
 
 AS
@@ -25,10 +25,12 @@ CREATE COLUMN TABLE "TBFINAL" (ReportingDate VARCHAR(20),ReportingUnit varchar(1
 								,Movement varchar(10),Amount Decimal);								
 --================================ Balance Amount ==================================================================
 INSERT INTO "TBEXTRACT"(
-								
+		
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -40,13 +42,15 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate"<=:DateTo 
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -58,14 +62,16 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo AND T0."TransType"<>-3
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(4,5,6,7,8)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -77,13 +83,15 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate"<=:DateTo 
 AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -95,7 +103,7 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo AND T0."TransType"<>-3
 AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(4,5,6,7,8)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 --=================================== Opening Balance ==========================================================================
@@ -103,7 +111,9 @@ INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M00' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -115,14 +125,16 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate"<:DateFrom 
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M00' AS "Movement"
 ,SUM(T0."Debit")-SUM(T0."Credit") AS "Amount"
@@ -134,7 +146,7 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate"<:DateFrom 
 AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 --================================== Debit Amount ===============================================================
@@ -143,7 +155,9 @@ INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M05' AS "Movement"
 ,SUM(T0."Debit")  AS "Amount"
@@ -155,14 +169,16 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M05' AS "Movement"
 ,SUM(T0."Debit") AS "Amount"
@@ -174,7 +190,7 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
 AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 --=================================== Credit Amout ==========================================================================
@@ -183,7 +199,9 @@ INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M06' AS "Movement"
 ,-SUM(T0."Credit") AS "Amount"
@@ -195,14 +213,16 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo
 AND LEFT (T0."ShortName",1)='Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 
 INSERT INTO "TBEXTRACT"(
 								
 SELECT
 T0."ShortName",
-T1."U_ANAPLANICCODE" AS "Anaplan IC Code"
+--T1."U_ANAPLANICCODE" AS "Anaplan IC Code",
+--T2."AccntntCod" AS "Export Code"
+CASE WHEN T2."LocManTran" = 'Y' THEN T1."U_ANAPLANICCODE" ELSE T2."AccntntCod" END AS "Anaplan IC Code"
 ,T0."Account"
 ,'M06' AS "Movement"
 ,-SUM(T0."Credit") AS "Amount"
@@ -214,7 +234,7 @@ RIGHT JOIN "OACT" T2 ON T0."Account"=T2."AcctCode"
 
 WHERE T0."RefDate" BETWEEN :DateFrom AND :DateTo 
 AND LEFT (T0."ShortName",1)<>'Z' AND T2."Frozen"='N' AND T2."GroupMask" IN(1,2,3)
-GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T0."ShortName");
+GROUP BY T0."Account",T2."AcctCode",T1."U_ANAPLANICCODE",T2."AccntntCod",T2."LocManTran",T0."ShortName");
 
 --=============================================================================================================
 INSERT INTO "TBFINAL"(
