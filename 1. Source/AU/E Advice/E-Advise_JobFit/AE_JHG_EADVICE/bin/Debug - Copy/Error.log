@@ -1,0 +1,52 @@
+[12/14/2015 13:50:20][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. y83sm39345942pfi.85 - gsmtp
+[12/14/2015 13:50:20][                 ExportReports] The process cannot access the file 'C:\Abeo\AU\E-Advise\PDF\TAXINV_1510009569_C-test_11122015.pdf' because it is being used by another process.
+[12/14/2015 13:50:46][                 ExportToPDF()] The process cannot access the file 'C:\Abeo\AU\E-Advise\PDF\TAXINV_1510009569_C-test_11122015.pdf' because it is being used by another process.
+[12/14/2015 13:53:57][                              ] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 13:54:37][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 13:58:09][                              ] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 13:58:12][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 15:32:48][                 ExportToPDF()] Load report failed.
+[12/14/2015 16:50:05][                 ExportToPDF()] Load report failed.
+[12/14/2015 16:50:06][                 ExportReports] Load report failed.
+[12/14/2015 17:00:08][                 ExportReports] Conversion from string "dd-MMM-yyyy" to type 'Integer' is not valid.
+[12/14/2015 17:11:52][                              ] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 17:11:52][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 17:45:16][                 ExportToPDF()] The system cannot find the path specified.
+[12/14/2015 17:45:16][                 ExportReports] The system cannot find the path specified.
+[12/14/2015 17:51:16][                 ExportToPDF()] The system cannot find the path specified.
+[12/14/2015 17:52:24][                 ExportReports] The system cannot find the path specified.
+[12/14/2015 17:56:49][                 ExportToPDF()] Load report failed.
+[12/14/2015 17:57:01][                 ExportReports] Load report failed.
+[12/14/2015 17:58:31][                 ExportToPDF()] Load report failed.
+[12/14/2015 17:58:31][                 ExportReports] Load report failed.
+[12/14/2015 18:03:20][                              ] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 18:03:20][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_AI_EINVOICE
+[12/14/2015 18:03:54][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T1.U_AI_MONTHLYINVOICE: line 1 col 182 (at pos 181)
+[12/14/2015 18:08:48][                ExecuteQuery()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema AUJHG_OB: line 1 col 23 (at pos 22)
+[12/14/2015 18:08:48][            Load_CompanyList()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema AUJHG_OB: line 1 col 23 (at pos 22)
+[12/14/2015 18:08:48][SCompany_SelectedIndexChanged()] ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view @AE_EMAILSENDERLIST in schema AUJHG_OB: line 1 col 23 (at pos 22)
+[12/14/2015 18:10:47][                 ExportToPDF()] Invalid export type.
+[12/14/2015 18:10:47][                 ExportReports] Invalid export type.
+[12/14/2015 18:41:14][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: VSWEENE: line 1 col 234 (at pos 233)
+[12/14/2015 19:03:35][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 19 (at pos 18)
+[12/14/2015 19:05:41][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 19 (at pos 18)
+[12/14/2015 19:09:26][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP002_SOA: line 1 col 19 (at pos 18)
+[12/14/2015 19:12:10][ SendEmailNotificationForCSN()] Empty path name is not legal.
+[12/14/2015 19:14:38][ SendEmailNotificationForCSN()] The remote server returned an error: (500) Internal Server Error.
+[12/14/2015 19:14:38][                 ExportReports] The path is not of a legal form.
+[12/14/2015 19:58:16][             ExportToPDF_CSN()] Missing parameter values.
+[12/14/2015 19:58:40][                 ExportReports] Missing parameter values.
+[12/15/2015 18:31:28][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. e20sm1427489pfb.1 - gsmtp
+[12/21/2015 20:09:57][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. sy5sm39010530pac.5 - gsmtp
+[12/21/2015 20:11:10][       SendEmailNotification()] Could not find file 'C:\Abeo\AU\E-Advise_JobFit\PDF\TAXINV_1510008404_CBRIWAT-001_30112015.pdf'.
+[12/21/2015 20:11:10][                 ExportReports] Please check the email Address.Fail to send email : sahayar@abeo-electra.com:: Could not find file 'C:\Abeo\AU\E-Advise_JobFit\PDF\TAXINV_1510008404_CBRIWAT-001_30112015.pdf'.
+[12/22/2015 00:47:25][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 00:47:25][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 00:47:25][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 00:48:13][             ExportToPDF_CSN()] Load report failed.
+[12/22/2015 00:48:13][                 ExportReports] Load report failed.
+[12/22/2015 01:10:26][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 01:10:26][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 01:10:26][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[12/22/2015 02:44:51][             ExportToPDF_CSN()] Load report failed.
+[12/22/2015 02:45:00][                 ExportReports] Load report failed.

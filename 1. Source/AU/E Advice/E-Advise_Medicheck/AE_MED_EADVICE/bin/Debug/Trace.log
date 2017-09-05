@@ -1,0 +1,403 @@
+[02/01/2016 13:41:01][                              ] MDI Form Load
+[02/01/2016 13:41:02][                              ] MDI Form Load Done
+[02/01/2016 13:41:05][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 13:41:05][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 13:41:05][             Get_CompanyList()] Starting Function
+[02/01/2016 13:41:05][                ExecuteQuery()] Starting Function
+[02/01/2016 13:41:05][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 13:41:05][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 13:41:05][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 13:41:10][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 13:41:10][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 13:41:10][            Load_CompanyList()] Starting Function
+[02/01/2016 13:41:10][                ExecuteQuery()] Starting Function
+[02/01/2016 13:41:10][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 13:41:10][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 13:41:10][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 13:41:14][            Load_BPGroupList()] Starting Function
+[02/01/2016 13:41:14][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 13:41:14][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 13:41:19][                 ExportReports] Starting Function
+[02/01/2016 13:41:19][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 13:41:19][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 13:41:19][                 ExportReports] Checking BP Balance ..
+[02/01/2016 13:41:19][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 13:41:22][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 13:41:22][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 13:41:22][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 13:41:28][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 13:41:32][             ExportToPDF_CSN()] Completed with SUCCESS
+[02/01/2016 13:41:33][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 13:41:33][       SendEmailNotification()] Starting Function...
+[02/01/2016 13:41:33][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com
+[02/01/2016 13:41:46][       SendEmailNotification()] Completed with ERROR
+[02/01/2016 13:42:09][                 ExportReports] Completed function with ERROR
+[02/01/2016 14:05:39][                              ] MDI Form Load
+[02/01/2016 14:05:39][                              ] MDI Form Load Done
+[02/01/2016 14:05:41][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 14:05:41][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 14:05:41][             Get_CompanyList()] Starting Function
+[02/01/2016 14:05:41][                ExecuteQuery()] Starting Function
+[02/01/2016 14:05:41][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:05:41][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:05:41][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:05:45][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:05:45][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 14:05:45][            Load_CompanyList()] Starting Function
+[02/01/2016 14:05:45][                ExecuteQuery()] Starting Function
+[02/01/2016 14:05:45][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:05:45][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:05:45][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 14:05:48][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:05:48][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:05:48][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:05:52][                 ExportReports] Starting Function
+[02/01/2016 14:05:52][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 14:05:53][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 14:05:53][                 ExportReports] Checking BP Balance ..
+[02/01/2016 14:05:53][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 14:05:54][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 14:05:54][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 14:05:54][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 14:05:56][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 14:05:59][             ExportToPDF_CSN()] Completed with SUCCESS
+[02/01/2016 14:06:00][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 14:06:00][       SendEmailNotification()] Starting Function...
+[02/01/2016 14:06:00][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com
+[02/01/2016 14:06:12][       SendEmailNotification()] Completed with ERROR
+[02/01/2016 14:07:08][                 ExportReports] Completed function with ERROR
+[02/01/2016 14:11:02][                              ] MDI Form Load
+[02/01/2016 14:11:02][                              ] MDI Form Load Done
+[02/01/2016 14:11:06][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 14:11:06][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 14:11:06][             Get_CompanyList()] Starting Function
+[02/01/2016 14:11:06][                ExecuteQuery()] Starting Function
+[02/01/2016 14:11:06][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:11:06][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:11:06][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:11:10][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:11:10][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 14:11:10][            Load_CompanyList()] Starting Function
+[02/01/2016 14:11:10][                ExecuteQuery()] Starting Function
+[02/01/2016 14:11:10][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:11:10][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:11:10][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 14:11:15][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:11:15][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:11:16][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:11:20][                 ExportReports] Starting Function
+[02/01/2016 14:11:20][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 14:11:20][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 14:11:20][                 ExportReports] Checking BP Balance ..
+[02/01/2016 14:11:20][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 14:11:22][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 14:11:22][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 14:11:22][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 14:11:24][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 14:11:27][             ExportToPDF_CSN()] Completed with SUCCESS
+[02/01/2016 14:11:28][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 14:11:28][       SendEmailNotification()] Starting Function...
+[02/01/2016 14:14:00][                              ] MDI Form Load
+[02/01/2016 14:14:00][                              ] MDI Form Load Done
+[02/01/2016 14:14:02][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 14:14:02][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 14:14:02][             Get_CompanyList()] Starting Function
+[02/01/2016 14:14:02][                ExecuteQuery()] Starting Function
+[02/01/2016 14:14:02][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:14:02][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:14:02][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:14:05][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:14:05][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 14:14:05][            Load_CompanyList()] Starting Function
+[02/01/2016 14:14:05][                ExecuteQuery()] Starting Function
+[02/01/2016 14:14:05][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:14:05][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:14:05][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 14:14:09][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:14:09][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:14:09][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:14:12][                 ExportReports] Starting Function
+[02/01/2016 14:14:12][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 14:14:12][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 14:14:12][                 ExportReports] Checking BP Balance ..
+[02/01/2016 14:14:12][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 14:14:13][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 14:14:13][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 14:14:13][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 14:14:16][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 14:14:20][             ExportToPDF_CSN()] Completed with SUCCESS
+[02/01/2016 14:14:20][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 14:14:20][       SendEmailNotification()] Starting Function...
+[02/01/2016 14:14:36][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com
+[02/01/2016 14:15:02][       SendEmailNotification()] Completed with SUCCESS
+[02/01/2016 14:15:02][                              ] Calling function..
+[02/01/2016 14:15:02][                              ] Geting Max code..
+[02/01/2016 14:15:02][                              ] Max code ::2
+[02/01/2016 14:15:02][                              ] Executing sSQL insert into "AUMED_LIVE" ."@SOAEMAILLOG" values(2,2,'CAAILim001','AAI Limited','20160201','20160201','sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com')
+[02/01/2016 14:15:02][          ExecuteSQLNonQuery()] Starting Fucntion...
+[02/01/2016 14:15:02][          ExecuteSQLNonQuery()] Function Completed Successfully.
+[02/01/2016 14:15:02][                 ExportReports] Function Completed successfully.
+[02/01/2016 14:16:52][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:16:52][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:16:52][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:31:28][                              ] MDI Form Load
+[02/01/2016 14:31:28][                              ] MDI Form Load Done
+[02/01/2016 14:31:31][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 14:31:31][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 14:31:31][             Get_CompanyList()] Starting Function
+[02/01/2016 14:31:31][                ExecuteQuery()] Starting Function
+[02/01/2016 14:31:32][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:31:32][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:31:32][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:31:35][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:31:35][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 14:31:35][            Load_CompanyList()] Starting Function
+[02/01/2016 14:31:35][                ExecuteQuery()] Starting Function
+[02/01/2016 14:31:35][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:31:35][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:31:35][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 14:31:39][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:31:39][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:31:39][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:31:43][                 ExportReports] Starting Function
+[02/01/2016 14:31:43][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 14:31:43][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 14:31:43][                 ExportReports] Checking BP Balance ..
+[02/01/2016 14:31:43][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 14:31:44][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 14:31:44][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 14:31:44][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 14:31:48][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 14:31:51][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 14:32:03][                 ExportReports] Completed function with ERROR
+[02/01/2016 14:34:02][                              ] MDI Form Load
+[02/01/2016 14:34:02][                              ] MDI Form Load Done
+[02/01/2016 14:34:05][      GetSystemIntializeInfo()] Starting Function
+[02/01/2016 14:34:05][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/01/2016 14:34:05][             Get_CompanyList()] Starting Function
+[02/01/2016 14:34:05][                ExecuteQuery()] Starting Function
+[02/01/2016 14:34:06][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:34:06][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:34:06][             Get_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:34:10][SCompany_SelectedIndexChanged()] Starting Function
+[02/01/2016 14:34:10][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[02/01/2016 14:34:10][            Load_CompanyList()] Starting Function
+[02/01/2016 14:34:10][                ExecuteQuery()] Starting Function
+[02/01/2016 14:34:10][                ExecuteQuery()] Function Completed Successfully.
+[02/01/2016 14:34:10][            Load_CompanyList()] Completed with SUCCESS
+[02/01/2016 14:34:10][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[02/01/2016 14:34:13][            Load_BPGroupList()] Starting Function
+[02/01/2016 14:34:13][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[02/01/2016 14:34:13][            Load_BPGroupList()] Completed with SUCCESS
+[02/01/2016 14:34:17][                 ExportReports] Starting Function
+[02/01/2016 14:34:17][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[02/01/2016 14:34:17][                 ExportReports] Calling ExportToPDF()
+[02/01/2016 14:34:17][                 ExportReports] Checking BP Balance ..
+[02/01/2016 14:34:17][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160201')
+[02/01/2016 14:34:18][             ExportToPDF_CSN()] Starting Function
+[02/01/2016 14:34:18][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[02/01/2016 14:34:18][             ExportToPDF_CSN()] Loading Report
+[02/01/2016 14:34:21][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CAAILim001_01022016.pdf
+[02/01/2016 14:34:23][             ExportToPDF_CSN()] Completed with SUCCESS
+[02/01/2016 14:34:24][             ExportToPDF_CSN()] Calling EndStatus()
+[02/01/2016 14:34:24][       SendEmailNotification()] Starting Function...
+[02/01/2016 14:34:24][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com
+[02/01/2016 14:34:36][       SendEmailNotification()] Completed with SUCCESS
+[02/01/2016 14:34:36][                              ] Calling function..
+[02/01/2016 14:34:36][                              ] Geting Max code..
+[02/01/2016 14:34:36][                              ] Max code ::3
+[02/01/2016 14:34:36][                              ] Executing sSQL insert into "AUMED_LIVE" ."@SOAEMAILLOG" values(3,3,'CAAILim001','AAI Limited','20160201','20160201','sahayar@abeo-electra.com,srinivab@abeo-electra.com,nicolast@abeo-electra.com')
+[02/01/2016 14:34:36][          ExecuteSQLNonQuery()] Starting Fucntion...
+[02/01/2016 14:34:36][          ExecuteSQLNonQuery()] Function Completed Successfully.
+[02/01/2016 14:34:36][                 ExportReports] Function Completed successfully.
+[05/19/2016 21:26:20][                              ] MDI Form Load
+[05/19/2016 21:26:20][                              ] MDI Form Load Done
+[05/19/2016 21:26:23][      GetSystemIntializeInfo()] Starting Function
+[05/19/2016 21:26:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/19/2016 21:26:23][             Get_CompanyList()] Starting Function
+[05/19/2016 21:26:23][                ExecuteQuery()] Starting Function
+[05/19/2016 21:26:23][                ExecuteQuery()] Function Completed Successfully.
+[05/19/2016 21:26:23][SCompany_SelectedIndexChanged()] Starting Function
+[05/19/2016 21:26:23][             Get_CompanyList()] Completed with SUCCESS
+[05/19/2016 21:26:29][SCompany_SelectedIndexChanged()] Starting Function
+[05/19/2016 21:26:29][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[05/19/2016 21:26:29][            Load_CompanyList()] Starting Function
+[05/19/2016 21:26:29][                ExecuteQuery()] Starting Function
+[05/19/2016 21:26:29][                ExecuteQuery()] Function Completed Successfully.
+[05/19/2016 21:26:29][            Load_CompanyList()] Completed with SUCCESS
+[05/19/2016 21:26:29][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[05/19/2016 21:26:38][                 ExportReports] Starting Function
+[05/19/2016 21:27:15][                 ExportReports] Attempting to Payment Advise Portion :: 
+[05/19/2016 21:27:16][                 ExportReports] Execute SQLSELECT T1."E_Mail",T0."DocEntry",T0."CardCode",T0."DocNum",T0."CardName", T0."DocDate"  FROM "AUMED_LIVE".OINV T0  LEFT JOIN "AUMED_LIVE".OCRD T1 ON T0."CardCode"= T1."CardCode" LEFT JOIN "AUMED_LIVE".OOND T2 ON T1."IndustryC"= T2."IndCode" WHERE T1."U_AI_MONTHLYINVOICE"='No' and T0."U_AI_EINVOICE"='No' and T0."CANCELED" <>'Y'  AND T0."DocNum">='1610000477' AND T0."DocNum"<='1610000477'GROUP BY T1."E_Mail",T0."DocEntry",T0."CardCode",T0."DocNum",T0."CardName", T0."DocDate"
+[08/10/2016 10:50:40][                              ] MDI Form Load
+[08/10/2016 10:50:40][                              ] MDI Form Load Done
+[08/10/2016 10:50:42][      GetSystemIntializeInfo()] Starting Function
+[08/10/2016 10:50:42][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/10/2016 10:50:42][             Get_CompanyList()] Starting Function
+[08/10/2016 10:50:42][                ExecuteQuery()] Starting Function
+[08/10/2016 10:50:43][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 10:50:43][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 10:50:43][             Get_CompanyList()] Completed with SUCCESS
+[08/10/2016 10:50:55][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 10:50:55][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[08/10/2016 10:50:55][            Load_CompanyList()] Starting Function
+[08/10/2016 10:50:55][                ExecuteQuery()] Starting Function
+[08/10/2016 10:50:55][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 10:50:55][            Load_CompanyList()] Completed with SUCCESS
+[08/10/2016 10:50:55][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[08/10/2016 10:51:11][            Load_BPGroupList()] Starting Function
+[08/10/2016 10:51:11][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[08/10/2016 10:51:11][            Load_BPGroupList()] Completed with SUCCESS
+[08/10/2016 10:51:26][                 ExportReports] Starting Function
+[08/10/2016 10:51:26][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 10:51:26][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:51:26][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:51:26][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBesPra001','CBesPra001','20160731')
+[08/10/2016 10:51:30][             ExportToPDF_CSN()] Starting Function
+[08/10/2016 10:51:30][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[08/10/2016 10:51:30][             ExportToPDF_CSN()] Loading Report
+[08/10/2016 10:51:37][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CBesPra001_31072016.pdf
+[08/10/2016 10:51:39][             ExportToPDF_CSN()] Completed with SUCCESS
+[08/10/2016 10:51:40][             ExportToPDF_CSN()] Calling EndStatus()
+[08/10/2016 10:51:47][       SendEmailNotification()] Starting Function...
+[08/10/2016 10:51:57][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com
+[08/10/2016 10:53:01][       SendEmailNotification()] Completed with ERROR
+[08/10/2016 10:53:18][                 ExportReports] Completed function with ERROR
+[08/10/2016 10:53:21][                 ExportReports] Starting Function
+[08/10/2016 10:53:21][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 10:53:21][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:53:21][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:53:21][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBesPra001','CBesPra001','20160731')
+[08/10/2016 10:53:21][             ExportToPDF_CSN()] Starting Function
+[08/10/2016 10:53:21][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[08/10/2016 10:53:21][             ExportToPDF_CSN()] Loading Report
+[08/10/2016 10:53:22][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CBesPra001_31072016.pdf
+[08/10/2016 10:53:24][             ExportToPDF_CSN()] Completed with SUCCESS
+[08/10/2016 10:53:24][             ExportToPDF_CSN()] Calling EndStatus()
+[08/10/2016 10:53:29][       SendEmailNotification()] Starting Function...
+[08/10/2016 10:53:40][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com
+[08/10/2016 10:55:45][                              ] MDI Form Load
+[08/10/2016 10:55:45][                              ] MDI Form Load Done
+[08/10/2016 10:55:48][      GetSystemIntializeInfo()] Starting Function
+[08/10/2016 10:55:48][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/10/2016 10:55:48][             Get_CompanyList()] Starting Function
+[08/10/2016 10:55:48][                ExecuteQuery()] Starting Function
+[08/10/2016 10:55:48][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 10:55:48][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 10:55:48][             Get_CompanyList()] Completed with SUCCESS
+[08/10/2016 10:55:51][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 10:55:51][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[08/10/2016 10:55:51][            Load_CompanyList()] Starting Function
+[08/10/2016 10:55:51][                ExecuteQuery()] Starting Function
+[08/10/2016 10:55:51][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 10:55:51][            Load_CompanyList()] Completed with SUCCESS
+[08/10/2016 10:55:51][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[08/10/2016 10:55:59][            Load_BPGroupList()] Starting Function
+[08/10/2016 10:55:59][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[08/10/2016 10:55:59][            Load_BPGroupList()] Completed with SUCCESS
+[08/10/2016 10:56:04][                 ExportReports] Starting Function
+[08/10/2016 10:56:04][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 10:56:05][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:56:05][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:56:05][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160810')
+[08/10/2016 10:56:05][                 ExportReports] Function Completed successfully.
+[08/10/2016 10:56:13][                 ExportReports] Starting Function
+[08/10/2016 10:56:13][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 10:56:13][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:56:13][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:56:13][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CAAILim001','CAAILim001','20160810')
+[08/10/2016 10:56:14][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:56:14][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:56:14][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBCSStr001','CBCSStr001','20160810')
+[08/10/2016 10:56:14][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 10:56:14][                 ExportReports] Checking BP Balance ..
+[08/10/2016 10:56:14][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBesPra001','CBesPra001','20160810')
+[08/10/2016 10:56:15][             ExportToPDF_CSN()] Starting Function
+[08/10/2016 10:56:15][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[08/10/2016 10:56:15][             ExportToPDF_CSN()] Loading Report
+[08/10/2016 10:56:17][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CBesPra001_10082016.pdf
+[08/10/2016 10:56:19][             ExportToPDF_CSN()] Completed with SUCCESS
+[08/10/2016 10:56:20][             ExportToPDF_CSN()] Calling EndStatus()
+[08/10/2016 10:56:23][       SendEmailNotification()] Starting Function...
+[08/10/2016 13:00:18][                              ] MDI Form Load
+[08/10/2016 13:00:18][                              ] MDI Form Load Done
+[08/10/2016 13:00:36][      GetSystemIntializeInfo()] Starting Function
+[08/10/2016 13:00:36][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/10/2016 13:00:36][             Get_CompanyList()] Starting Function
+[08/10/2016 13:00:36][                ExecuteQuery()] Starting Function
+[08/10/2016 13:00:37][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 13:00:37][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 13:00:37][             Get_CompanyList()] Completed with SUCCESS
+[08/10/2016 13:00:56][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 13:00:56][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[08/10/2016 13:00:56][            Load_CompanyList()] Starting Function
+[08/10/2016 13:00:56][                ExecuteQuery()] Starting Function
+[08/10/2016 13:00:56][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 13:00:56][            Load_CompanyList()] Completed with SUCCESS
+[08/10/2016 13:00:56][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[08/10/2016 13:01:02][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 13:01:02][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[08/10/2016 13:01:02][            Load_CompanyList()] Starting Function
+[08/10/2016 13:01:02][                ExecuteQuery()] Starting Function
+[08/10/2016 13:01:02][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 13:01:02][            Load_CompanyList()] Completed with SUCCESS
+[08/10/2016 13:01:02][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[08/10/2016 13:01:07][            Load_BPGroupList()] Starting Function
+[08/10/2016 13:01:07][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[08/10/2016 13:01:07][            Load_BPGroupList()] Completed with SUCCESS
+[08/10/2016 13:01:15][                 ExportReports] Starting Function
+[08/10/2016 13:01:15][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 13:01:15][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 13:01:15][                 ExportReports] Checking BP Balance ..
+[08/10/2016 13:01:15][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBesPra001','CBesPra001','20160810')
+[08/10/2016 13:01:17][             ExportToPDF_CSN()] Starting Function
+[08/10/2016 13:01:17][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[08/10/2016 13:01:17][             ExportToPDF_CSN()] Loading Report
+[08/10/2016 13:01:21][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CBesPra001_10082016.pdf
+[08/10/2016 13:01:23][             ExportToPDF_CSN()] Completed with SUCCESS
+[08/10/2016 13:01:24][             ExportToPDF_CSN()] Calling EndStatus()
+[08/10/2016 13:02:53][       SendEmailNotification()] Starting Function...
+[08/10/2016 13:03:16][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com
+[08/10/2016 13:09:23][                              ] MDI Form Load
+[08/10/2016 13:09:23][                              ] MDI Form Load Done
+[08/10/2016 13:09:27][      GetSystemIntializeInfo()] Starting Function
+[08/10/2016 13:09:27][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/10/2016 13:09:27][             Get_CompanyList()] Starting Function
+[08/10/2016 13:09:27][                ExecuteQuery()] Starting Function
+[08/10/2016 13:09:27][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 13:09:27][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 13:09:27][             Get_CompanyList()] Completed with SUCCESS
+[08/10/2016 13:09:37][SCompany_SelectedIndexChanged()] Starting Function
+[08/10/2016 13:09:37][SCompany_SelectedIndexChanged()] Calling Load_CompanyList() 
+[08/10/2016 13:09:37][            Load_CompanyList()] Starting Function
+[08/10/2016 13:09:37][                ExecuteQuery()] Starting Function
+[08/10/2016 13:09:37][                ExecuteQuery()] Function Completed Successfully.
+[08/10/2016 13:09:37][            Load_CompanyList()] Completed with SUCCESS
+[08/10/2016 13:09:37][SCompany_SelectedIndexChanged()] Completed with SUCCESS
+[08/10/2016 13:09:46][            Load_BPGroupList()] Starting Function
+[08/10/2016 13:09:46][            Load_BPGroupList()] Execute SQLSELECT T0."CardCode", T0."CardName",T0."E_Mail", T0."U_AI_EMAILSOA" from "AUMED_LIVE".OCRD T0  WHERE T0."frozenFor" ='N' AND T0."GroupCode" like '%' AND T0."CardType" = 'C' Order by  T0."CardCode"
+[08/10/2016 13:09:46][            Load_BPGroupList()] Completed with SUCCESS
+[08/10/2016 13:09:52][                 ExportReports] Starting Function
+[08/10/2016 13:09:52][                 ExportReports] Execute SQLSelect * from "AUMED_LIVE"."@EADVISE"
+[08/10/2016 13:09:53][                 ExportReports] Calling ExportToPDF()
+[08/10/2016 13:09:54][                 ExportReports] Checking BP Balance ..
+[08/10/2016 13:09:54][                 ExportReports] Execute SQLCALL "AUMED_LIVE"."AE_SP002_SOA" ('CBesPra001','CBesPra001','20160810')
+[08/10/2016 13:09:56][             ExportToPDF_CSN()] Starting Function
+[08/10/2016 13:09:56][             ExportToPDF_CSN()] Report File Name:C:\Abeo\AU\E-Advise_Medicheck\Reports\MED_Statement of Account.rpt
+[08/10/2016 13:09:56][             ExportToPDF_CSN()] Loading Report
+[08/10/2016 13:10:02][             ExportToPDF_CSN()] Target File Name:C:\Abeo\AU\E-Advise_Medicheck\PDF\SOA_CBesPra001_10082016.pdf
+[08/10/2016 13:10:05][             ExportToPDF_CSN()] Completed with SUCCESS
+[08/10/2016 13:10:08][             ExportToPDF_CSN()] Calling EndStatus()
+[08/10/2016 13:10:20][       SendEmailNotification()] Starting Function...
+[08/10/2016 13:10:38][       SendEmailNotification()] Adding Email Address:  sahayar@abeo-electra.com
+[08/11/2016 16:38:08][                              ] MDI Form Load
+[08/11/2016 16:38:08][                              ] MDI Form Load Done
+[08/11/2016 16:38:11][      GetSystemIntializeInfo()] Starting Function
+[08/11/2016 16:38:11][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/11/2016 16:38:11][             Get_CompanyList()] Starting Function
+[08/11/2016 16:38:11][                ExecuteQuery()] Starting Function
+[08/11/2016 16:38:11][                ExecuteQuery()] Function Completed Successfully.
+[08/11/2016 16:38:11][SCompany_SelectedIndexChanged()] Starting Function
+[08/11/2016 16:38:11][             Get_CompanyList()] Completed with SUCCESS
+[09/01/2017 00:34:00][                              ] MDI Form Load
+[09/01/2017 00:34:00][                              ] MDI Form Load Done

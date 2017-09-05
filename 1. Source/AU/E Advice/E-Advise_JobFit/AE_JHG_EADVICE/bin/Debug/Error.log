@@ -1,0 +1,72 @@
+[02/09/2016 11:35:27][                 ExportToPDF()] Invalid report file path.
+[02/09/2016 11:35:27][                 ExportReports] Invalid report file path.
+[02/09/2016 12:23:58][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. dg1sm46721227pad.18 - gsmtp
+[02/09/2016 12:42:33][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[02/09/2016 12:42:33][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[02/09/2016 12:42:33][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[02/09/2016 14:45:21][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. q16sm47622206pfi.80 - gsmtp
+[02/09/2016 14:49:49][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. u64sm3433296pfa.86 - gsmtp
+[04/05/2016 19:09:59][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:09:59][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:09:59][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:10:11][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:10:11][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:10:11][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:14:03][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:14:03][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/05/2016 19:14:03][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/06/2016 11:23:22][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. 27sm691493pfo.58 - gsmtp
+[04/19/2016 14:31:01][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 14:31:02][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 14:31:02][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 14:31:11][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 14:31:11][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 14:31:11][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 16:04:35][          Load_PaymentAdvise()] There is no row at position 0.
+[04/19/2016 16:42:43][             Load_CreditNote()] Column 'U_AI_EMAILSOA' does not belong to table Table.
+[04/19/2016 16:57:27][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 16:57:27][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 16:57:27][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[04/19/2016 16:59:49][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. zu10sm89510238pab.31 - gsmtp
+[04/19/2016 16:59:49][                 ExportReports] Please check the email Address.Fail to send email : sahayar@abeo-electra.com:: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. zu10sm89510238pab.31 - gsmtp
+[05/02/2016 11:38:11][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[05/02/2016 11:38:11][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[05/02/2016 11:38:11][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/10/2016 10:18:19][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. e72sm58959542pfb.49 - gsmtp
+[08/10/2016 10:18:20][                 ExportReports] Please check the email Address.Fail to send email : b_spiercy@bigpond.com:: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. e72sm58959542pfb.49 - gsmtp
+[08/10/2016 11:02:48][             ExportToPDF_CSN()] Load report failed.
+[08/10/2016 11:02:48][                 ExportReports] Load report failed.
+[08/10/2016 11:49:31][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "B": line 1 col 42 (at pos 42)
+[08/12/2016 14:54:04][                 ExportReports] ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near "T1": line 1 col 271 (at pos 271)
+[08/12/2016 14:57:57][                 ExportToPDF()] Load report failed.
+[08/12/2016 15:10:35][                 ExportToPDF()] Load report failed.
+[08/12/2016 15:10:35][                 ExportReports] Load report failed.
+[08/12/2016 15:14:58][                 ExportToPDF()] Load report failed.
+[08/12/2016 15:14:58][                 ExportReports] Load report failed.
+[08/12/2016 15:16:58][             ExportToPDF_CSN()] Load report failed.
+[08/12/2016 15:16:58][                 ExportReports] Load report failed.
+[08/12/2016 15:21:23][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. 184sm10226190pfg.20 - gsmtp
+[08/12/2016 15:21:23][                 ExportReports] Please check the email Address.Fail to send email : sahayar@abeo-electra.com:: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. 184sm10226190pfg.20 - gsmtp
+[08/16/2016 12:49:16][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/16/2016 12:49:16][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/16/2016 12:49:16][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/16/2016 12:58:44][       SendEmailNotification()] The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. s23sm35142820pfd.23 - gsmtp
+[08/16/2016 12:58:44][                 ExportReports] Please check the email Address.Fail to send email : sahayar@abeo-electra:: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. s23sm35142820pfd.23 - gsmtp
+[09/16/2016 13:30:03][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[09/16/2016 13:30:03][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[09/16/2016 13:30:03][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[09/22/2016 11:18:05][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP003_SOA_InitialCheck: line 1 col 19 (at pos 18)
+[09/22/2016 11:19:23][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP003_SOA_InitialCheck: line 1 col 19 (at pos 18)
+[09/22/2016 11:24:58][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;129 transaction rolled back by an internal error:  [129] "AUJHG_TEST"."AE_SP003_SOA_InitialCheck": line 62 col 1 (at pos 2077): [129] (range 3): transaction rolled back by an internal error: invalid table name: AE_TMP_SOAFN: line 1 col 12 (at pos 11)
+[05/30/2017 15:37:14][            Load_CompanyList()] InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+[05/30/2017 15:37:14][SCompany_SelectedIndexChanged()] InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+[05/30/2017 15:37:22][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP003_SOA_InitialCheck: line 1 col 20 (at pos 19)
+[05/30/2017 15:37:47][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[05/30/2017 15:37:47][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[05/30/2017 15:37:47][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[05/30/2017 15:37:50][            Load_BPGroupList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;328 invalid name of function or procedure: AE_SP003_SOA_InitialCheck: line 1 col 19 (at pos 18)
+[08/21/2017 11:17:26][                ExecuteQuery()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/21/2017 11:17:26][            Load_CompanyList()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
+[08/21/2017 11:17:26][SCompany_SelectedIndexChanged()] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.U_AI_EMAIL: line 1 col 11 (at pos 10)
