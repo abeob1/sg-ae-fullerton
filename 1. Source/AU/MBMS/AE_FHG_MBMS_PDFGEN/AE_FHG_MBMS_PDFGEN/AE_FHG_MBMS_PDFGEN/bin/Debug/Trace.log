@@ -1,0 +1,476 @@
+[04/04/2017 13:26:50][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:26:50][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:27:02][                 ExportReports] Starting Function
+[04/04/2017 13:27:02][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:27:02][                ExecuteQuery()] Starting Function
+[04/04/2017 13:27:02][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:28:05][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:28:05][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:28:18][                 ExportReports] Starting Function
+[04/04/2017 13:28:18][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:28:18][                ExecuteQuery()] Starting Function
+[04/04/2017 13:28:18][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:30:43][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:30:43][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:30:56][                 ExportReports] Starting Function
+[04/04/2017 13:30:56][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:30:56][                ExecuteQuery()] Starting Function
+[04/04/2017 13:30:56][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:31:12][                 ExportReports] Starting Function
+[04/04/2017 13:31:12][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" , T2."ImportEnt" , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000002' and T0."CardCode"<= 'MV000002' and T0."Canceled" = 'N'
+[04/04/2017 13:31:12][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:31:13][                 ExportToPDF()] Starting Function
+[04/04/2017 13:31:13][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:31:13][                 ExportToPDF()] Loading Report
+[04/04/2017 13:31:15][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8596_PA_MV000002.pdf
+[04/04/2017 13:31:21][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:31:21][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:31:21][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:31:21][                 ExportToPDF()] Starting Function
+[04/04/2017 13:31:21][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:31:21][                 ExportToPDF()] Loading Report
+[04/04/2017 13:31:21][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8591_PA_MV000002.pdf
+[04/04/2017 13:31:26][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:31:26][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:31:26][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:31:26][                 ExportToPDF()] Starting Function
+[04/04/2017 13:31:26][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:31:26][                 ExportToPDF()] Loading Report
+[04/04/2017 13:31:27][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH7777_PA_MV000002.pdf
+[04/04/2017 13:31:31][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:31:31][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:31:31][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:31:31][                 ExportToPDF()] Starting Function
+[04/04/2017 13:31:31][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:31:31][                 ExportToPDF()] Loading Report
+[04/04/2017 13:31:32][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8594_PA_MV000002.pdf
+[04/04/2017 13:31:37][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:31:37][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:31:37][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:31:37][                 ExportToPDF()] Starting Function
+[04/04/2017 13:31:37][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:31:37][                 ExportToPDF()] Loading Report
+[04/04/2017 13:31:38][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8435_PA_MV000002.pdf
+[04/04/2017 13:31:42][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:31:42][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:31:42][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:32:22][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:32:22][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:32:34][                 ExportReports] Starting Function
+[04/04/2017 13:32:34][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:32:34][                ExecuteQuery()] Starting Function
+[04/04/2017 13:32:34][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:33:46][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:33:46][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:33:58][                 ExportReports] Starting Function
+[04/04/2017 13:33:58][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000001' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:33:58][                ExecuteQuery()] Starting Function
+[04/04/2017 13:33:58][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:35:05][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:35:05][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:35:18][                 ExportReports] Starting Function
+[04/04/2017 13:35:18][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum" "ImportEnt",T0."CardName",T0."CardCode"  , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000002' and T0."CardCode"<= 'MV000002' and T0."Canceled" = 'N' GROUP BY T0."DocEntry",T0."DocNum" ,T0."CardName",T0."CardCode" , T3."U_AI_FHN3Code" 
+[04/04/2017 13:35:18][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:35:19][                 ExportToPDF()] Starting Function
+[04/04/2017 13:35:19][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\Payment Advice Form.rpt
+[04/04/2017 13:35:19][                 ExportToPDF()] Loading Report
+[04/04/2017 13:35:20][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYSUM_20170331\17100825_PS_MV000002.pdf
+[04/04/2017 13:35:21][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:35:21][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:35:21][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:35:34][                 ExportReports] Starting Function
+[04/04/2017 13:35:34][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:35:34][                ExecuteQuery()] Starting Function
+[04/04/2017 13:35:34][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:36:44][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:36:44][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:37:06][                 ExportReports] Starting Function
+[04/04/2017 13:37:06][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:37:06][                ExecuteQuery()] Starting Function
+[04/04/2017 13:37:06][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:37:34][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:37:34][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:37:47][                 ExportReports] Starting Function
+[04/04/2017 13:37:49][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:37:50][                ExecuteQuery()] Starting Function
+[04/04/2017 13:39:34][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:39:34][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:39:46][                 ExportReports] Starting Function
+[04/04/2017 13:39:46][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."CANCELED" = 'N'
+[04/04/2017 13:39:47][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:39:47][                 ExportToPDF()] Starting Function
+[04/04/2017 13:39:47][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:39:47][                 ExportToPDF()] Loading Report
+[04/04/2017 13:39:50][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8596_TI_MV000002.pdf
+[04/04/2017 13:41:53][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:41:53][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:42:05][                 ExportReports] Starting Function
+[04/04/2017 13:42:05][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."CANCELED" = 'N'
+[04/04/2017 13:42:05][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:42:06][                 ExportToPDF()] Starting Function
+[04/04/2017 13:42:06][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:42:06][                 ExportToPDF()] Loading Report
+[04/04/2017 13:42:07][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8596_TI_MV000002.pdf
+[04/04/2017 13:42:07][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:42:07][                 ExportReports] Completed function with ERROR
+[04/04/2017 13:42:20][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:42:20][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:42:33][                 ExportReports] Starting Function
+[04/04/2017 13:42:33][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."CANCELED" = 'N'
+[04/04/2017 13:42:33][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:42:35][                 ExportToPDF()] Starting Function
+[04/04/2017 13:42:35][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:42:35][                 ExportToPDF()] Loading Report
+[04/04/2017 13:42:40][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8596_TI_MV000002.pdf
+[04/04/2017 13:42:56][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:42:57][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:42:57][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:42:57][                 ExportToPDF()] Starting Function
+[04/04/2017 13:42:57][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:42:57][                 ExportToPDF()] Loading Report
+[04/04/2017 13:42:58][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8591_TI_MV000002.pdf
+[04/04/2017 13:42:58][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:42:58][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:42:58][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:42:58][                 ExportToPDF()] Starting Function
+[04/04/2017 13:42:58][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:42:58][                 ExportToPDF()] Loading Report
+[04/04/2017 13:42:59][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH7777_TI_MV000002.pdf
+[04/04/2017 13:42:59][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:43:00][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:43:00][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:43:00][                 ExportToPDF()] Starting Function
+[04/04/2017 13:43:00][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:43:00][                 ExportToPDF()] Loading Report
+[04/04/2017 13:43:01][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8594_TI_MV000002.pdf
+[04/04/2017 13:43:01][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:43:02][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:43:02][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:43:02][                 ExportToPDF()] Starting Function
+[04/04/2017 13:43:02][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:43:02][                 ExportToPDF()] Loading Report
+[04/04/2017 13:43:02][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8435_TI_MV000002.pdf
+[04/04/2017 13:43:03][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:43:03][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:43:03][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:43:03][                 ExportToPDF()] Starting Function
+[04/04/2017 13:43:03][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:43:03][                 ExportToPDF()] Loading Report
+[04/04/2017 13:43:04][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8588_TI_MV000002.pdf
+[04/04/2017 13:43:05][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:43:05][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:43:05][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:43:46][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:43:46][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:43:58][                 ExportReports] Starting Function
+[04/04/2017 13:43:58][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."CANCELED" = 'N'
+[04/04/2017 13:43:58][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:43:59][                 ExportToPDF()] Starting Function
+[04/04/2017 13:43:59][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:43:59][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:01][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8596_TI_MV000002.pdf
+[04/04/2017 13:44:01][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:02][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:02][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:02][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:02][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:44:02][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:03][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8591_TI_MV000002.pdf
+[04/04/2017 13:44:03][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:04][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:04][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:04][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:04][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:44:04][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:04][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH7777_TI_MV000002.pdf
+[04/04/2017 13:44:05][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:05][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:05][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:05][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:05][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:44:05][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:06][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8594_TI_MV000002.pdf
+[04/04/2017 13:44:07][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:08][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:08][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:08][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:08][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:44:08][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:11][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8435_TI_MV000002.pdf
+[04/04/2017 13:44:12][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:12][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:12][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:12][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:12][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_AP_Invoice.rpt
+[04/04/2017 13:44:12][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:13][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TAXINV_20170331\BATCH8588_TI_MV000002.pdf
+[04/04/2017 13:44:14][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:14][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:14][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:44:20][                 ExportReports] Starting Function
+[04/04/2017 13:44:20][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from ORPC T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' AND "CANCELED"='N' and T0."CardCode">='MV000002' and T0."CardCode"<= 'MV000002'
+[04/04/2017 13:44:20][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:20][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:20][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:20][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:21][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH8588_TF_MV000002.pdf
+[04/04/2017 13:44:22][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:22][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:22][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:22][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:22][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:22][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:23][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH8435_TF_MV000002.pdf
+[04/04/2017 13:44:24][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:24][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:24][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:24][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:24][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:24][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:26][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH8594_TF_MV000002.pdf
+[04/04/2017 13:44:26][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:27][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:27][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:27][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:27][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:27][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:28][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH7777_TF_MV000002.pdf
+[04/04/2017 13:44:28][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:28][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:28][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:28][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:28][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:28][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:29][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH8591_TF_MV000002.pdf
+[04/04/2017 13:44:30][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:30][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:30][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:30][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:30][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_TaxInvoice_TPAFee.rpt
+[04/04/2017 13:44:30][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:31][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\TPAFEE_20170331\BATCH8596_TF_MV000002.pdf
+[04/04/2017 13:44:32][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:32][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:32][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:44:36][                 ExportReports] Starting Function
+[04/04/2017 13:44:36][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" , T2."ImportEnt" , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000002' and T0."CardCode"<= 'MV000002' and T0."Canceled" = 'N'
+[04/04/2017 13:44:37][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:37][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:37][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:44:37][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:38][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8596_PA_MV000002.pdf
+[04/04/2017 13:44:42][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:43][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:43][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:43][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:43][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:44:43][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:44][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8591_PA_MV000002.pdf
+[04/04/2017 13:44:49][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:49][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:49][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:49][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:49][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:44:49][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:50][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH7777_PA_MV000002.pdf
+[04/04/2017 13:44:55][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:44:55][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:44:55][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:44:55][                 ExportToPDF()] Starting Function
+[04/04/2017 13:44:55][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:44:55][                 ExportToPDF()] Loading Report
+[04/04/2017 13:44:56][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8594_PA_MV000002.pdf
+[04/04/2017 13:45:01][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:45:01][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:45:01][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:45:01][                 ExportToPDF()] Starting Function
+[04/04/2017 13:45:01][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdviceByBatch.rpt
+[04/04/2017 13:45:01][                 ExportToPDF()] Loading Report
+[04/04/2017 13:45:02][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYADV_20170331\BATCH8435_PA_MV000002.pdf
+[04/04/2017 13:45:07][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:45:08][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:45:08][                 ExportReports] Function Completed successfully.
+[04/04/2017 13:45:13][                 ExportReports] Starting Function
+[04/04/2017 13:45:13][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum" "ImportEnt",T0."CardName",T0."CardCode"  , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000002' and T0."CardCode"<= 'MV000002' and T0."Canceled" = 'N' GROUP BY T0."DocEntry",T0."DocNum" ,T0."CardName",T0."CardCode" , T3."U_AI_FHN3Code" 
+[04/04/2017 13:45:13][                 ExportReports] Calling ExportToPDF()
+[04/04/2017 13:45:13][                 ExportToPDF()] Starting Function
+[04/04/2017 13:45:13][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\Payment Advice Form.rpt
+[04/04/2017 13:45:13][                 ExportToPDF()] Loading Report
+[04/04/2017 13:45:15][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170404\FHG0245_MV000002\PAYSUM_20170331\17100825_PS_MV000002.pdf
+[04/04/2017 13:45:15][                 ExportToPDF()] Completed with SUCCESS
+[04/04/2017 13:45:16][                 ExportToPDF()] Calling EndStatus()
+[04/04/2017 13:45:16][                 ExportReports] Function Completed successfully.
+[05/11/2017 10:56:49][      GetSystemIntializeInfo()] Starting Function
+[05/11/2017 10:56:49][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/11/2017 13:14:06][      GetSystemIntializeInfo()] Starting Function
+[05/11/2017 13:14:06][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/12/2017 12:58:48][      GetSystemIntializeInfo()] Starting Function
+[05/12/2017 12:58:48][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/12/2017 13:04:24][                 ExportReports] Starting Function
+[05/12/2017 13:07:23][      GetSystemIntializeInfo()] Starting Function
+[05/12/2017 13:07:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/12/2017 13:07:44][                 ExportReports] Starting Function
+[05/12/2017 13:08:24][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum" "ImportEnt",T0."CardName",T0."CardCode"  , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000009' and T0."CardCode"<= 'MV000009' and T0."Canceled" = 'N' GROUP BY T0."DocEntry",T0."DocNum" ,T0."CardName",T0."CardCode" , T3."U_AI_FHN3Code" 
+[05/12/2017 13:08:30][                 ExportReports] Calling ExportToPDF()
+[05/12/2017 13:08:59][                 ExportToPDF()] Starting Function
+[05/12/2017 13:08:59][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\Payment Advice Form.rpt
+[05/12/2017 13:08:59][                 ExportToPDF()] Loading Report
+[05/12/2017 13:09:06][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170512\FHG0241_MV000009\PAYSUM_20170331\17100827_PS_MV000009.pdf
+[05/12/2017 13:09:10][                 ExportToPDF()] Completed with SUCCESS
+[05/12/2017 13:09:11][                 ExportToPDF()] Calling EndStatus()
+[05/12/2017 13:09:15][                 ExportReports] Function Completed successfully.
+[05/17/2017 10:25:47][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 10:25:47][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 10:30:16][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 10:30:17][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 10:30:51][                 ExportReports] Starting Function
+[05/17/2017 10:33:16][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" , T2."ImportEnt" , T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170201'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'
+[05/17/2017 11:16:44][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 11:16:44][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 11:30:22][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 11:30:22][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 11:31:24][                 ExportReports] Starting Function
+[05/17/2017 11:32:48][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 11:56:03][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 11:56:03][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 11:57:01][                 ExportReports] Starting Function
+[05/17/2017 11:57:22][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 11:57:28][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:13:16][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:13:16][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:14:45][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:14:45][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:16:53][                 ExportReports] Starting Function
+[05/17/2017 12:17:06][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:17:09][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:18:40][                 ExportReports] Completed function with ERROR
+[05/17/2017 12:18:45][                 ExportReports] Starting Function
+[05/17/2017 12:18:55][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:18:55][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:18:55][                 ExportReports] Completed function with ERROR
+[05/17/2017 12:19:12][                 ExportReports] Starting Function
+[05/17/2017 12:19:12][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:19:32][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:21:01][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:21:01][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:21:23][                 ExportReports] Starting Function
+[05/17/2017 12:21:23][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:25:53][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:25:53][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:26:07][                 ExportReports] Starting Function
+[05/17/2017 12:26:07][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:26:11][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:26:31][                 ExportToPDF()] Starting Function
+[05/17/2017 12:26:31][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[05/17/2017 12:26:32][                 ExportToPDF()] Loading Report
+[05/17/2017 12:34:51][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:34:51][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:35:08][                 ExportReports] Starting Function
+[05/17/2017 12:35:08][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000280' and T0."CardCode"<= 'MV000280' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:35:15][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:35:25][                 ExportToPDF()] Starting Function
+[05/17/2017 12:35:25][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[05/17/2017 12:35:25][                 ExportToPDF()] Loading Report
+[05/17/2017 12:35:34][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170517\FHG0648_MV000280\PAYADV_20170331\DOCNUM17100924_PA_MV000280.pdf
+[05/17/2017 12:36:04][                 ExportToPDF()] Completed with SUCCESS
+[05/17/2017 12:36:10][                 ExportToPDF()] Calling EndStatus()
+[05/17/2017 12:36:21][                 ExportReports] Function Completed successfully.
+[05/17/2017 12:46:32][      GetSystemIntializeInfo()] Starting Function
+[05/17/2017 12:46:32][      GetSystemIntializeInfo()] Completed with SUCCESS
+[05/17/2017 12:46:46][                 ExportReports] Starting Function
+[05/17/2017 12:46:46][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170331'  and T0."CardCode">='MV000001' and T0."CardCode"<= 'MV000009' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[05/17/2017 12:46:46][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:46:50][                 ExportToPDF()] Starting Function
+[05/17/2017 12:46:50][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[05/17/2017 12:46:50][                 ExportToPDF()] Loading Report
+[05/17/2017 12:46:53][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170517\FHG0245_MV000002\PAYADV_20170331\DOCNUM17100825_PA_MV000002.pdf
+[05/17/2017 12:46:58][                 ExportToPDF()] Completed with SUCCESS
+[05/17/2017 12:46:58][                 ExportToPDF()] Calling EndStatus()
+[05/17/2017 12:46:58][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:46:58][                 ExportToPDF()] Starting Function
+[05/17/2017 12:46:58][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[05/17/2017 12:46:58][                 ExportToPDF()] Loading Report
+[05/17/2017 12:47:00][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170517\FHG0580_MV000004\PAYADV_20170331\DOCNUM17100826_PA_MV000004.pdf
+[05/17/2017 12:47:04][                 ExportToPDF()] Completed with SUCCESS
+[05/17/2017 12:47:05][                 ExportToPDF()] Calling EndStatus()
+[05/17/2017 12:47:05][                 ExportReports] Calling ExportToPDF()
+[05/17/2017 12:47:05][                 ExportToPDF()] Starting Function
+[05/17/2017 12:47:05][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[05/17/2017 12:47:05][                 ExportToPDF()] Loading Report
+[05/17/2017 12:47:07][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170517\FHG0241_MV000009\PAYADV_20170331\DOCNUM17100827_PA_MV000009.pdf
+[05/17/2017 12:47:08][                 ExportToPDF()] Completed with SUCCESS
+[05/17/2017 12:47:09][                 ExportToPDF()] Calling EndStatus()
+[05/17/2017 12:47:09][                 ExportReports] Function Completed successfully.
+[06/05/2017 12:01:22][      GetSystemIntializeInfo()] Starting Function
+[06/05/2017 12:01:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/05/2017 12:01:34][                 ExportReports] Starting Function
+[06/05/2017 12:02:13][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170525'  and T0."CardCode">='MV000893' and T0."CardCode"<= 'MV000893' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[06/05/2017 12:02:40][                 ExportReports] Calling ExportToPDF()
+[06/05/2017 12:04:02][                 ExportToPDF()] Starting Function
+[06/05/2017 12:04:02][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\Reports\AI_RPT_PaymentAdvice.rpt
+[06/05/2017 12:04:02][                 ExportToPDF()] Loading Report
+[06/05/2017 12:04:16][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170605\FHG0051_MV000893\PAYADV_20170525\DOCNUM17101893_PA_MV000893.pdf
+[06/05/2017 12:04:17][                 ExportToPDF()] Calling EndStatus()
+[06/05/2017 12:04:39][                 ExportReports] Completed function with ERROR
+[06/05/2017 12:04:44][                 ExportReports] Starting Function
+[06/05/2017 12:04:47][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170525'  and T0."CardCode">='MV000893' and T0."CardCode"<= 'MV000893' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[06/05/2017 12:04:47][                 ExportReports] Calling ExportToPDF()
+[06/05/2017 12:04:47][                 ExportToPDF()] Starting Function
+[06/05/2017 12:04:47][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\UAT Reports\AI_RPT_PaymentAdvice.rpt
+[06/05/2017 12:04:47][                 ExportToPDF()] Loading Report
+[06/05/2017 12:04:49][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170605\FHG0051_MV000893\PAYADV_20170525\DOCNUM17101893_PA_MV000893.pdf
+[06/05/2017 12:04:49][                 ExportToPDF()] Calling EndStatus()
+[06/05/2017 12:04:49][                 ExportReports] Completed function with ERROR
+[06/05/2017 12:05:20][                 ExportReports] Starting Function
+[06/05/2017 12:05:20][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170525'  and T0."CardCode">='MV000893' and T0."CardCode"<= 'MV000893' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[06/05/2017 12:05:20][                 ExportReports] Calling ExportToPDF()
+[06/05/2017 12:05:51][      GetSystemIntializeInfo()] Starting Function
+[06/05/2017 12:05:51][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/05/2017 12:06:03][                 ExportReports] Starting Function
+[06/05/2017 12:06:03][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170525'  and T0."CardCode">='MV000893' and T0."CardCode"<= 'MV000893' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[06/05/2017 12:06:03][                 ExportReports] Calling ExportToPDF()
+[06/05/2017 12:06:43][                 ExportToPDF()] Starting Function
+[06/05/2017 12:06:45][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\Reports\AI_RPT_PaymentAdvice.rpt
+[06/05/2017 12:06:46][                 ExportToPDF()] Loading Report
+[06/05/2017 12:08:09][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170605\FHG0051_MV000893\PAYADV_20170525\DOCNUM17101893_PA_MV000893.pdf
+[08/08/2017 14:23:07][      GetSystemIntializeInfo()] Starting Function
+[08/08/2017 14:23:07][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/08/2017 14:23:46][      GetSystemIntializeInfo()] Starting Function
+[08/08/2017 14:23:46][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/21/2017 17:38:11][      GetSystemIntializeInfo()] Starting Function
+[08/21/2017 17:38:11][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/21/2017 19:49:30][      GetSystemIntializeInfo()] Starting Function
+[08/21/2017 19:49:30][      GetSystemIntializeInfo()] Completed with SUCCESS
+[08/21/2017 19:50:01][                 ExportReports] Starting Function
+[08/21/2017 19:50:01][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170821'  and T0."CardCode">='MV000001' and T0."CardCode"<= 'MV000129' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[08/21/2017 19:50:01][                 ExportReports] Function Completed successfully.
+[08/21/2017 19:51:06][                 ExportReports] Starting Function
+[08/21/2017 21:13:04][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170821'  and T0."CardCode">='MV000001' and T0."CardCode"<= 'MV000129' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[08/21/2017 21:13:04][                 ExportReports] Function Completed successfully.
+[08/21/2017 21:13:42][                 ExportReports] Starting Function
+[08/21/2017 21:13:49][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170820'  and T0."CardCode">='MV000001' and T0."CardCode"<= 'MV000001' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[08/21/2017 21:13:51][                 ExportReports] Calling ExportToPDF()
+[08/21/2017 21:14:12][                 ExportToPDF()] Starting Function
+[08/21/2017 21:14:12][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\Reports\AI_RPT_PaymentAdvice.rpt
+[08/21/2017 21:14:13][                 ExportToPDF()] Loading Report
+[08/21/2017 21:14:40][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170821\FHM34567_MV000001\PAYADV_20170820\DOCNUM17102334_PA_MV000001.pdf
+[08/21/2017 21:15:06][                 ExportToPDF()] Completed with SUCCESS
+[08/21/2017 21:15:10][                 ExportToPDF()] Calling EndStatus()
+[08/21/2017 21:15:38][                 ExportReports] Function Completed successfully.
+[08/21/2017 21:54:01][                 ExportReports] Starting Function
+[08/21/2017 21:54:08][                 ExportReports] Execute SQL SELECT T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code"  from OVPM T0  INNER JOIN VPM2 T1 ON T0."DocNum"=T1."DocNum"  LEFT JOIN OPCH T2 ON T2."DocEntry"=T1."DocEntry"  LEFT JOIN OCRD T3 ON T3."CardCode"=T0."CardCode"  WHERE T1."InvType"=18 and T0."DocDate"='20170731'  and T0."CardCode">='MV001388' and T0."CardCode"<= 'MV001388' and T0."Canceled" = 'N'  GROUP BY T0."DocEntry",T0."DocNum",T0."CardName",T0."CardCode" ,   T3."U_AI_FHN3Code" 
+[08/21/2017 21:54:08][                 ExportReports] Calling ExportToPDF()
+[08/21/2017 21:54:12][                 ExportToPDF()] Starting Function
+[08/21/2017 21:54:12][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\Reports\AI_RPT_PaymentAdvice.rpt
+[08/21/2017 21:54:12][                 ExportToPDF()] Loading Report
+[08/21/2017 21:54:18][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170821\FHG0805_MV001388\PAYADV_20170731\DOCNUM17102133_PA_MV001388.pdf
+[08/21/2017 21:54:25][                 ExportToPDF()] Completed with SUCCESS
+[08/21/2017 21:54:26][                 ExportToPDF()] Calling EndStatus()
+[08/21/2017 21:54:26][                 ExportReports] Calling ExportToPDF()
+[08/21/2017 21:54:26][                 ExportToPDF()] Starting Function
+[08/21/2017 21:54:26][                 ExportToPDF()] Report File Name:C:\SAP\MBMS\Reports\AI_RPT_PaymentAdvice.rpt
+[08/21/2017 21:54:26][                 ExportToPDF()] Loading Report
+[08/21/2017 21:54:28][                 ExportToPDF()] Target File Name:C:\Abeo\SAP_FHN4\20170821\FHG0805_MV001388\PAYADV_20170731\DOCNUM17102329_PA_MV001388.pdf
+[08/21/2017 21:54:31][                 ExportToPDF()] Completed with SUCCESS
+[08/21/2017 21:54:31][                 ExportToPDF()] Calling EndStatus()
+[08/21/2017 21:54:31][                 ExportReports] Function Completed successfully.

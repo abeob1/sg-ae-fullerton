@@ -1,0 +1,312 @@
+20/07/14 7:56:54 PM:Record No: 234 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:56:58 PM:Record No: 235 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:01 PM:Record No: 236 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:01 PM:Record No: 237 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:01 PM:Record No: 238 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:01 PM:Record No: 239 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:02 PM:Record No: 240 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:02 PM:Record No: 241 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:02 PM:Record No: 242 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:02 PM:Record No: 243 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:02 PM:Record No: 244 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:03 PM:Record No: 245 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:03 PM:Record No: 246 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:03 PM:Record No: 247 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:03 PM:Record No: 248 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:03 PM:Record No: 249 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:04 PM:Record No: 250 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:04 PM:Record No: 251 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:04 PM:Record No: 252 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:05 PM:Record No: 324 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:05 PM:Record No: 325 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:05 PM:Record No: 328 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:06 PM:Record No: 391 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:06 PM:Record No: 392 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:06 PM:Record No: 395 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:06 PM:Record No: 396 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:07 PM:Record No: 397 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:07 PM:Record No: 398 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:07 PM:Record No: 399 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:07 PM:Record No: 400 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:19 PM:Record No: 460 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:21 PM:Record No: 464 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:21 PM:Record No: 465 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:23 PM:Record No: 469 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:29 PM:Record No: 477 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:29 PM:Record No: 478 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:29 PM:Record No: 479 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 7:57:31 PM:Record No: 484 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:57:41 PM:Record No: 504 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:42 PM:Record No: 505 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:42 PM:Record No: 506 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:42 PM:Record No: 507 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:42 PM:Record No: 508 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:42 PM:Record No: 509 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:43 PM:Record No: 510 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:43 PM:Record No: 511 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:43 PM:Record No: 512 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:43 PM:Record No: 513 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 7:57:43 PM:Record No: 514 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:44 PM:Record No: 515 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:44 PM:Record No: 516 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:44 PM:Record No: 517 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:44 PM:Record No: 518 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:44 PM:Record No: 519 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 7:57:48 PM:Record No: 527 Err Msg:540000087 - Invalid distribution rule: MCU-ON
+20/07/14 7:58:30 PM:Record No: 605 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 8:00:21 PM:Record No: 818 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 8:01:21 PM:Record No: 933 Err Msg:10000415 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:21 PM:Record No: 934 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:21 PM:Record No: 935 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:21 PM:Record No: 936 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:21 PM:Record No: 937 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:21 PM:Record No: 938 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:21 PM:Record No: 939 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 940 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 941 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 942 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 943 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 944 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 945 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 946 Err Msg:540000087 - Update the exchange rate  , 'SGD'
+20/07/14 8:01:22 PM:Record No: 947 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:23 PM:Record No: 948 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:23 PM:Record No: 949 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:23 PM:Record No: 950 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:23 PM:Record No: 951 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:24 PM:Record No: 952 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:24 PM:Record No: 953 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:24 PM:Record No: 954 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:24 PM:Record No: 955 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:25 PM:Record No: 956 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:25 PM:Record No: 957 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:25 PM:Record No: 958 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:25 PM:Record No: 959 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:25 PM:Record No: 960 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:26 PM:Record No: 961 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:26 PM:Record No: 962 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:26 PM:Record No: 963 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:26 PM:Record No: 964 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:27 PM:Record No: 965 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:27 PM:Record No: 966 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:27 PM:Record No: 967 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:27 PM:Record No: 968 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:27 PM:Record No: 969 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:28 PM:Record No: 970 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:28 PM:Record No: 971 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:28 PM:Record No: 972 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:28 PM:Record No: 973 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:29 PM:Record No: 974 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:29 PM:Record No: 975 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:29 PM:Record No: 976 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:29 PM:Record No: 977 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:32 PM:Record No: 978 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:32 PM:Record No: 979 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:32 PM:Record No: 980 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:33 PM:Record No: 981 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:33 PM:Record No: 982 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:33 PM:Record No: 983 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:33 PM:Record No: 984 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:33 PM:Record No: 985 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:34 PM:Record No: 986 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:34 PM:Record No: 987 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:34 PM:Record No: 988 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:34 PM:Record No: 989 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:35 PM:Record No: 990 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:35 PM:Record No: 991 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:35 PM:Record No: 992 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:35 PM:Record No: 993 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:36 PM:Record No: 994 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:36 PM:Record No: 995 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:36 PM:Record No: 996 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:36 PM:Record No: 997 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:37 PM:Record No: 998 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:37 PM:Record No: 999 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:37 PM:Record No: 1000 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:37 PM:Record No: 1001 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:37 PM:Record No: 1002 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:38 PM:Record No: 1003 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:38 PM:Record No: 1004 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:38 PM:Record No: 1005 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:38 PM:Record No: 1006 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:39 PM:Record No: 1007 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:39 PM:Record No: 1008 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:39 PM:Record No: 1009 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:39 PM:Record No: 1010 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:39 PM:Record No: 1011 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:40 PM:Record No: 1012 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:40 PM:Record No: 1013 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:40 PM:Record No: 1014 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:40 PM:Record No: 1015 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:40 PM:Record No: 1016 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:41 PM:Record No: 1017 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:41 PM:Record No: 1018 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:41 PM:Record No: 1019 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:41 PM:Record No: 1020 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:42 PM:Record No: 1021 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:42 PM:Record No: 1022 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:42 PM:Record No: 1023 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:42 PM:Record No: 1024 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:42 PM:Record No: 1025 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:43 PM:Record No: 1026 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:43 PM:Record No: 1027 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:43 PM:Record No: 1028 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:43 PM:Record No: 1029 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:44 PM:Record No: 1030 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:44 PM:Record No: 1031 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:44 PM:Record No: 1032 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:44 PM:Record No: 1033 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:45 PM:Record No: 1034 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:45 PM:Record No: 1035 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:45 PM:Record No: 1037 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:46 PM:Record No: 1038 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:46 PM:Record No: 1039 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:46 PM:Record No: 1040 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:46 PM:Record No: 1041 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:47 PM:Record No: 1042 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:47 PM:Record No: 1043 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:47 PM:Record No: 1044 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:47 PM:Record No: 1045 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:47 PM:Record No: 1046 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:48 PM:Record No: 1047 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:48 PM:Record No: 1048 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:48 PM:Record No: 1049 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:48 PM:Record No: 1050 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:49 PM:Record No: 1051 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:49 PM:Record No: 1052 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:49 PM:Record No: 1053 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:49 PM:Record No: 1054 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:50 PM:Record No: 1055 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:50 PM:Record No: 1056 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:50 PM:Record No: 1057 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:50 PM:Record No: 1058 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:50 PM:Record No: 1059 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:51 PM:Record No: 1060 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:51 PM:Record No: 1061 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:51 PM:Record No: 1062 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:51 PM:Record No: 1063 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:52 PM:Record No: 1064 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:52 PM:Record No: 1065 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:52 PM:Record No: 1066 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:52 PM:Record No: 1067 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:53 PM:Record No: 1068 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:53 PM:Record No: 1069 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:53 PM:Record No: 1070 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:53 PM:Record No: 1071 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:53 PM:Record No: 1072 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:54 PM:Record No: 1073 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:54 PM:Record No: 1074 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:54 PM:Record No: 1075 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:54 PM:Record No: 1076 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:55 PM:Record No: 1077 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:55 PM:Record No: 1078 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:55 PM:Record No: 1079 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:55 PM:Record No: 1080 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:55 PM:Record No: 1081 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:56 PM:Record No: 1082 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:56 PM:Record No: 1083 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:56 PM:Record No: 1084 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:56 PM:Record No: 1085 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:57 PM:Record No: 1086 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:57 PM:Record No: 1087 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:57 PM:Record No: 1088 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:57 PM:Record No: 1089 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:57 PM:Record No: 1090 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:58 PM:Record No: 1091 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:58 PM:Record No: 1092 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:58 PM:Record No: 1093 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:59 PM:Record No: 1094 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:59 PM:Record No: 1095 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:59 PM:Record No: 1096 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:01:59 PM:Record No: 1097 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:00 PM:Record No: 1098 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:00 PM:Record No: 1099 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:00 PM:Record No: 1100 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:00 PM:Record No: 1101 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:01 PM:Record No: 1102 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:01 PM:Record No: 1103 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:01 PM:Record No: 1104 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:01 PM:Record No: 1105 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:02 PM:Record No: 1106 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:02 PM:Record No: 1107 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:02 PM:Record No: 1108 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:03 PM:Record No: 1109 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:03 PM:Record No: 1110 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:03 PM:Record No: 1111 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:04 PM:Record No: 1112 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:04 PM:Record No: 1113 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:04 PM:Record No: 1114 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:04 PM:Record No: 1115 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:04 PM:Record No: 1116 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:05 PM:Record No: 1117 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:05 PM:Record No: 1118 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:05 PM:Record No: 1119 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:05 PM:Record No: 1120 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:06 PM:Record No: 1121 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:06 PM:Record No: 1122 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:06 PM:Record No: 1123 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:06 PM:Record No: 1124 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:06 PM:Record No: 1125 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:07 PM:Record No: 1126 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:07 PM:Record No: 1127 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:07 PM:Record No: 1128 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:08 PM:Record No: 1129 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:08 PM:Record No: 1130 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:08 PM:Record No: 1131 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:08 PM:Record No: 1132 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:08 PM:Record No: 1133 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:09 PM:Record No: 1134 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:09 PM:Record No: 1135 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:09 PM:Record No: 1136 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:09 PM:Record No: 1137 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:10 PM:Record No: 1138 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:10 PM:Record No: 1139 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:10 PM:Record No: 1140 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:10 PM:Record No: 1141 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:10 PM:Record No: 1142 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:11 PM:Record No: 1143 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:11 PM:Record No: 1144 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:11 PM:Record No: 1145 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:11 PM:Record No: 1146 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:12 PM:Record No: 1147 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:12 PM:Record No: 1148 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:12 PM:Record No: 1149 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:12 PM:Record No: 1150 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:12 PM:Record No: 1151 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:13 PM:Record No: 1152 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:13 PM:Record No: 1153 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:13 PM:Record No: 1154 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:13 PM:Record No: 1155 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:14 PM:Record No: 1156 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:14 PM:Record No: 1157 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:14 PM:Record No: 1158 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:14 PM:Record No: 1159 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:15 PM:Record No: 1160 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:15 PM:Record No: 1161 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:15 PM:Record No: 1162 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:15 PM:Record No: 1163 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:15 PM:Record No: 1164 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:16 PM:Record No: 1165 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:16 PM:Record No: 1166 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:16 PM:Record No: 1167 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:16 PM:Record No: 1168 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:17 PM:Record No: 1169 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:17 PM:Record No: 1170 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:17 PM:Record No: 1171 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:17 PM:Record No: 1172 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:02:17 PM:Record No: 1173 Err Msg:540000087 - Invalid distribution rule: TPA
+20/07/14 8:07:03 PM:Record No: 1720 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:04 PM:Record No: 1722 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:04 PM:Record No: 1723 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:04 PM:Record No: 1724 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:05 PM:Record No: 1725 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:05 PM:Record No: 1726 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 8:07:05 PM:Record No: 1727 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:07:16 PM:Record No: 1749 Err Msg:10000415 - Linked value BDJ does not exist
+20/07/14 8:10:33 PM:Record No: 2113 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:34 PM:Record No: 2114 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:34 PM:Record No: 2115 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:34 PM:Record No: 2116 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:34 PM:Record No: 2117 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:35 PM:Record No: 2118 Err Msg:10000415 - Linked value BPN does not exist
+20/07/14 8:10:35 PM:Record No: 2119 Err Msg:10000415 - Linked value BPN does not exist

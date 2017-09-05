@@ -1,0 +1,6 @@
+[04/04/2017 13:33:09][      GetSystemIntializeInfo()] Starting Function
+[04/04/2017 13:33:09][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/04/2017 13:33:23][                 ExportReports] Starting Function
+[04/04/2017 13:33:23][                 ExportReports] Execute SQLSELECT T0."DocEntry",T0."CardCode",T0."DocNum",T0."NumAtCard",T0."CardName",T0."CardCode" , T0."ImportEnt" , T1."U_AI_FHN3Code" from OPCH T0 JOIN OCRD T1 ON T0."CardCode" = T1."CardCode"  WHERE T0."DocDate"='20170331' and T0."CardCode">= 'MV000002' and T0."CardCode"<= 'MV000002'  and T0."Canceled" = 'N'
+[04/04/2017 13:33:23][                ExecuteQuery()] Starting Function
+[04/04/2017 13:33:23][                 ExportReports] Completed function with ERROR

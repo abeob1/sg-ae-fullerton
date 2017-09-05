@@ -1,0 +1,1 @@
+[04/04/2017 13:33:23][                 ExportReports] ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: T0.Canceled: line 1 col 289 (at pos 288)

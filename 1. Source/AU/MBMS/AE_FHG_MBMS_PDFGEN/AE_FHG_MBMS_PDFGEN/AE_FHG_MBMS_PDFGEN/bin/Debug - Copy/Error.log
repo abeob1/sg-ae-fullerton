@@ -1,0 +1,26 @@
+[07/21/2014 10:48:40][                 ExportToPDF()] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] System call 'connect' failed, rc=10060:A connection attemptError in File C:\Users\sri\AppData\Local\Temp\11\AI_RPT_AP_Invoice {E0B91AEC-C299-49FC-AF5B-19DFA0F3C892}.rpt:
+Unable to connect: incorrect log on parameters.
+[07/21/2014 10:53:31][                 ExportToPDF()] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] System call 'connect' failed, rc=10060:A connection attemptError in File C:\Users\sri\AppData\Local\Temp\11\AI_RPT_AP_Invoice {E65BFB30-008D-4EF6-ACD2-ACF3571D2B15}.rpt:
+Unable to connect: incorrect log on parameters.
+[07/21/2014 10:57:29][                 ExportToPDF()] Logon failed.
+Details: 08S01:[SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Communication link failure;-10709 Connection failed (RTE:[89006] System call 'connect' failed, rc=10060:A connection attemptError in File C:\Users\sri\AppData\Local\Temp\11\AI_RPT_AP_Invoice {D8665A19-FB08-4247-A445-FDC83D270D8D}.rpt:
+Unable to connect: incorrect log on parameters.
+[03/24/2017 15:42:39][                 ExportReports] The given path's format is not supported.
+[03/24/2017 15:47:45][                 ExportReports] The given path's format is not supported.
+[03/24/2017 16:01:14][                 ExportToPDF()] Could not find a part of the path 'C:\Abeo\MBMS\AE_FHG_MBMS_PDFGEN\AE_FHG_MBMS_PDFGEN\AE_FHG_MBMS_PDFGEN\bin\Debug\TAXINV_20160731\BATCH6153_TI_MV000002.pdf'.
+[03/24/2017 17:00:59][                 ExportToPDF()] Logon failed.
+Details:  [Database Vendor Code: -10760 ]Error in File AI_RPT_AP_Invoice 101700_114660_{23F43164-C1E2-4C24-9031-B82F9E236468}.rpt:
+Unable to connect: incorrect log on parameters.
+Details:  [Database Vendor Code: -10760 ]
+[03/24/2017 17:00:59][                 ExportReports] Logon failed.
+Details:  [Database Vendor Code: -10760 ]Error in File AI_RPT_AP_Invoice 101700_114660_{23F43164-C1E2-4C24-9031-B82F9E236468}.rpt:
+Unable to connect: incorrect log on parameters.
+Details:  [Database Vendor Code: -10760 ]
+[03/24/2017 17:20:14][                 ExportReports] The given path's format is not supported.
+[03/24/2017 18:19:38][                 ExportToPDF()] Logon failed.
+Details:  [Database Vendor Code: -10709 ]Error in File Payment Advice Form 107316_27032_{F7A1C542-67EE-4BCB-B6EB-0214CBFA1CF0}.rpt:
+Unable to connect: incorrect log on parameters.
+Details:  [Database Vendor Code: -10709 ]
+[03/24/2017 18:27:52][                 ExportToPDF()] Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
